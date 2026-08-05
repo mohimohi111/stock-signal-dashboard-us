@@ -1,0 +1,14 @@
+[
+  {
+    "code": "UNH",
+    "name": "UnitedHealth Group",
+    "win": true,
+    "strategy": "uptrend",
+    "strategy_label": "上昇型",
+    "entry": 404.2799987792969,
+    "exit_price": 451.0220031738281,
+    "entered_date": "2026-08-05",
+    "exit_date": "2026-08-05",
+    "pnl_pct": 11.561789981118627
+  }
+]
