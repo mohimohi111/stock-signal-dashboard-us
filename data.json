@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-05 18:46 ET",
+  "updated": "2026-08-06 03:34 ET",
   "watching": [
     {
       "code": "MMM",
@@ -162,26 +162,26 @@
       "name": "Amgen",
       "strategy": "uptrend",
       "strategy_label": "上昇型",
-      "entry": 380.00999450683594,
+      "entry": 380.0199890136719,
       "sl": 343.79998779296875,
-      "tp": 416.2200012207031,
+      "tp": 416.239990234375,
       "last_price": 407.8299865722656,
-      "gap_yen": 27.819992065429688,
-      "gap_pct": 6.821468009071989,
-      "span_pct": 0.21064577079433938
+      "gap_yen": 27.80999755859375,
+      "gap_pct": 6.819017353856579,
+      "span_pct": 0.21070391219742726
     },
     {
       "code": "AMGN",
       "name": "Amgen",
       "strategy": "relative_strength",
       "strategy_label": "相対強さ型",
-      "entry": 380.00999450683594,
+      "entry": 380.0199890136719,
       "sl": 343.79998779296875,
-      "tp": 416.2200012207031,
+      "tp": 416.239990234375,
       "last_price": 407.8299865722656,
-      "gap_yen": 27.819992065429688,
-      "gap_pct": 6.821468009071989,
-      "span_pct": 0.21064577079433938
+      "gap_yen": 27.80999755859375,
+      "gap_pct": 6.819017353856579,
+      "span_pct": 0.21070391219742726
     },
     {
       "code": "ADI",
@@ -1313,6 +1313,19 @@
       "gap_yen": 3.8500022888183594,
       "gap_pct": 3.20406305882329,
       "span_pct": 0.21754050870241892
+    },
+    {
+      "code": "IRM",
+      "name": "Iron Mountain",
+      "strategy": "uptrend",
+      "strategy_label": "上昇型",
+      "entry": 114.83999633789062,
+      "sl": 95.0,
+      "tp": 134.67999267578125,
+      "last_price": 127.12999725341797,
+      "gap_yen": 12.290000915527344,
+      "gap_pct": 9.667270652911872,
+      "span_pct": 0.4176841334292763
     }
   ],
   "entered": [
@@ -1323,11 +1336,11 @@
       "strategy_label": "上昇型",
       "entry": 109.97999954223633,
       "sl": 101.54000091552734,
-      "tp": 118.41999816894531,
+      "tp": 118.41999816894533,
       "last_price": 107.69999694824219,
       "entered_date": "2026-08-05",
-      "gap_tp_yen": 10.720001220703125,
-      "gap_tp_pct": 9.953576160132,
+      "gap_tp_yen": 10.72000122070314,
+      "gap_tp_pct": 9.953576160132013,
       "gap_sl_yen": 6.159996032714844,
       "gap_sl_pct": 5.719587936177173,
       "unrealized_pct": -2.073106567997881
@@ -14954,100 +14967,40 @@
   ],
   "whats_new": [
     {
-      "date": "2026-08-05",
+      "date": "2026-08-06",
       "type": "level_up_watching",
       "strategy": "uptrend",
       "strategy_label": "上昇型",
       "code": "AMGN",
       "name": "Amgen",
-      "prev_entry": 379.38499450683594,
-      "entry": 380.00999450683594,
-      "prev_tp": 414.9700012207031,
-      "tp": 416.2200012207031
+      "prev_entry": 380.00999450683594,
+      "entry": 380.0199890136719,
+      "prev_tp": 416.2200012207031,
+      "tp": 416.239990234375
     },
     {
-      "date": "2026-08-05",
+      "date": "2026-08-06",
       "type": "level_up_watching",
       "strategy": "relative_strength",
       "strategy_label": "相対強さ型",
       "code": "AMGN",
       "name": "Amgen",
-      "prev_entry": 379.38499450683594,
-      "entry": 380.00999450683594,
-      "prev_tp": 414.9700012207031,
-      "tp": 416.2200012207031
+      "prev_entry": 380.00999450683594,
+      "entry": 380.0199890136719,
+      "prev_tp": 416.2200012207031,
+      "tp": 416.239990234375
     },
     {
-      "date": "2026-08-05",
-      "type": "new_watching",
-      "strategy": "relative_strength",
-      "strategy_label": "相対強さ型",
-      "code": "ADM",
-      "name": "Archer Daniels Midland",
-      "entry": 74.76000022888184,
-      "tp": 88.45999908447266,
-      "sl": 61.060001373291016,
-      "span_pct": 0.44873889772244585
-    },
-    {
-      "date": "2026-08-05",
+      "date": "2026-08-06",
       "type": "new_watching",
       "strategy": "uptrend",
       "strategy_label": "上昇型",
-      "code": "DXCM",
-      "name": "Dexcom",
-      "entry": 78.80999755859375,
-      "tp": 87.8499984741211,
-      "sl": 69.7699966430664,
-      "span_pct": 0.25913720368297366
-    },
-    {
-      "date": "2026-08-05",
-      "type": "new_watching",
-      "strategy": "relative_strength",
-      "strategy_label": "相対強さ型",
-      "code": "DXCM",
-      "name": "Dexcom",
-      "entry": 78.80999755859375,
-      "tp": 87.8499984741211,
-      "sl": 69.7699966430664,
-      "span_pct": 0.25913720368297366
-    },
-    {
-      "date": "2026-08-05",
-      "type": "new_watching",
-      "strategy": "uptrend",
-      "strategy_label": "上昇型",
-      "code": "PRU",
-      "name": "Prudential Financial",
-      "entry": 116.31000137329102,
-      "tp": 127.72000122070312,
-      "sl": 104.9000015258789,
-      "span_pct": 0.21754050870241892
-    },
-    {
-      "date": "2026-08-05",
-      "type": "new_watching",
-      "strategy": "relative_strength",
-      "strategy_label": "相対強さ型",
-      "code": "PRU",
-      "name": "Prudential Financial",
-      "entry": 116.31000137329102,
-      "tp": 127.72000122070312,
-      "sl": 104.9000015258789,
-      "span_pct": 0.21754050870241892
-    },
-    {
-      "date": "2026-08-05",
-      "type": "entered",
-      "strategy": "uptrend",
-      "strategy_label": "上昇型",
-      "code": "UPS",
-      "name": "United Parcel Service",
-      "entry": 109.97999954223633,
-      "tp": 118.41999816894531,
-      "sl": 101.54000091552734,
-      "entered_date": "2026-08-05"
+      "code": "IRM",
+      "name": "Iron Mountain",
+      "entry": 114.83999633789062,
+      "tp": 134.67999267578125,
+      "sl": 95.0,
+      "span_pct": 0.4176841334292763
     }
   ]
 }
