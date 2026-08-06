@@ -1,6 +1,6 @@
 {
-  "name": "US443",
-  "short_name": "US443",
+  "name": "US503",
+  "short_name": "US503",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
