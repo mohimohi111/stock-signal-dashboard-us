@@ -1,5 +1,29 @@
 [
   {
+    "code": "FAST",
+    "name": "Fastenal",
+    "win": true,
+    "strategy": "uptrend",
+    "strategy_label": "上昇型",
+    "entry": 45.91999816894531,
+    "exit_price": 50.603997802734376,
+    "entered_date": "2026-05-01",
+    "exit_date": "2026-08-07",
+    "pnl_pct": 10.200348041295765
+  },
+  {
+    "code": "VTRS",
+    "name": "Viatris",
+    "win": true,
+    "strategy": "uptrend",
+    "strategy_label": "上昇型",
+    "entry": 15.765000343322754,
+    "exit_price": 18.2,
+    "entered_date": "2026-06-01",
+    "exit_date": "2026-08-07",
+    "pnl_pct": 15.4456048439516
+  },
+  {
     "code": "UNH",
     "name": "UnitedHealth Group",
     "win": true,
