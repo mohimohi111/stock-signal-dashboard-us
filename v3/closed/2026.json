@@ -24,6 +24,18 @@
     "pnl_pct": 15.4456048439516
   },
   {
+    "code": "GWW",
+    "name": "W. W. Grainger",
+    "win": true,
+    "strategy": "uptrend",
+    "strategy_label": "上昇型",
+    "entry": 1276.8500366210938,
+    "exit_price": 1417.237548828125,
+    "entered_date": "2026-08-06",
+    "exit_date": "2026-08-07",
+    "pnl_pct": 10.994831670172974
+  },
+  {
     "code": "UNH",
     "name": "UnitedHealth Group",
     "win": true,
