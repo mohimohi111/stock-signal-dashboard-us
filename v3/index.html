@@ -339,6 +339,9 @@ if (localStorage.getItem(GATE_STORAGE_KEY) === '1') {
 <script>
 function fmtYen(n) { return '$' + Math.round(n).toLocaleString('en-US'); }
 function fmtYenSigned(n) { return (n >= 0 ? '+' : '-') + '$' + Math.round(Math.abs(n)).toLocaleString('en-US'); }
+// 株価は$100以下の銘柄も多く、整数丸めだと僅かな値動きが消えて誤解を招くため、
+// 個別株価(建値・損切り・現在値など)は小数2桁まで表示する
+function fmtPrice(n) { return '$' + n.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2}); }
 function fmtPct(n) { return (n >= 0 ? '+' : '') + n.toFixed(1) + '%'; }
 
 function renderNewsCard(e) {
@@ -349,42 +352,42 @@ function renderNewsCard(e) {
     case 'new_watching':
       icon = '🆕'; cls = '';
       body = `<div class="rows rows-2col">
-        <div><span class="label">指値</span><span class="value entry-price">${fmtYen(e.entry)}</span></div>
-        <div><span class="label">損切り</span><span class="value sl-red">${fmtYen(e.sl)}</span></div>
+        <div><span class="label">指値</span><span class="value entry-price">${fmtPrice(e.entry)}</span></div>
+        <div><span class="label">損切り</span><span class="value sl-red">${fmtPrice(e.sl)}</span></div>
       </div>`;
       break;
     case 'level_up_watching':
       icon = '📐'; cls = '';
       body = `<div class="rows rows-2col">
-        <div><span class="label">指値(旧注文は解除)</span><span class="value entry-price">${fmtYen(e.prev_entry)} → ${fmtYen(e.entry)}</span></div>
-        <div><span class="label">目標/利確</span><span class="value tp-green">${fmtYen(e.prev_tp)} → ${fmtYen(e.tp)}</span></div>
+        <div><span class="label">指値(旧注文は解除)</span><span class="value entry-price">${fmtPrice(e.prev_entry)} → ${fmtPrice(e.entry)}</span></div>
+        <div><span class="label">目標/利確</span><span class="value tp-green">${fmtPrice(e.prev_tp)} → ${fmtPrice(e.tp)}</span></div>
       </div>`;
       break;
     case 'level_up_entered':
       icon = '📐'; cls = '';
       body = `<div class="rows rows-2col">
-        <div><span class="label">損切り</span><span class="value sl-red">${fmtYen(e.prev_sl)} → ${fmtYen(e.sl)}</span></div>
-        <div><span class="label">参考:現在の高値</span><span class="value tp-green">${fmtYen(e.tp)}</span></div>
+        <div><span class="label">損切り</span><span class="value sl-red">${fmtPrice(e.prev_sl)} → ${fmtPrice(e.sl)}</span></div>
+        <div><span class="label">参考:現在の高値</span><span class="value tp-green">${fmtPrice(e.tp)}</span></div>
       </div>`;
       break;
     case 'entered':
       icon = '🟦'; cls = '';
       body = `<div class="rows rows-2col">
-        <div><span class="label">建値</span><span class="value">${fmtYen(e.entry)}</span></div>
-        <div><span class="label">損切り</span><span class="value sl-red">${fmtYen(e.sl)}</span></div>
+        <div><span class="label">建値</span><span class="value">${fmtPrice(e.entry)}</span></div>
+        <div><span class="label">損切り</span><span class="value sl-red">${fmtPrice(e.sl)}</span></div>
       </div>`;
       break;
     case 'closed_win':
       icon = '🔵'; cls = 'profit';
       body = `<div class="rows rows-2col">
-        <div><span class="label">決済値</span><span class="value profit">${fmtYen(e.exit_price)}</span></div>
+        <div><span class="label">決済値</span><span class="value profit">${fmtPrice(e.exit_price)}</span></div>
         <div><span class="label">損益($1,000分)</span><span class="value profit">${fmtYenSigned(sharesFor100k(e.entry) * (e.exit_price - e.entry))}</span></div>
       </div>`;
       break;
     case 'closed_loss':
       icon = '🔴'; cls = 'loss';
       body = `<div class="rows rows-2col">
-        <div><span class="label">決済値</span><span class="value loss">${fmtYen(e.exit_price)}</span></div>
+        <div><span class="label">決済値</span><span class="value loss">${fmtPrice(e.exit_price)}</span></div>
         <div><span class="label">損益($1,000分)</span><span class="value loss">${fmtYenSigned(sharesFor100k(e.entry) * (e.exit_price - e.entry))}</span></div>
       </div>`;
       break;
@@ -395,8 +398,8 @@ function renderNewsCard(e) {
     case 'expired':
       icon = '⛔'; cls = 'loss';
       body = `<div class="rows rows-2col">
-        <div><span class="label">指値</span><span class="value entry-price">${fmtYen(e.entry)}</span></div>
-        <div><span class="label">損切りライン</span><span class="value sl-red">${fmtYen(e.sl)}</span></div>
+        <div><span class="label">指値</span><span class="value entry-price">${fmtPrice(e.entry)}</span></div>
+        <div><span class="label">損切りライン</span><span class="value sl-red">${fmtPrice(e.sl)}</span></div>
       </div>
       <div class="empty" style="padding:4px 0 0;text-align:left;">損切りラインを割り込み不成立で終了しました。出していた指値注文は解除してください。</div>`;
       break;
@@ -439,14 +442,14 @@ function renderEnteredCard(c) {
           <span class="badge ${cls}">含み損益 ${fmtPct(c.unrealized_pct)}</span>
         </div>
         <div class="rows rows-current">
-          <div><span class="label">現在値</span><span class="value ${cls}">${fmtYen(c.last_price)}</span></div>
+          <div><span class="label">現在値</span><span class="value ${cls}">${fmtPrice(c.last_price)}</span></div>
           <div><span class="label">エントリー日</span><span class="value">${c.entered_date || '-'}</span></div>
         </div>
         <div class="rows rows-2col">
-          <div><span class="label">建値</span><span class="value">${fmtYen(c.entry)}</span><span class="shares">$1,000で${sharesFor100k(c.entry)}株</span></div>
+          <div><span class="label">建値</span><span class="value">${fmtPrice(c.entry)}</span><span class="shares">$1,000で${sharesFor100k(c.entry)}株</span></div>
           ${(c.strategy === 'uptrend' || c.strategy === 'relative_strength')
-            ? `<div><span class="label">損切り(トレーリング中)</span><span class="value sl-red">${fmtYen(c.sl)}</span><span class="shares">あと${fmtYen(Math.abs(c.gap_sl_yen))}(${Math.abs(c.gap_sl_pct).toFixed(1)}%)</span></div>`
-            : `<div><span class="label">利確まで / 損切りまで</span><span class="value-line"><span class="value tp-green">${fmtYen(Math.abs(c.gap_tp_yen))}(${Math.abs(c.gap_tp_pct).toFixed(1)}%)</span> / <span class="value sl-red">${fmtYen(Math.abs(c.gap_sl_yen))}(${Math.abs(c.gap_sl_pct).toFixed(1)}%)</span></span></div>`
+            ? `<div><span class="label">損切り(トレーリング中)</span><span class="value sl-red">${fmtPrice(c.sl)}</span><span class="shares">あと${fmtPrice(Math.abs(c.gap_sl_yen))}(${Math.abs(c.gap_sl_pct).toFixed(1)}%)</span></div>`
+            : `<div><span class="label">利確まで / 損切りまで</span><span class="value-line"><span class="value tp-green">${fmtPrice(Math.abs(c.gap_tp_yen))}(${Math.abs(c.gap_tp_pct).toFixed(1)}%)</span> / <span class="value sl-red">${fmtPrice(Math.abs(c.gap_sl_yen))}(${Math.abs(c.gap_sl_pct).toFixed(1)}%)</span></span></div>`
           }
         </div>
       </div>`;
@@ -461,12 +464,12 @@ function renderWatchingCard(w) {
           <span class="badge">指値まで ${fmtPct(w.gap_pct)}</span>
         </div>
         <div class="rows rows-current">
-          <div><span class="label">現在値</span><span class="value">${fmtYen(w.last_price)}</span></div>
-          <div><span class="label">指値まで</span><span class="value">${fmtYen(w.gap_yen)}</span></div>
+          <div><span class="label">現在値</span><span class="value">${fmtPrice(w.last_price)}</span></div>
+          <div><span class="label">指値まで</span><span class="value">${fmtPrice(w.gap_yen)}</span></div>
         </div>
         <div class="rows rows-2col">
-          <div><span class="label">指値</span><span class="value entry-price">${fmtYen(w.entry)}</span></div>
-          <div><span class="label">損切り</span><span class="value sl-red">${fmtYen(w.sl)}</span></div>
+          <div><span class="label">指値</span><span class="value entry-price">${fmtPrice(w.entry)}</span></div>
+          <div><span class="label">損切り</span><span class="value sl-red">${fmtPrice(w.sl)}</span></div>
         </div>
         ${zoneOk ? '' : '<div class="empty" style="padding:4px 0 0;text-align:left;">⚠️ 現在この戦略のゾーン対象外です。指値注文は解除を推奨します。</div>'}
       </div>`;
@@ -577,8 +580,8 @@ function render(data) {
           <span class="badge ${cls}">${fmtYenSigned(pnlYen)}</span>
         </div>
         <div class="rows">
-          <div><span class="label">建値</span><span class="value">${fmtYen(c.entry)}</span></div>
-          <div><span class="label">決済値</span><span class="value ${cls}">${fmtYen(c.exit_price)}</span></div>
+          <div><span class="label">建値</span><span class="value">${fmtPrice(c.entry)}</span></div>
+          <div><span class="label">決済値</span><span class="value ${cls}">${fmtPrice(c.exit_price)}</span></div>
           <div><span class="label">決済日</span><span class="value">${c.exit_date || '-'}</span></div>
         </div>
       </div>`;
