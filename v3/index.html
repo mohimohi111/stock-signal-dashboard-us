@@ -468,7 +468,7 @@ function renderWatchingCard(w) {
           <div><span class="label">指値まで</span><span class="value">${fmtPrice(w.gap_yen)}</span></div>
         </div>
         <div class="rows rows-2col">
-          <div><span class="label">指値</span><span class="value entry-price">${fmtPrice(w.entry)}</span></div>
+          <div><span class="label">指値</span><span class="value entry-price">${fmtPrice(w.entry)}</span><span class="shares">$1,000で${sharesFor100k(w.entry)}株</span></div>
           <div><span class="label">損切り</span><span class="value sl-red">${fmtPrice(w.sl)}</span></div>
         </div>
         ${zoneOk ? '' : '<div class="empty" style="padding:4px 0 0;text-align:left;">⚠️ 現在この戦略のゾーン対象外です。指値注文は解除を推奨します。</div>'}
@@ -580,7 +580,7 @@ function render(data) {
           <span class="badge ${cls}">${fmtYenSigned(pnlYen)}</span>
         </div>
         <div class="rows">
-          <div><span class="label">建値</span><span class="value">${fmtPrice(c.entry)}</span></div>
+          <div><span class="label">建値</span><span class="value">${fmtPrice(c.entry)}</span><span class="shares">$1,000で${sharesFor100k(c.entry)}株</span></div>
           <div><span class="label">決済値</span><span class="value ${cls}">${fmtPrice(c.exit_price)}</span></div>
           <div><span class="label">決済日</span><span class="value">${c.exit_date || '-'}</span></div>
         </div>
