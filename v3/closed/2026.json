@@ -1,5 +1,17 @@
 [
   {
+    "code": "VRTX",
+    "name": "Vertex Pharmaceuticals",
+    "win": true,
+    "strategy": "uptrend",
+    "strategy_label": "上昇型",
+    "entry": 490.7449951171875,
+    "exit_price": 537.3840087890625,
+    "entered_date": "2026-07-28",
+    "exit_date": "2026-08-10",
+    "pnl_pct": 9.50371662185527
+  },
+  {
     "code": "FAST",
     "name": "Fastenal",
     "win": true,
