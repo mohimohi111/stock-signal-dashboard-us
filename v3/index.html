@@ -107,7 +107,7 @@
   }
   .market-status-panel .ms-title { font-size: 12px; color: var(--text-muted); font-weight: 700; }
   .market-status-panel .ms-dev { font-size: 20px; font-weight: 800; margin: 2px 0 8px; }
-  .ms-score-num.mode-a { color: var(--profit); }
+  .ms-score-num.mode-a { color: var(--tp-green); }
   .ms-score-num.mode-b { color: var(--entry-yellow); }
   .ms-score-num.mode-c { color: var(--loss); }
   .market-status-panel .ms-strategies { display: flex; flex-direction: column; gap: 5px; margin-bottom: 6px; }
@@ -118,7 +118,7 @@
   .ms-mode-row::before { content: ''; width: 8px; height: 8px; border-radius: 50%; background: var(--text-muted); flex-shrink: 0; opacity: 0.4; }
   .ms-mode-row.mode-c::before { background: var(--loss); }
   .ms-mode-row.mode-b::before { background: var(--entry-yellow); }
-  .ms-mode-row.mode-a::before { background: var(--profit); }
+  .ms-mode-row.mode-a::before { background: var(--tp-green); }
   .ms-mode-row.active::before {
     opacity: 1;
     box-shadow: 0 0 6px currentColor;
@@ -126,11 +126,11 @@
   }
   .ms-mode-row.active.mode-c::before { color: var(--loss); }
   .ms-mode-row.active.mode-b::before { color: var(--entry-yellow); }
-  .ms-mode-row.active.mode-a::before { color: var(--profit); }
+  .ms-mode-row.active.mode-a::before { color: var(--tp-green); }
   .ms-onoff { color: var(--text-muted); }
   .ms-onoff.on.mode-c { color: var(--loss); text-shadow: 0 0 6px currentColor; }
   .ms-onoff.on.mode-b { color: var(--entry-yellow); text-shadow: 0 0 6px currentColor; }
-  .ms-onoff.on.mode-a { color: var(--profit); text-shadow: 0 0 6px currentColor; }
+  .ms-onoff.on.mode-a { color: var(--tp-green); text-shadow: 0 0 6px currentColor; }
   .market-status-panel .ms-boundary { font-size: 12px; color: var(--text-secondary); }
   .zone-badge {
     display: inline-flex; align-items: center; gap: 4px; font-size: 11px; font-weight: 700;
@@ -155,11 +155,11 @@
   .zone-dot::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: var(--text-muted); flex-shrink: 0; }
   .zone-dot.mode-c::before { background: var(--loss); }
   .zone-dot.mode-b::before { background: var(--entry-yellow); }
-  .zone-dot.mode-a::before { background: var(--profit); }
+  .zone-dot.mode-a::before { background: var(--tp-green); }
   .zone-dot.active { opacity: 1; font-weight: 800; }
   .zone-dot.active.mode-c { color: var(--loss); }
   .zone-dot.active.mode-b { color: var(--entry-yellow); }
-  .zone-dot.active.mode-a { color: var(--profit); }
+  .zone-dot.active.mode-a { color: var(--tp-green); }
   .zone-dot.active::before {
     width: 9px; height: 9px; box-shadow: 0 0 6px currentColor;
     animation: zonePulse 1.3s ease-in-out infinite;
@@ -183,9 +183,9 @@
     box-shadow: 0 0 5px color-mix(in srgb, var(--loss) 55%, transparent);
   }
   .strategy-tag.mode-a {
-    color: var(--profit); border-color: var(--profit);
-    background: color-mix(in srgb, var(--profit) 14%, var(--surface-1));
-    box-shadow: 0 0 5px color-mix(in srgb, var(--profit) 55%, transparent);
+    color: var(--tp-green); border-color: var(--tp-green);
+    background: color-mix(in srgb, var(--tp-green) 14%, var(--surface-1));
+    box-shadow: 0 0 5px color-mix(in srgb, var(--tp-green) 55%, transparent);
   }
   .strategy-tag.mode-b {
     color: var(--entry-yellow); border-color: var(--entry-yellow);
@@ -298,12 +298,12 @@
   </section>
 
   <section>
-    <h2>エントリー中 <span class="count" id="enteredCount"></span></h2>
+    <h2>💼 エントリー中 <span class="count" id="enteredCount"></span></h2>
     <div id="enteredList"></div>
   </section>
 
   <section>
-    <h2>累計損益(バックテスト履歴)</h2>
+    <h2>📊 累計損益(バックテスト履歴)</h2>
     <div class="chart-wrap">
       <svg id="equityChart" viewBox="0 0 560 180"></svg>
       <div class="tooltip" id="equityTooltip"></div>
@@ -311,7 +311,7 @@
   </section>
 
   <section>
-    <h2>決済済み(バックテスト履歴) <span class="count" id="closedCount"></span></h2>
+    <h2>✅ 決済済み(バックテスト履歴) <span class="count" id="closedCount"></span></h2>
     <div id="closedList"></div>
   </section>
   </div>
@@ -372,6 +372,10 @@ function logout() {
 <script>
 function fmtYen(n) { return '$' + Math.round(n).toLocaleString('en-US'); }
 function fmtYenSigned(n) { return (n >= 0 ? '+' : '-') + '$' + Math.round(Math.abs(n)).toLocaleString('en-US'); }
+// 決済済み履歴のpnlはUSD/JPY換算後の円建て実行可能損益(build_closed_history.py参照)のため、
+// $表記のfmtYen/fmtYenSignedとは別に円表記の関数を用意する
+function fmtJpy(n) { return '¥' + Math.round(n).toLocaleString('ja-JP'); }
+function fmtJpySigned(n) { return (n >= 0 ? '+' : '-') + '¥' + Math.round(Math.abs(n)).toLocaleString('ja-JP'); }
 // 株価は$100以下の銘柄も多く、整数丸めだと僅かな値動きが消えて誤解を招くため、
 // 個別株価(建値・損切り・現在値など)は小数2桁まで表示する
 function fmtPrice(n) { return '$' + n.toLocaleString('en-US', {minimumFractionDigits: 2, maximumFractionDigits: 2}); }
@@ -685,7 +689,7 @@ function renderClosedHistory(items) {
       <div class="card ${cls}">
         <div class="card-title">
           <span><span class="strategy-tag ${MODE_CSS[c.mode] || ''}">${c.mode || ''}</span>${c.name}(${c.code})</span>
-          <span class="badge ${cls}">${fmtYenSigned(c.pnl)}</span>
+          <span class="badge ${cls}">${fmtJpySigned(c.pnl)}</span>
         </div>
         <div class="rows">
           <div><span class="label">建値</span><span class="value">${fmtPrice(c.entry)}</span><span class="shares">推奨¥${Math.round(c.recommended_jpy).toLocaleString('ja-JP')}(${c.recommended_shares}株)</span></div>
@@ -698,7 +702,7 @@ function renderClosedHistory(items) {
       <details class="year-group" data-year="${y}">
         <summary>
           <span><span class="arrow">▶</span> ${y}年(${wins}勝${yearItems.length - wins}敗)</span>
-          <span class="year-total value ${totalCls}">${fmtYenSigned(pnlYen)}</span>
+          <span class="year-total value ${totalCls}">${fmtJpySigned(pnlYen)}</span>
         </summary>
         <div class="year-body">${cards}</div>
       </details>`;
@@ -726,7 +730,7 @@ function renderChart(curve) {
   const gridVals = [minV, 0, maxV].filter((v, i, a) => a.indexOf(v) === i);
   const grid = gridVals.map(v => `
     <line class="gridline" x1="${PAD_L}" x2="${W - PAD_R}" y1="${y(v).toFixed(1)}" y2="${y(v).toFixed(1)}" />
-    <text class="axis-label" x="${PAD_L - 6}" y="${(y(v) + 3).toFixed(1)}" text-anchor="end">${fmtYen(v)}</text>
+    <text class="axis-label" x="${PAD_L - 6}" y="${(y(v) + 3).toFixed(1)}" text-anchor="end">${fmtJpy(v)}</text>
   `).join('');
 
   const step = Math.max(1, Math.floor(n / 5));
@@ -746,7 +750,7 @@ function renderChart(curve) {
     tooltip.style.opacity = 1;
     tooltip.style.left = (e.clientX - rect.left) + 'px';
     tooltip.style.top = (e.clientY - rect.top) + 'px';
-    tooltip.textContent = `${d.date}  累計${fmtYen(d.cum_pnl_yen)}`;
+    tooltip.textContent = `${d.date}  累計${fmtJpy(d.cum_pnl_yen)}`;
   };
   svg.onmouseleave = () => { tooltip.style.opacity = 0; };
 }
