@@ -1,5 +1,16 @@
 [
   {
+    "code": "UPS",
+    "name": "United Parcel Service",
+    "win": false,
+    "mode": "MODE A",
+    "entry": 109.97999954223633,
+    "exit_price": 101.54000091552734,
+    "entered_date": "2026-08-05",
+    "exit_date": "2026-08-18",
+    "pnl_pct": -7.674121351007751
+  },
+  {
     "code": "VRTX",
     "name": "Vertex Pharmaceuticals",
     "win": true,
