@@ -1,5 +1,16 @@
 [
   {
+    "code": "CNP",
+    "name": "CenterPoint Energy",
+    "win": false,
+    "mode": "MODE A",
+    "entry": 41.55000114440918,
+    "exit_price": 38.630001068115234,
+    "entered_date": "2026-05-15",
+    "exit_date": "2026-08-24",
+    "pnl_pct": -7.027677487048277
+  },
+  {
     "code": "TXT",
     "name": "Textron",
     "win": false,
