@@ -309,20 +309,7 @@
   </section>
 
   <section>
-    <h2>📊 累計損益(実戦)</h2>
-    <div class="chart-wrap">
-      <svg id="equityChartLive" viewBox="0 0 560 180"></svg>
-      <div class="tooltip" id="equityTooltipLive"></div>
-    </div>
-  </section>
-
-  <section>
-    <h2>✅ 決済(実戦) <span class="count" id="closedCountLive"></span></h2>
-    <div id="closedListLive"></div>
-  </section>
-
-  <section>
-    <h2>📊 累計損益(バックテスト)</h2>
+    <h2>📊 累計損益</h2>
     <div class="chart-wrap">
       <svg id="equityChart" viewBox="0 0 560 180"></svg>
       <div class="tooltip" id="equityTooltip"></div>
@@ -330,7 +317,7 @@
   </section>
 
   <section>
-    <h2>✅ 決済(バックテスト) <span class="count" id="closedCount"></span></h2>
+    <h2>✅ 決済済み <span class="count" id="closedCount"></span></h2>
     <div id="closedList"></div>
   </section>
   </div>
@@ -591,25 +578,42 @@ function renderWatchingCard(w) {
 
 async function load() {
   document.getElementById('updated').textContent = '更新中...';
+  let data;
   try {
     const res = await fetch('../data.json?t=' + Date.now());
-    const data = await res.json();
+    data = await res.json();
     render(data);
-    renderLiveClosedHistory(data);
   } catch (e) {
     document.getElementById('updated').textContent = '取得に失敗しました。時間をおいて再試行してください。';
     return;
   }
-  // 決済済み(バックテスト履歴)は、live状態(public_data.json)とは完全に別の
-  // ファイル(closed_history_public.json)から読む。live側のwatching/entered/
-  // market_zone/whats_newには一切影響しない。
+  await loadUnifiedClosedHistory(data);
+}
+
+// 決済済み統合(2026-08-26)。過去バックテスト分(closed_history_public.json、
+// exit_date<=BT_END_CUTOVER、現行コード<span_size_multiplier・D10ブースト等>で
+// 2026-08-26に再生成)と実戦決済分(data.jsonのclosed_summary、exit_date>
+// BT_END_CUTOVERのみ、scan.py側で二重計上排除済み)を単一の「決済済み」
+// 「累計損益」として結合表示する。バックテスト/実戦の別はユーザーに見せない。
+// 実戦決済は次回scan実行時に自動的にこの一覧・グラフへ加わっていく
+// (ダッシュボード側の追加変更は不要)。
+async function loadUnifiedClosedHistory(data) {
+  let btItems = [];
   try {
-    const res2 = await fetch('../closed_history_public.json?t=' + Date.now());
-    const closedHistory = await res2.json();
-    renderClosedHistory(closedHistory);
+    const res = await fetch('../closed_history_public.json?t=' + Date.now());
+    btItems = await res.json();
   } catch (e) {
-    document.getElementById('closedList').innerHTML = '<div class="empty">バックテスト履歴の取得に失敗しました。</div>';
+    // バックテスト履歴が取得できなくても実戦分だけで表示は続行する
   }
+
+  const liveYears = (data.closed_summary || []).map(y => y.year);
+  const liveItemsArrays = await Promise.all(liveYears.map(y =>
+    fetch('closed/' + y + '.json?t=' + Date.now()).then(r => r.json()).catch(() => [])
+  ));
+  // liveはpnl_yenキー、backtestはpnlキー。ここでpnlに正規化して結合する。
+  const liveItems = liveItemsArrays.flat().map(c => ({ ...c, pnl: c.pnl_yen }));
+
+  renderClosedHistory(btItems.concat(liveItems));
 }
 
 function render(data) {
@@ -674,74 +678,11 @@ function render(data) {
 
 }
 
-// 決済(実戦)。live状態(data.json)の closed_summary/equity_curve をそのまま使う
-// (バックテスト履歴とは完全に別集計、累計損益グラフも別)。年ごとの明細は件数が
-// 多くなりうるため、closed/{year}.json を初回展開時にのみ遅延取得する。
-const _liveClosedYearCache = {};
-function renderLiveClosedHistory(data) {
-  const summary = (data.closed_summary || []).slice().sort((a, b) => b.year.localeCompare(a.year));
-  const totalCount = summary.reduce((s, y) => s + y.count, 0);
-  document.getElementById('closedCountLive').textContent = totalCount ? `(${totalCount})` : '';
-  renderChart((data.equity_curve || []).map(e => ({ date: e.date, cum_pnl_yen: e.cum_pnl_yen })),
-    'equityChartLive', 'equityTooltipLive');
-
-  document.getElementById('closedListLive').innerHTML = summary.length === 0
-    ? '<div class="empty">まだ実戦の決済履歴がありません。</div>'
-    : summary.map(y => {
-      const totalCls = y.pnl_yen >= 0 ? 'profit' : 'loss';
-      return `
-      <details class="year-group" data-live-year="${y.year}">
-        <summary>
-          <span><span class="arrow">▶</span> ${y.year}年 (${y.count}件、勝${y.wins}/負${y.losses})</span>
-          <span class="year-total value ${totalCls}">${fmtJpySigned(y.pnl_yen)}</span>
-        </summary>
-        <div class="year-body" id="liveYearBody_${y.year}"><div class="empty">読み込み中...</div></div>
-      </details>`;
-    }).join('');
-
-  document.querySelectorAll('#closedListLive details[data-live-year]').forEach(el => {
-    el.addEventListener('toggle', async () => {
-      if (!el.open) return;
-      const year = el.getAttribute('data-live-year');
-      const body = document.getElementById('liveYearBody_' + year);
-      if (_liveClosedYearCache[year]) {
-        body.innerHTML = _liveClosedYearCache[year];
-        return;
-      }
-      try {
-        const res = await fetch('closed/' + year + '.json?t=' + Date.now());
-        const items = await res.json();
-        const html = items.slice().sort((a, b) => (b.exit_date || '').localeCompare(a.exit_date || ''))
-          .map(renderLiveClosedCard).join('') || '<div class="empty">該当なし</div>';
-        _liveClosedYearCache[year] = html;
-        body.innerHTML = html;
-      } catch (e) {
-        body.innerHTML = '<div class="empty">明細の取得に失敗しました。</div>';
-      }
-    });
-  });
-}
-
-function renderLiveClosedCard(c) {
-  const cls = c.win ? 'profit' : 'loss';
-  return `
-      <div class="card ${cls}">
-        <div class="card-title">
-          <span><span class="strategy-tag ${MODE_CSS[c.mode] || ''}">${c.mode || ''}</span>${c.name}(${c.code})${c.span_badge ? ' <span class="span-badge">' + c.span_badge + '</span>' : ''}</span>
-          <span class="badge ${cls}">${fmtPct(c.pnl_pct)}</span>
-        </div>
-        <div class="rows">
-          <div><span class="label">建値</span><span class="value">${fmtPrice(c.entry)}</span></div>
-          <div><span class="label">決済値</span><span class="value ${cls}">${fmtPrice(c.exit_price)}</span></div>
-          <div><span class="label">決済日</span><span class="value">${c.exit_date || '-'}</span></div>
-        </div>
-      </div>`;
-}
-
-// 決済(バックテスト)。live状態(data.json)とは別ファイル
-// (closed_history_public.json)から読み、year単位でグループ化して表示する。
-// 全件を1度に取得済みのため、年グループの開閉はDOM構築のみ(再fetchなし)。
-// PnLは推奨株数(整数株)×entry日/exit日のUSD/JPYで換算した円建て実行可能損益。
+// 決済済み(統合)。バックテスト履歴+実戦決済を結合したitems配列(loadUnifiedClosedHistory
+// で正規化済み、全件pnlキー)をyear単位でグループ化して表示する。全件を1度に
+// 受け取っているため、年グループの開閉はDOM構築のみ(再fetchなし)。
+// PnLは推奨株数(整数株)×entry日/exit日のUSD/JPYで換算した円建て実行可能損益
+// (実戦分は通知生成時点の為替レートで近似)。
 function renderClosedHistory(items) {
   items = (items || []).slice().sort((a, b) => (a.exit_date || '').localeCompare(b.exit_date || ''));
   document.getElementById('closedCount').textContent = items.length ? `(${items.length})` : '';
@@ -772,7 +713,7 @@ function renderClosedHistory(items) {
         return `
       <div class="card ${cls}">
         <div class="card-title">
-          <span><span class="strategy-tag ${MODE_CSS[c.mode] || ''}">${c.mode || ''}</span>${c.name}(${c.code})</span>
+          <span><span class="strategy-tag ${MODE_CSS[c.mode] || ''}">${c.mode || ''}</span>${c.name}(${c.code})${c.span_badge ? ' <span class="span-badge">' + c.span_badge + '</span>' : ''}</span>
           <span class="badge ${cls}">${fmtJpySigned(c.pnl)}</span>
         </div>
         <div class="rows">
