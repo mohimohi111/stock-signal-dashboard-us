@@ -1,5 +1,23 @@
 [
   {
+    "code": "HRL",
+    "name": "Hormel Foods",
+    "win": false,
+    "mode": "MODE A",
+    "entry": 24.824999809265137,
+    "exit_price": 23.0,
+    "entered_date": "2026-07-23",
+    "exit_date": "2026-08-28",
+    "pnl_pct": -7.351459509715743,
+    "span_badge": null,
+    "strategy": "uptrend",
+    "span_pct": 0.15401306993109878,
+    "O": 23.049999237060547,
+    "recommended_jpy": 75000.0,
+    "recommended_shares": 18,
+    "pnl_yen": -5238.950394695654
+  },
+  {
     "code": "CNP",
     "name": "CenterPoint Energy",
     "win": false,
@@ -15,7 +33,7 @@
     "O": 38.630001068115234,
     "recommended_jpy": 75000.0,
     "recommended_shares": 11,
-    "pnl_yen": -5113.5040355834935
+    "pnl_yen": -5122.529944022448
   },
   {
     "code": "TXT",
@@ -33,7 +51,7 @@
     "O": 82.86000061035156,
     "recommended_jpy": 75000.0,
     "recommended_shares": 5,
-    "pnl_yen": -7092.356706085266
+    "pnl_yen": -7104.87551154627
   },
   {
     "code": "TXT",
@@ -51,7 +69,7 @@
     "O": 82.86000061035156,
     "recommended_jpy": 75000.0,
     "recommended_shares": 5,
-    "pnl_yen": -4409.84064422606
+    "pnl_yen": -4417.6245078170905
   },
   {
     "code": "WMT",
@@ -69,7 +87,7 @@
     "O": 102.77999877929688,
     "recommended_jpy": 90000.0,
     "recommended_shares": 4,
-    "pnl_yen": -10309.793357055634
+    "pnl_yen": -10327.991299252957
   },
   {
     "code": "WMT",
@@ -87,7 +105,7 @@
     "O": 102.77999877929688,
     "recommended_jpy": 90000.0,
     "recommended_shares": 4,
-    "pnl_yen": -10160.144971252419
+    "pnl_yen": -10178.07876725588
   },
   {
     "code": "UPS",
@@ -105,6 +123,6 @@
     "O": 101.54000091552734,
     "recommended_jpy": 75000.0,
     "recommended_shares": 4,
-    "pnl_yen": -5374.591022460954
+    "pnl_yen": -5384.077778729843
   }
 ]
