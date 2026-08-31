@@ -1,5 +1,23 @@
 [
   {
+    "code": "AON",
+    "name": "Aon plc",
+    "win": false,
+    "mode": "MODE A",
+    "entry": 352.3900146484375,
+    "exit_price": 330.92999267578125,
+    "entered_date": "2026-08-21",
+    "exit_date": "2026-08-31",
+    "pnl_pct": -6.089849621325359,
+    "span_badge": null,
+    "strategy": "uptrend",
+    "span_pct": 0.15535008853814222,
+    "O": 330.92999267578125,
+    "recommended_jpy": 75000.0,
+    "recommended_shares": 1,
+    "pnl_yen": -3427.959519367665
+  },
+  {
     "code": "HRL",
     "name": "Hormel Foods",
     "win": false,
@@ -15,7 +33,7 @@
     "O": 23.049999237060547,
     "recommended_jpy": 75000.0,
     "recommended_shares": 18,
-    "pnl_yen": -5257.247566092701
+    "pnl_yen": -5247.359885546495
   },
   {
     "code": "CNP",
@@ -33,7 +51,7 @@
     "O": 38.630001068115234,
     "recommended_jpy": 75000.0,
     "recommended_shares": 11,
-    "pnl_yen": -5140.420513947902
+    "pnl_yen": -5130.752558373031
   },
   {
     "code": "TXT",
@@ -51,7 +69,7 @@
     "O": 82.86000061035156,
     "recommended_jpy": 75000.0,
     "recommended_shares": 5,
-    "pnl_yen": -7129.689475259511
+    "pnl_yen": -7116.280159635935
   },
   {
     "code": "TXT",
@@ -69,7 +87,7 @@
     "O": 82.86000061035156,
     "recommended_jpy": 75000.0,
     "recommended_shares": 5,
-    "pnl_yen": -4433.053177053807
+    "pnl_yen": -4424.715617692564
   },
   {
     "code": "WMT",
@@ -87,7 +105,7 @@
     "O": 102.77999877929688,
     "recommended_jpy": 90000.0,
     "recommended_shares": 4,
-    "pnl_yen": -10364.06207922846
+    "pnl_yen": -10344.569648310542
   },
   {
     "code": "WMT",
@@ -105,7 +123,7 @@
     "O": 102.77999877929688,
     "recommended_jpy": 90000.0,
     "recommended_shares": 4,
-    "pnl_yen": -10213.625973789021
+    "pnl_yen": -10194.416478786618
   },
   {
     "code": "UPS",
@@ -123,6 +141,6 @@
     "O": 101.54000091552734,
     "recommended_jpy": 75000.0,
     "recommended_shares": 4,
-    "pnl_yen": -5402.881811314728
+    "pnl_yen": -5392.72022605408
   }
 ]
