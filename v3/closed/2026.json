@@ -1,5 +1,59 @@
 [
   {
+    "code": "HON",
+    "name": "Honeywell Technologies",
+    "win": false,
+    "mode": "MODE A",
+    "entry": 235.4236297607422,
+    "exit_price": 210.5640869140625,
+    "entered_date": "2026-04-21",
+    "exit_date": "2026-09-01",
+    "pnl_pct": -10.559493484976041,
+    "span_badge": null,
+    "strategy": "uptrend",
+    "span_pct": 0.23612329349235714,
+    "O": 210.5640869140625,
+    "recommended_jpy": 75000.0,
+    "recommended_shares": 1,
+    "pnl_yen": -3982.498688172782
+  },
+  {
+    "code": "HON",
+    "name": "Honeywell Technologies",
+    "win": false,
+    "mode": "MODE B",
+    "entry": 235.4236297607422,
+    "exit_price": 210.5640869140625,
+    "entered_date": "2026-03-20",
+    "exit_date": "2026-09-01",
+    "pnl_pct": -10.559493484976041,
+    "span_badge": null,
+    "strategy": "relative_strength",
+    "span_pct": 0.23612329349235714,
+    "O": 210.5640869140625,
+    "recommended_jpy": 75000.0,
+    "recommended_shares": 1,
+    "pnl_yen": -3982.498688172782
+  },
+  {
+    "code": "IR",
+    "name": "Ingersoll Rand",
+    "win": false,
+    "mode": "MODE A",
+    "entry": 81.0199966430664,
+    "exit_price": 74.68000030517578,
+    "entered_date": "2026-08-25",
+    "exit_date": "2026-09-01",
+    "pnl_pct": -7.825224142900769,
+    "span_badge": null,
+    "strategy": "uptrend",
+    "span_pct": 0.22897694703056876,
+    "O": 74.68000030517578,
+    "recommended_jpy": 75000.0,
+    "recommended_shares": 5,
+    "pnl_yen": -5078.336969909724
+  },
+  {
     "code": "AON",
     "name": "Aon plc",
     "win": false,
@@ -15,7 +69,7 @@
     "O": 330.92999267578125,
     "recommended_jpy": 75000.0,
     "recommended_shares": 1,
-    "pnl_yen": -3427.959519367665
+    "pnl_yen": -3437.8954545287415
   },
   {
     "code": "HRL",
@@ -33,7 +87,7 @@
     "O": 23.049999237060547,
     "recommended_jpy": 75000.0,
     "recommended_shares": 18,
-    "pnl_yen": -5247.359885546495
+    "pnl_yen": -5262.569349746715
   },
   {
     "code": "CNP",
@@ -51,7 +105,7 @@
     "O": 38.630001068115234,
     "recommended_jpy": 75000.0,
     "recommended_shares": 11,
-    "pnl_yen": -5130.752558373031
+    "pnl_yen": -5145.624036422727
   },
   {
     "code": "TXT",
@@ -69,7 +123,7 @@
     "O": 82.86000061035156,
     "recommended_jpy": 75000.0,
     "recommended_shares": 5,
-    "pnl_yen": -7116.280159635935
+    "pnl_yen": -7136.90668624884
   },
   {
     "code": "TXT",
@@ -87,7 +141,7 @@
     "O": 82.86000061035156,
     "recommended_jpy": 75000.0,
     "recommended_shares": 5,
-    "pnl_yen": -4424.715617692564
+    "pnl_yen": -4437.540648803697
   },
   {
     "code": "WMT",
@@ -105,7 +159,7 @@
     "O": 102.77999877929688,
     "recommended_jpy": 90000.0,
     "recommended_shares": 4,
-    "pnl_yen": -10344.569648310542
+    "pnl_yen": -10374.55336682126
   },
   {
     "code": "WMT",
@@ -123,7 +177,7 @@
     "O": 102.77999877929688,
     "recommended_jpy": 90000.0,
     "recommended_shares": 4,
-    "pnl_yen": -10194.416478786618
+    "pnl_yen": -10223.964978576638
   },
   {
     "code": "UPS",
@@ -141,6 +195,6 @@
     "O": 101.54000091552734,
     "recommended_jpy": 75000.0,
     "recommended_shares": 4,
-    "pnl_yen": -5392.72022605408
+    "pnl_yen": -5408.35101696779
   }
 ]
