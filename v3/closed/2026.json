@@ -1,5 +1,59 @@
 [
   {
+    "code": "URI",
+    "name": "United Rentals",
+    "win": false,
+    "mode": "MODE A",
+    "entry": 1053.3299560546875,
+    "exit_price": 980.530029296875,
+    "entered_date": "2026-08-28",
+    "exit_date": "2026-09-02",
+    "pnl_pct": -6.911407611579673,
+    "span_badge": null,
+    "strategy": "uptrend",
+    "span_pct": 0.2025945340567609,
+    "O": 980.530029296875,
+    "recommended_jpy": 75000.0,
+    "recommended_shares": 0,
+    "pnl_yen": -0.0
+  },
+  {
+    "code": "MSI",
+    "name": "Motorola Solutions",
+    "win": true,
+    "mode": "MODE A",
+    "entry": 435.1699981689453,
+    "exit_price": 491.6400146484375,
+    "entered_date": "2026-04-10",
+    "exit_date": "2026-09-02",
+    "pnl_pct": 12.97654174623705,
+    "span_badge": null,
+    "strategy": "uptrend",
+    "span_pct": 0.2897658046889483,
+    "O": 380.1000061035156,
+    "recommended_jpy": 75000.0,
+    "recommended_shares": 1,
+    "pnl_yen": 8967.55166726932
+  },
+  {
+    "code": "MSI",
+    "name": "Motorola Solutions",
+    "win": true,
+    "mode": "MODE B",
+    "entry": 435.1699981689453,
+    "exit_price": 491.6400146484375,
+    "entered_date": "2026-03-27",
+    "exit_date": "2026-09-02",
+    "pnl_pct": 12.97654174623705,
+    "span_badge": null,
+    "strategy": "relative_strength",
+    "span_pct": 0.2897658046889483,
+    "O": 380.1000061035156,
+    "recommended_jpy": 75000.0,
+    "recommended_shares": 1,
+    "pnl_yen": 8967.55166726932
+  },
+  {
     "code": "HON",
     "name": "Honeywell Technologies",
     "win": false,
@@ -14,8 +68,8 @@
     "span_pct": 0.23612329349235714,
     "O": 210.5640869140625,
     "recommended_jpy": 75000.0,
-    "recommended_shares": 1,
-    "pnl_yen": -3982.498688172782
+    "recommended_shares": 2,
+    "pnl_yen": -7895.490343384445
   },
   {
     "code": "HON",
@@ -32,8 +86,8 @@
     "span_pct": 0.23612329349235714,
     "O": 210.5640869140625,
     "recommended_jpy": 75000.0,
-    "recommended_shares": 1,
-    "pnl_yen": -3982.498688172782
+    "recommended_shares": 2,
+    "pnl_yen": -7895.490343384445
   },
   {
     "code": "IR",
@@ -51,7 +105,7 @@
     "O": 74.68000030517578,
     "recommended_jpy": 75000.0,
     "recommended_shares": 5,
-    "pnl_yen": -5078.336969909724
+    "pnl_yen": -5034.020554162562
   },
   {
     "code": "AON",
@@ -69,7 +123,7 @@
     "O": 330.92999267578125,
     "recommended_jpy": 75000.0,
     "recommended_shares": 1,
-    "pnl_yen": -3437.8954545287415
+    "pnl_yen": -3407.8944512158632
   },
   {
     "code": "HRL",
@@ -86,8 +140,8 @@
     "span_pct": 0.15401306993109878,
     "O": 23.049999237060547,
     "recommended_jpy": 75000.0,
-    "recommended_shares": 18,
-    "pnl_yen": -5262.569349746715
+    "recommended_shares": 19,
+    "pnl_yen": -5506.458842232125
   },
   {
     "code": "CNP",
@@ -105,7 +159,7 @@
     "O": 38.630001068115234,
     "recommended_jpy": 75000.0,
     "recommended_shares": 11,
-    "pnl_yen": -5145.624036422727
+    "pnl_yen": -5100.720436006319
   },
   {
     "code": "TXT",
@@ -123,7 +177,7 @@
     "O": 82.86000061035156,
     "recommended_jpy": 75000.0,
     "recommended_shares": 5,
-    "pnl_yen": -7136.90668624884
+    "pnl_yen": -7074.626036947593
   },
   {
     "code": "TXT",
@@ -141,7 +195,7 @@
     "O": 82.86000061035156,
     "recommended_jpy": 75000.0,
     "recommended_shares": 5,
-    "pnl_yen": -4437.540648803697
+    "pnl_yen": -4398.816181039438
   },
   {
     "code": "WMT",
@@ -159,7 +213,7 @@
     "O": 102.77999877929688,
     "recommended_jpy": 90000.0,
     "recommended_shares": 4,
-    "pnl_yen": -10374.55336682126
+    "pnl_yen": -10284.019197285175
   },
   {
     "code": "WMT",
@@ -177,7 +231,7 @@
     "O": 102.77999877929688,
     "recommended_jpy": 90000.0,
     "recommended_shares": 4,
-    "pnl_yen": -10223.964978576638
+    "pnl_yen": -10134.744927749038
   },
   {
     "code": "UPS",
@@ -195,6 +249,6 @@
     "O": 101.54000091552734,
     "recommended_jpy": 75000.0,
     "recommended_shares": 4,
-    "pnl_yen": -5408.35101696779
+    "pnl_yen": -5361.15471361205
   }
 ]
