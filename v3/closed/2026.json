@@ -1,5 +1,95 @@
 [
   {
+    "code": "MMM",
+    "name": "3M",
+    "win": false,
+    "mode": "MODE A",
+    "entry": 172.6449966430664,
+    "exit_price": 160.38999938964844,
+    "entered_date": "2026-08-31",
+    "exit_date": "2026-09-14",
+    "pnl_pct": -7.0983796181214975,
+    "span_badge": null,
+    "strategy": "uptrend",
+    "span_pct": 0.1528149797375572,
+    "O": 160.38999938964844,
+    "recommended_jpy": 75000.0,
+    "recommended_shares": 2,
+    "pnl_yen": -3784.661644154694
+  },
+  {
+    "code": "TT",
+    "name": "Trane Technologies",
+    "win": false,
+    "mode": "MODE A",
+    "entry": 463.55999755859375,
+    "exit_price": 423.6499938964844,
+    "entered_date": "2026-05-20",
+    "exit_date": "2026-09-14",
+    "pnl_pct": -8.609458079278028,
+    "span_badge": null,
+    "strategy": "uptrend",
+    "span_pct": 0.18841026430823496,
+    "O": 423.6499938964844,
+    "recommended_jpy": 75000.0,
+    "recommended_shares": 1,
+    "pnl_yen": -6162.62317137327
+  },
+  {
+    "code": "TROW",
+    "name": "T. Rowe Price",
+    "win": false,
+    "mode": "MODE A",
+    "entry": 112.30000305175781,
+    "exit_price": 105.2699966430664,
+    "entered_date": "2026-08-25",
+    "exit_date": "2026-09-14",
+    "pnl_pct": -6.260023346082506,
+    "span_badge": null,
+    "strategy": "uptrend",
+    "span_pct": 0.15892470685317073,
+    "O": 105.2699966430664,
+    "recommended_jpy": 75000.0,
+    "recommended_shares": 4,
+    "pnl_yen": -4342.09736044053
+  },
+  {
+    "code": "DTE",
+    "name": "DTE Energy",
+    "win": false,
+    "mode": "MODE A",
+    "entry": 143.37000274658203,
+    "exit_price": 132.11000061035156,
+    "entered_date": "2026-04-22",
+    "exit_date": "2026-09-14",
+    "pnl_pct": -7.853806180176634,
+    "span_badge": null,
+    "strategy": "uptrend",
+    "span_pct": 0.1704640388193017,
+    "O": 132.11000061035156,
+    "recommended_jpy": 75000.0,
+    "recommended_shares": 3,
+    "pnl_yen": -5216.071939902613
+  },
+  {
+    "code": "DTE",
+    "name": "DTE Energy",
+    "win": false,
+    "mode": "MODE B",
+    "entry": 143.37000274658203,
+    "exit_price": 132.11000061035156,
+    "entered_date": "2026-03-20",
+    "exit_date": "2026-09-14",
+    "pnl_pct": -7.853806180176634,
+    "span_badge": null,
+    "strategy": "relative_strength",
+    "span_pct": 0.1704640388193017,
+    "O": 132.11000061035156,
+    "recommended_jpy": 75000.0,
+    "recommended_shares": 3,
+    "pnl_yen": -5216.071939902613
+  },
+  {
     "code": "DE",
     "name": "Deere & Company",
     "win": true,
@@ -15,7 +105,7 @@
     "O": 472.2200012207031,
     "recommended_jpy": 100000.0,
     "recommended_shares": 1,
-    "pnl_yen": 17123.420841915668
+    "pnl_yen": 17219.21064639815
   },
   {
     "code": "DE",
@@ -33,7 +123,7 @@
     "O": 472.2200012207031,
     "recommended_jpy": 100000.0,
     "recommended_shares": 1,
-    "pnl_yen": 17835.14279237892
+    "pnl_yen": 17934.914027155628
   },
   {
     "code": "URI",
@@ -69,7 +159,7 @@
     "O": 380.1000061035156,
     "recommended_jpy": 75000.0,
     "recommended_shares": 1,
-    "pnl_yen": 8671.196958745131
+    "pnl_yen": 8719.70433755545
   },
   {
     "code": "MSI",
@@ -87,7 +177,7 @@
     "O": 380.1000061035156,
     "recommended_jpy": 75000.0,
     "recommended_shares": 1,
-    "pnl_yen": 8671.196958745131
+    "pnl_yen": 8719.70433755545
   },
   {
     "code": "HON",
@@ -105,7 +195,7 @@
     "O": 210.5640869140625,
     "recommended_jpy": 75000.0,
     "recommended_shares": 2,
-    "pnl_yen": -7634.564527042676
+    "pnl_yen": -7677.272899984382
   },
   {
     "code": "HON",
@@ -123,7 +213,7 @@
     "O": 210.5640869140625,
     "recommended_jpy": 75000.0,
     "recommended_shares": 2,
-    "pnl_yen": -7634.564527042676
+    "pnl_yen": -7677.272899984382
   },
   {
     "code": "IR",
@@ -140,8 +230,8 @@
     "span_pct": 0.22897694703056876,
     "O": 74.68000030517578,
     "recommended_jpy": 75000.0,
-    "recommended_shares": 6,
-    "pnl_yen": -5841.190818515606
+    "recommended_shares": 5,
+    "pnl_yen": -4894.8890946106985
   },
   {
     "code": "AON",
@@ -159,7 +249,7 @@
     "O": 330.92999267578125,
     "recommended_jpy": 75000.0,
     "recommended_shares": 1,
-    "pnl_yen": -3295.272232326679
+    "pnl_yen": -3313.7062523607165
   },
   {
     "code": "HRL",
@@ -177,7 +267,7 @@
     "O": 23.049999237060547,
     "recommended_jpy": 75000.0,
     "recommended_shares": 19,
-    "pnl_yen": -5324.484423155591
+    "pnl_yen": -5354.270020704862
   },
   {
     "code": "CNP",
@@ -195,7 +285,7 @@
     "O": 38.630001068115234,
     "recommended_jpy": 75000.0,
     "recommended_shares": 11,
-    "pnl_yen": -4932.154636313935
+    "pnl_yen": -4959.745509227214
   },
   {
     "code": "TXT",
@@ -213,7 +303,7 @@
     "O": 82.86000061035156,
     "recommended_jpy": 75000.0,
     "recommended_shares": 5,
-    "pnl_yen": -6840.827692105086
+    "pnl_yen": -6879.095836839406
   },
   {
     "code": "TXT",
@@ -231,7 +321,7 @@
     "O": 82.86000061035156,
     "recommended_jpy": 75000.0,
     "recommended_shares": 5,
-    "pnl_yen": -4253.446526583866
+    "pnl_yen": -4277.240651304601
   },
   {
     "code": "WMT",
@@ -249,7 +339,7 @@
     "O": 102.77999877929688,
     "recommended_jpy": 90000.0,
     "recommended_shares": 4,
-    "pnl_yen": -9944.158594887704
+    "pnl_yen": -9999.78702429682
   },
   {
     "code": "WMT",
@@ -267,7 +357,7 @@
     "O": 102.77999877929688,
     "recommended_jpy": 90000.0,
     "recommended_shares": 4,
-    "pnl_yen": -9799.817459196784
+    "pnl_yen": -9854.63843259029
   },
   {
     "code": "UPS",
@@ -285,6 +375,6 @@
     "O": 101.54000091552734,
     "recommended_jpy": 75000.0,
     "recommended_shares": 4,
-    "pnl_yen": -5183.982225350337
+    "pnl_yen": -5212.981842213776
   }
 ]
