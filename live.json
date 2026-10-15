@@ -1,9 +1,9 @@
 {
- "updated_jst": "2026-10-16 06:50 JST",
- "updated_et": "2026-10-15 17:50 ET",
+ "updated_jst": "2026-10-16 07:50 JST",
+ "updated_et": "2026-10-15 18:50 ET",
  "connected": true,
  "account": {
-  "net_liq_jpy": 2258114,
+  "net_liq_jpy": 2259205,
   "cash_jpy": 782144,
   "usdjpy": 158.048,
   "positions_cost_usd": 9065.45,
@@ -392,8 +392,8 @@
   "CL(MODE B): 数量不一致のためexit注文を見送り — CL: IBKRポジション=5株 / entered必要株数合計=10株 (MODE B=5株, MODE A=5株) / 既存SL=5株 / 不足=5株。複数モードのうち一部が決済済みの可能性があるが、IBKRのポジションからはどのモードか判別できない",
   "UPS(MODE B): expired なのに UPS のポジションが11株あります(矛盾状態)",
   "ポジション不一致 BEN: 台帳enteredの株数合計=0 / IBKR保有=21",
-  "ポジション不一致 BALL: 台帳enteredの株数合計=20 / IBKR保有=10",
-  "ポジション不一致 CL: 台帳enteredの株数合計=10 / IBKR保有=5"
+  "ポジション不一致 CL: 台帳enteredの株数合計=10 / IBKR保有=5",
+  "ポジション不一致 BALL: 台帳enteredの株数合計=20 / IBKR保有=10"
  ],
  "unprotected": []
 }
