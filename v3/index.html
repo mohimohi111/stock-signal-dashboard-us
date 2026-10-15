@@ -249,6 +249,16 @@
     font-size: 11px; padding: 6px 9px; border-radius: 6px; white-space: nowrap; opacity: 0;
     transition: opacity 0.1s; transform: translate(-50%, -130%); z-index: 10;
   }
+  .live-status { font-size: 12px; margin-bottom: 8px; }
+  .live-status.ok { color: var(--profit); }
+  .live-status.ng { color: var(--loss); font-weight: 700; }
+  .live-tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 10px; }
+  .live-tile { background: var(--surface-2); border: 1px solid var(--border); border-radius: 12px; padding: 10px 12px; }
+  .live-tile .label { font-size: 11px; color: var(--text-muted); }
+  .live-tile .value { font-size: 17px; font-weight: 700; font-variant-numeric: tabular-nums; }
+  .live-tile .sub { font-size: 11px; color: var(--text-muted); }
+  .live-alert { font-size: 11px; color: var(--entry-yellow); line-height: 1.6; padding: 4px 0; border-bottom: 1px solid var(--border); }
+  .live-fill { font-size: 12px; display: flex; justify-content: space-between; padding: 6px 2px; border-bottom: 1px solid var(--border); font-variant-numeric: tabular-nums; }
   #mainContent { display: none; }
   .gate-overlay {
     position: fixed; inset: 0; background: var(--surface-1);
@@ -292,6 +302,11 @@
   <div class="updated" id="updated">読み込み中...</div>
   <div id="retracted"></div>
   <div id="marketStatus"></div>
+
+  <section id="liveSection" style="display:none;">
+    <h2>🏦 本番口座(実際の保有・注文) <span class="count" id="liveUpdated"></span></h2>
+    <div id="liveBody"></div>
+  </section>
 
   <section>
     <h2>🆕 新着 <span class="count" id="whatsNewCount"></span></h2>
@@ -588,6 +603,93 @@ async function load() {
     return;
   }
   await loadUnifiedClosedHistory(data);
+  await loadLive();
+}
+
+// 本番口座(IBKR)の実際の状態。data.json(台帳=バックテストどおりの想定)とは別に、
+// PC側の broker/export_live_public.py が書き出す live.json を表示する。
+// 取得できない(未生成)ときはセクションごと非表示。
+async function loadLive() {
+  let live;
+  try {
+    const res = await fetch('../live.json?t=' + Date.now());
+    if (!res.ok) return;
+    live = await res.json();
+  } catch (e) {
+    return;
+  }
+  document.getElementById('liveSection').style.display = '';
+  document.getElementById('liveUpdated').textContent = live.updated_jst ? `(${live.updated_jst})` : '';
+  document.getElementById('liveBody').innerHTML = renderLive(live);
+}
+
+function renderLive(live) {
+  const status = live.connected
+    ? '<div class="live-status ok">🟢 本番口座に接続中</div>'
+    : `<div class="live-status ng">🔴 ${live.error || '本番口座に接続できていません'}${live.last_attempt_jst ? '(' + live.last_attempt_jst + ')' : ''}。下の内容は最後に接続できた時点のものです</div>`;
+  const a = live.account || {};
+  const pnlCls = (a.unrealized_usd || 0) >= 0 ? 'profit' : 'loss';
+  const fx = a.usdjpy || 0;
+  const tiles = `
+    <div class="live-tiles">
+      <div class="live-tile"><div class="label">口座評価額</div><div class="value">${a.net_liq_jpy != null ? fmtJpy(a.net_liq_jpy) : '-'}</div></div>
+      <div class="live-tile"><div class="label">現金</div><div class="value">${a.cash_jpy != null ? fmtJpy(a.cash_jpy) : '-'}</div>
+        <div class="sub">待機指値の拘束 ${fmtYen(a.pending_total_usd || 0)}${fx ? '(' + fmtJpy((a.pending_total_usd || 0) * fx) + ')' : ''}</div></div>
+      <div class="live-tile"><div class="label">含み損益</div><div class="value ${pnlCls}" style="color:var(--${pnlCls})">${fmtYenSigned(a.unrealized_usd || 0)}</div>
+        <div class="sub">${a.unrealized_pct != null ? fmtPct(a.unrealized_pct) : ''}${fx ? ' / ' + fmtJpySigned((a.unrealized_usd || 0) * fx) : ''}</div></div>
+      <div class="live-tile"><div class="label">保有 / 待機指値</div><div class="value">${(live.positions || []).length}銘柄 / ${(live.pending || []).length}件</div>
+        <div class="sub">${(live.unprotected || []).length ? '⚠️ 損切りなし: ' + live.unprotected.join(', ') : '全銘柄に損切り設定あり'}</div></div>
+    </div>`;
+
+  const positions = live.positions || [];
+  const posCards = positions.map(p => {
+    const cls = (p.unrealized_pct || 0) >= 0 ? 'profit' : 'loss';
+    return `
+      <div class="card ${cls}">
+        <div class="card-title">
+          <span>${p.name}(${p.code}) ${(p.modes || []).map(m => `<span class="strategy-tag ${MODE_CSS[m] || ''}">${m}</span>`).join(' ')}</span>
+          <span class="badge ${cls}">含み損益 ${p.unrealized_pct != null ? fmtPct(p.unrealized_pct) : '-'}</span>
+        </div>
+        <div class="rows rows-current">
+          <div><span class="label">現在値</span><span class="value ${cls}">${p.last_price != null ? fmtPrice(p.last_price) : '-'}</span></div>
+          <div><span class="label">損益</span><span class="value ${cls}">${fmtYenSigned(p.unrealized_usd)}</span></div>
+        </div>
+        <div class="rows rows-2col">
+          <div><span class="label">取得単価</span><span class="value">${fmtPrice(p.avg_cost)}</span><span class="shares">${p.qty}株</span></div>
+          <div><span class="label">損切り</span><span class="value sl-red">${p.sl != null ? fmtPrice(p.sl) : '⚠️ なし'}</span><span class="shares">${p.sl_gap_pct != null ? 'あと' + Math.abs(p.sl_gap_pct).toFixed(1) + '%' : ''}</span></div>
+        </div>
+      </div>`;
+  }).join('');
+
+  const pending = live.pending || [];
+  const pendCards = pending.map(o => `
+      <div class="card">
+        <div class="card-title">
+          <span>${o.name}(${o.code}) <span class="strategy-tag ${MODE_CSS[o.mode] || ''}">${o.mode}</span></span>
+          <span class="badge">指値まで ${o.gap_pct != null ? fmtPct(o.gap_pct) : '-'}</span>
+        </div>
+        <div class="rows rows-2col">
+          <div><span class="label">指値</span><span class="value entry-price">${fmtPrice(o.limit)}</span><span class="shares">${o.qty}株(${fmtYen(o.limit * o.qty)})</span></div>
+          <div><span class="label">現在値 / 損切り</span><span class="value">${o.last_price != null ? fmtPrice(o.last_price) : '-'} / <span class="sl-red">${o.sl != null ? fmtPrice(o.sl) : '-'}</span></span></div>
+        </div>
+      </div>`).join('');
+
+  const fills = live.fills || [];
+  const fillRows = fills.map(f => `
+      <div class="live-fill"><span>${f.date} ${f.side === 'BUY' ? '🟦 買' : '🟥 売'} ${f.name}(${f.code})</span><span>${f.qty}株 @ ${fmtPrice(f.price)}</span></div>`).join('');
+
+  const alerts = live.alerts || [];
+  const group = (title, n, body, open) => `
+      <details class="year-group"${open ? ' open' : ''}>
+        <summary><span><span class="arrow">▶</span> ${title} (${n})</span></summary>
+        <div class="year-body">${body}</div>
+      </details>`;
+
+  return status + tiles
+    + group('💼 保有中', positions.length, posCards || '<div class="empty">保有はありません。</div>', false)
+    + group('📍 発注中の指値', pending.length, pendCards || '<div class="empty">発注中の指値はありません。</div>', false)
+    + group('🧾 約定履歴', fills.length, fillRows || '<div class="empty">記録された約定はまだありません。</div>', false)
+    + (alerts.length ? group('⚠️ 要確認', alerts.length, alerts.map(t => `<div class="live-alert">${t}</div>`).join(''), false) : '');
 }
 
 // 決済済み統合(2026-08-26)。過去バックテスト分(closed_history_public.json、
