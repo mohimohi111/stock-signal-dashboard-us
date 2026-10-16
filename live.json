@@ -1,16 +1,16 @@
 {
- "updated_jst": "2026-10-16 09:50 JST",
- "updated_et": "2026-10-15 20:50 ET",
+ "updated_jst": "2026-10-16 10:50 JST",
+ "updated_et": "2026-10-15 21:50 ET",
  "connected": true,
  "account": {
-  "net_liq_jpy": 2258639,
+  "net_liq_jpy": 2259273,
   "cash_jpy": 782144,
-  "usdjpy": 158.048,
+  "usdjpy": 158.131,
   "positions_cost_usd": 9065.45,
-  "positions_value_usd": 9343.94,
-  "unrealized_usd": 278.49,
-  "unrealized_pct": 3.07,
-  "pending_total_usd": 4848.58
+  "positions_value_usd": 9335.74,
+  "unrealized_usd": 270.29,
+  "unrealized_pct": 2.98,
+  "pending_total_usd": 4166.62
  },
  "positions": [
   {
@@ -55,8 +55,8 @@
    "last_price": 92.0,
    "unrealized_usd": 32.05,
    "unrealized_pct": 7.49,
-   "sl": 78.29,
-   "sl_gap_pct": -14.9,
+   "sl": 93.95,
+   "sl_gap_pct": 2.12,
    "protected": true
   },
   {
@@ -190,11 +190,11 @@
    ],
    "qty": 5,
    "avg_cost": 85.35,
-   "last_price": 86.99,
-   "unrealized_usd": 8.2,
-   "unrealized_pct": 1.92,
+   "last_price": null,
+   "unrealized_usd": 0.0,
+   "unrealized_pct": null,
    "sl": 76.65,
-   "sl_gap_pct": -11.89,
+   "sl_gap_pct": null,
    "protected": true
   },
   {
@@ -274,16 +274,6 @@
   }
  ],
  "pending": [
-  {
-   "code": "IQV",
-   "name": "IQVIA",
-   "mode": "MODE A",
-   "qty": 1,
-   "limit": 252.84,
-   "sl": 228.28,
-   "last_price": 262.01,
-   "gap_pct": 3.63
-  },
   {
    "code": "TGT",
    "name": "Target Corporation",
@@ -365,24 +355,14 @@
    "gap_pct": 11.39
   },
   {
-   "code": "UHS",
-   "name": "Universal Health Services",
+   "code": "IQV",
+   "name": "IQVIA",
    "mode": "MODE A",
-   "qty": 2,
-   "limit": 167.82,
-   "sl": 149.61,
-   "last_price": 187.36,
-   "gap_pct": 11.64
-  },
-  {
-   "code": "BDX",
-   "name": "Becton Dickinson",
-   "mode": "MODE A",
-   "qty": 2,
-   "limit": 173.16,
-   "sl": 153.24,
-   "last_price": 193.76,
-   "gap_pct": 11.9
+   "qty": 1,
+   "limit": 252.84,
+   "sl": 228.28,
+   "last_price": null,
+   "gap_pct": null
   }
  ],
  "fills": [],
