@@ -1,15 +1,15 @@
 {
- "updated_jst": "2026-10-16 12:50 JST",
- "updated_et": "2026-10-15 23:50 ET",
+ "updated_jst": "2026-10-16 13:50 JST",
+ "updated_et": "2026-10-16 00:50 ET",
  "connected": true,
  "account": {
-  "net_liq_jpy": 2256992,
+  "net_liq_jpy": 2256472,
   "cash_jpy": 782144,
-  "usdjpy": 157.961,
+  "usdjpy": 157.825,
   "positions_cost_usd": 9065.45,
-  "positions_value_usd": 9343.94,
-  "unrealized_usd": 278.49,
-  "unrealized_pct": 3.07,
+  "positions_value_usd": 9310.18,
+  "unrealized_usd": 244.73,
+  "unrealized_pct": 2.7,
   "pending_total_usd": 4166.62
  },
  "positions": [
@@ -107,21 +107,6 @@
    "protected": true
   },
   {
-   "code": "FDX",
-   "name": "FedEx",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 2,
-   "avg_cost": 282.76,
-   "last_price": 295.54,
-   "unrealized_usd": 25.56,
-   "unrealized_pct": 4.52,
-   "sl": 219.15,
-   "sl_gap_pct": -25.85,
-   "protected": true
-  },
-  {
    "code": "CSCO",
    "name": "Cisco",
    "modes": [
@@ -183,6 +168,21 @@
    "protected": true
   },
   {
+   "code": "FDX",
+   "name": "FedEx",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 2,
+   "avg_cost": 282.76,
+   "last_price": null,
+   "unrealized_usd": 0.0,
+   "unrealized_pct": null,
+   "sl": 219.15,
+   "sl_gap_pct": null,
+   "protected": true
+  },
+  {
    "code": "HSIC",
    "name": "Henry Schein",
    "modes": [
@@ -190,11 +190,11 @@
    ],
    "qty": 5,
    "avg_cost": 85.35,
-   "last_price": 86.99,
-   "unrealized_usd": 8.2,
-   "unrealized_pct": 1.92,
+   "last_price": null,
+   "unrealized_usd": 0.0,
+   "unrealized_pct": null,
    "sl": 76.65,
-   "sl_gap_pct": -11.89,
+   "sl_gap_pct": null,
    "protected": true
   },
   {
@@ -370,8 +370,8 @@
   "BALL(MODE B): 数量不一致のためexit注文を見送り — BALL: IBKRポジション=10株 / entered必要株数合計=20株 (MODE B=10株, MODE A=10株) / 既存SL=10株 / 不足=10株。複数モードのうち一部が決済済みの可能性があるが、IBKRのポジションからはどのモードか判別できない",
   "CL(MODE B): 数量不一致のためexit注文を見送り — CL: IBKRポジション=5株 / entered必要株数合計=10株 (MODE B=5株, MODE A=5株) / 既存SL=5株 / 不足=5株。複数モードのうち一部が決済済みの可能性があるが、IBKRのポジションからはどのモードか判別できない",
   "UPS(MODE B): expired なのに UPS のポジションが11株あります(矛盾状態)",
-  "ポジション不一致 BALL: 台帳enteredの株数合計=20 / IBKR保有=10",
-  "ポジション不一致 CL: 台帳enteredの株数合計=10 / IBKR保有=5"
+  "ポジション不一致 CL: 台帳enteredの株数合計=10 / IBKR保有=5",
+  "ポジション不一致 BALL: 台帳enteredの株数合計=20 / IBKR保有=10"
  ],
  "unprotected": []
 }
