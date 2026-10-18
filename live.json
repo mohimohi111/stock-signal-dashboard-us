@@ -1,7 +1,7 @@
 {
  "updated_jst": "2026-10-18 15:50 JST",
  "updated_et": "2026-10-18 02:50 ET",
- "connected": true,
+ "connected": false,
  "account": {
   "net_liq_jpy": 2260393,
   "cash_jpy": 855457,
@@ -375,5 +375,7 @@
   "ポジション不一致 BALL: 台帳enteredの株数合計=20 / IBKR保有=10",
   "ポジション不一致 CL: 台帳enteredの株数合計=10 / IBKR保有=5"
  ],
- "unprotected": []
+ "unprotected": [],
+ "error": "本番口座に接続できませんでした(Gateway未ログインの可能性)",
+ "last_attempt_jst": "2026-10-18 16:50 JST"
 }
