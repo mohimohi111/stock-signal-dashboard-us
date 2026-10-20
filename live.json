@@ -1,15 +1,15 @@
 {
- "updated_jst": "2026-10-20 16:50 JST",
- "updated_et": "2026-10-20 03:50 ET",
+ "updated_jst": "2026-10-20 17:50 JST",
+ "updated_et": "2026-10-20 04:50 ET",
  "connected": true,
  "account": {
-  "net_liq_jpy": 2252980,
-  "cash_jpy": 855495,
-  "usdjpy": 158.162,
+  "net_liq_jpy": 2253204,
+  "cash_jpy": 855512,
+  "usdjpy": 158.204,
   "positions_cost_usd": 8637.5,
-  "positions_value_usd": 8805.43,
-  "unrealized_usd": 167.93,
-  "unrealized_pct": 1.94,
+  "positions_value_usd": 8836.47,
+  "unrealized_usd": 198.97,
+  "unrealized_pct": 2.3,
   "pending_total_usd": 4166.62
  },
  "positions": [
@@ -74,6 +74,22 @@
    "unrealized_pct": 5.56,
    "sl": 87.5,
    "sl_gap_pct": -10.22,
+   "protected": true
+  },
+  {
+   "code": "DOV",
+   "name": "Dover Corporation",
+   "modes": [
+    "MODE A",
+    "MODE B"
+   ],
+   "qty": 4,
+   "avg_cost": 187.61,
+   "last_price": 195.37,
+   "unrealized_usd": 31.04,
+   "unrealized_pct": 4.14,
+   "sl": 172.26,
+   "sl_gap_pct": -11.83,
    "protected": true
   },
   {
@@ -164,22 +180,6 @@
    "unrealized_pct": 0.39,
    "sl": 24.81,
    "sl_gap_pct": -19.21,
-   "protected": true
-  },
-  {
-   "code": "DOV",
-   "name": "Dover Corporation",
-   "modes": [
-    "MODE A",
-    "MODE B"
-   ],
-   "qty": 4,
-   "avg_cost": 187.61,
-   "last_price": null,
-   "unrealized_usd": 0.0,
-   "unrealized_pct": null,
-   "sl": 172.26,
-   "sl_gap_pct": null,
    "protected": true
   },
   {
@@ -300,6 +300,16 @@
    "gap_pct": 6.46
   },
   {
+   "code": "CSX",
+   "name": "CSX Corporation",
+   "mode": "MODE A",
+   "qty": 14,
+   "limit": 44.8,
+   "sl": 35.99,
+   "last_price": 47.88,
+   "gap_pct": 6.88
+  },
+  {
    "code": "CPAY",
    "name": "Corpay",
    "mode": "MODE A",
@@ -338,16 +348,6 @@
    "sl": 165.07,
    "last_price": 238.66,
    "gap_pct": 13.09
-  },
-  {
-   "code": "CSX",
-   "name": "CSX Corporation",
-   "mode": "MODE A",
-   "qty": 14,
-   "limit": 44.8,
-   "sl": 35.99,
-   "last_price": null,
-   "gap_pct": null
   }
  ],
  "fills": [
