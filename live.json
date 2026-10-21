@@ -1,15 +1,15 @@
 {
- "updated_jst": "2026-10-21 11:50 JST",
- "updated_et": "2026-10-20 22:50 ET",
+ "updated_jst": "2026-10-21 13:50 JST",
+ "updated_et": "2026-10-21 00:50 ET",
  "connected": true,
  "account": {
-  "net_liq_jpy": 2274421,
-  "cash_jpy": 855557,
-  "usdjpy": 158.23,
+  "net_liq_jpy": 2273290,
+  "cash_jpy": 855501,
+  "usdjpy": 158.103,
   "positions_cost_usd": 8637.5,
-  "positions_value_usd": 8953.94,
-  "unrealized_usd": 316.44,
-  "unrealized_pct": 3.66,
+  "positions_value_usd": 8927.22,
+  "unrealized_usd": 289.72,
+  "unrealized_pct": 3.35,
   "pending_total_usd": 4166.62
  },
  "positions": [
@@ -92,21 +92,6 @@
    "protected": true
   },
   {
-   "code": "SJM",
-   "name": "J.M. Smucker Company (The)",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 4,
-   "avg_cost": 122.99,
-   "last_price": 129.67,
-   "unrealized_usd": 26.72,
-   "unrealized_pct": 5.43,
-   "sl": 109.58,
-   "sl_gap_pct": -15.49,
-   "protected": true
-  },
-  {
    "code": "DOV",
    "name": "Dover Corporation",
    "modes": [
@@ -180,6 +165,21 @@
    "unrealized_pct": 0.76,
    "sl": 81.17,
    "sl_gap_pct": -23.93,
+   "protected": true
+  },
+  {
+   "code": "SJM",
+   "name": "J.M. Smucker Company (The)",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 4,
+   "avg_cost": 122.99,
+   "last_price": null,
+   "unrealized_usd": 0.0,
+   "unrealized_pct": null,
+   "sl": 109.58,
+   "sl_gap_pct": null,
    "protected": true
   },
   {
