@@ -1,11 +1,11 @@
 {
- "updated_jst": "2026-10-21 05:50 JST",
- "updated_et": "2026-10-20 16:50 ET",
- "connected": false,
+ "updated_jst": "2026-10-21 10:50 JST",
+ "updated_et": "2026-10-20 21:50 ET",
+ "connected": true,
  "account": {
-  "net_liq_jpy": 2274374,
-  "cash_jpy": 855536,
-  "usdjpy": 157.941,
+  "net_liq_jpy": 2275400,
+  "cash_jpy": 855605,
+  "usdjpy": 158.297,
   "positions_cost_usd": 8637.5,
   "positions_value_usd": 8953.94,
   "unrealized_usd": 316.44,
@@ -375,7 +375,5 @@
   "ポジション不一致 BALL: 台帳enteredの株数合計=20 / IBKR保有=10",
   "ポジション不一致 CL: 台帳enteredの株数合計=10 / IBKR保有=5"
  ],
- "unprotected": [],
- "error": "本番口座に接続できませんでした(Gateway未ログインの可能性)",
- "last_attempt_jst": "2026-10-21 09:50 JST"
+ "unprotected": []
 }
