@@ -1,16 +1,16 @@
 {
- "updated_jst": "2026-10-22 16:50 JST",
- "updated_et": "2026-10-22 03:50 ET",
+ "updated_jst": "2026-10-22 17:50 JST",
+ "updated_et": "2026-10-22 04:50 ET",
  "connected": true,
  "account": {
-  "net_liq_jpy": 2268094,
+  "net_liq_jpy": 2262654,
   "cash_jpy": 765918,
-  "usdjpy": 157.091,
+  "usdjpy": 157.096,
   "positions_cost_usd": 9206.11,
   "positions_value_usd": 9542.68,
   "unrealized_usd": 336.57,
   "unrealized_pct": 3.66,
-  "pending_total_usd": 3598.36
+  "pending_total_usd": 3253.71
  },
  "positions": [
   {
@@ -343,16 +343,6 @@
    "sl": 112.9,
    "last_price": 149.88,
    "gap_pct": 11.1
-  },
-  {
-   "code": "TRV",
-   "name": "Travelers Companies (The)",
-   "mode": "MODE A",
-   "qty": 1,
-   "limit": 344.65,
-   "sl": 290.6,
-   "last_price": 398.95,
-   "gap_pct": 15.76
   }
  ],
  "fills": [
@@ -401,8 +391,8 @@
   "BALL(MODE B): 数量不一致のためexit注文を見送り — BALL: IBKRポジション=10株 / entered必要株数合計=20株 (MODE B=10株, MODE A=10株) / 既存SL=10株 / 不足=10株。複数モードのうち一部が決済済みの可能性があるが、IBKRのポジションからはどのモードか判別できない",
   "CL(MODE B): 数量不一致のためexit注文を見送り — CL: IBKRポジション=5株 / entered必要株数合計=10株 (MODE B=5株, MODE A=5株) / 既存SL=5株 / 不足=5株。複数モードのうち一部が決済済みの可能性があるが、IBKRのポジションからはどのモードか判別できない",
   "UPS(MODE B): expired なのに UPS のポジションが11株あります(矛盾状態)",
-  "ポジション不一致 BALL: 台帳enteredの株数合計=20 / IBKR保有=10",
-  "ポジション不一致 CL: 台帳enteredの株数合計=10 / IBKR保有=5"
+  "ポジション不一致 CL: 台帳enteredの株数合計=10 / IBKR保有=5",
+  "ポジション不一致 BALL: 台帳enteredの株数合計=20 / IBKR保有=10"
  ],
  "unprotected": []
 }
