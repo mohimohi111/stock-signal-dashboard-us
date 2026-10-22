@@ -639,6 +639,9 @@ function renderLive(live) {
         <div class="sub">${a.unrealized_pct != null ? fmtPct(a.unrealized_pct) : ''}${fx ? ' / ' + fmtJpySigned((a.unrealized_usd || 0) * fx) : ''}</div></div>
       <div class="live-tile"><div class="label">保有 / 待機指値</div><div class="value">${(live.positions || []).length}銘柄 / ${(live.pending || []).length}件</div>
         <div class="sub">${(live.unprotected || []).length ? '⚠️ 損切りなし: ' + live.unprotected.join(', ') : '全銘柄に損切り設定あり'}</div></div>
+      ${a.realized_usd != null ? `<div class="live-tile" style="grid-column:1 / -1"><div class="label">確定損益(記録分 ${a.realized_count || 0}件)</div>
+        <div class="value" style="color:var(--${a.realized_usd >= 0 ? 'profit' : 'loss'})">${fmtYenSigned(a.realized_usd)}${fx ? ' <span class="sub">' + fmtJpySigned(a.realized_usd * fx) + '</span>' : ''}</div>
+        <div class="sub">売りの手数料は含みません</div></div>` : ''}
     </div>`;
 
   const positions = live.positions || [];
@@ -675,8 +678,17 @@ function renderLive(live) {
       </div>`).join('');
 
   const fills = live.fills || [];
-  const fillRows = fills.map(f => `
-      <div class="live-fill"><span>${f.date} ${f.side === 'BUY' ? '🟦 買' : '🟥 売'} ${f.name}(${f.code})</span><span>${f.qty}株 @ ${fmtPrice(f.price)}</span></div>`).join('');
+  const fillRows = fills.map(f => {
+    const label = f.side === 'BUY' ? '🟦 買'
+      : f.kind === '利確' ? '🟩 利確' : f.kind === '損切り' ? '🟥 損切り' : '🟥 売';
+    const pnl = f.pnl_usd != null
+      ? `<div style="text-align:right;color:var(--${f.pnl_usd >= 0 ? 'profit' : 'loss'});font-weight:700;">${fmtYenSigned(f.pnl_usd)}(${fmtPct(f.pnl_pct)})</div>
+         <div style="text-align:right;font-size:10px;color:var(--text-muted);">取得 ${fmtPrice(f.avg_cost)}</div>`
+      : '';
+    return `
+      <div class="live-fill"><span>${f.date} ${label} ${f.name}(${f.code})</span>
+        <span style="text-align:right;">${f.qty}株 @ ${fmtPrice(f.price)}${pnl}</span></div>`;
+  }).join('');
 
   const alerts = live.alerts || [];
   const group = (title, n, body, open) => `
