@@ -1,15 +1,15 @@
 {
- "updated_jst": "2026-10-23 18:50 JST",
- "updated_et": "2026-10-23 05:50 ET",
+ "updated_jst": "2026-10-23 19:50 JST",
+ "updated_et": "2026-10-23 06:50 ET",
  "connected": true,
  "account": {
-  "net_liq_jpy": 2275466,
+  "net_liq_jpy": 2277292,
   "cash_jpy": 765917,
-  "usdjpy": 156.56,
+  "usdjpy": 156.645,
   "positions_cost_usd": 9206.11,
-  "positions_value_usd": 9641.73,
-  "unrealized_usd": 435.62,
-  "unrealized_pct": 4.73,
+  "positions_value_usd": 9626.1,
+  "unrealized_usd": 419.99,
+  "unrealized_pct": 4.56,
   "pending_total_usd": 3000.87,
   "realized_usd": 37.12,
   "realized_count": 1
@@ -109,21 +109,6 @@
    "protected": true
   },
   {
-   "code": "LH",
-   "name": "Labcorp",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 1,
-   "avg_cost": 310.13,
-   "last_price": 329.93,
-   "unrealized_usd": 19.8,
-   "unrealized_pct": 6.38,
-   "sl": 283.47,
-   "sl_gap_pct": -14.08,
-   "protected": true
-  },
-  {
    "code": "ALL",
    "name": "Allstate",
    "modes": [
@@ -200,6 +185,36 @@
    "protected": true
   },
   {
+   "code": "JPM",
+   "name": "JPMorgan Chase",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 1,
+   "avg_cost": 340.71,
+   "last_price": null,
+   "unrealized_usd": 0.0,
+   "unrealized_pct": null,
+   "sl": 312.91,
+   "sl_gap_pct": null,
+   "protected": true
+  },
+  {
+   "code": "LH",
+   "name": "Labcorp",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 1,
+   "avg_cost": 310.13,
+   "last_price": null,
+   "unrealized_usd": 0.0,
+   "unrealized_pct": null,
+   "sl": 283.47,
+   "sl_gap_pct": null,
+   "protected": true
+  },
+  {
    "code": "USB",
    "name": "U.S. Bancorp",
    "modes": [
@@ -227,21 +242,6 @@
    "unrealized_pct": -0.96,
    "sl": 81.17,
    "sl_gap_pct": -22.61,
-   "protected": true
-  },
-  {
-   "code": "JPM",
-   "name": "JPMorgan Chase",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 1,
-   "avg_cost": 340.71,
-   "last_price": 336.54,
-   "unrealized_usd": -4.17,
-   "unrealized_pct": -1.22,
-   "sl": 312.91,
-   "sl_gap_pct": -7.02,
    "protected": true
   },
   {
@@ -363,8 +363,8 @@
   "BALL(MODE B): 数量不一致のためexit注文を見送り — BALL: IBKRポジション=10株 / entered必要株数合計=20株 (MODE B=10株, MODE A=10株) / 既存SL=10株 / 不足=10株。複数モードのうち一部が決済済みの可能性があるが、IBKRのポジションからはどのモードか判別できない",
   "CL(MODE B): 数量不一致のためexit注文を見送り — CL: IBKRポジション=5株 / entered必要株数合計=10株 (MODE B=5株, MODE A=5株) / 既存SL=5株 / 不足=5株。複数モードのうち一部が決済済みの可能性があるが、IBKRのポジションからはどのモードか判別できない",
   "UPS(MODE B): expired なのに UPS のポジションが11株あります(矛盾状態)",
-  "ポジション不一致 CL: 台帳enteredの株数合計=10 / IBKR保有=5",
-  "ポジション不一致 BALL: 台帳enteredの株数合計=20 / IBKR保有=10"
+  "ポジション不一致 BALL: 台帳enteredの株数合計=20 / IBKR保有=10",
+  "ポジション不一致 CL: 台帳enteredの株数合計=10 / IBKR保有=5"
  ],
  "unprotected": []
 }
