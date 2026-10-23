@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23 17:39 ET",
+  "updated": "2026-10-23 19:58 ET",
   "watching": [
     {
       "code": "ABBV",
@@ -3866,93 +3866,7 @@
       "cum_pnl_yen": 21181.320876197686
     }
   ],
-  "whats_new": [
-    {
-      "date": "2026-10-23",
-      "type": "new_watching",
-      "mode": "MODE A",
-      "code": "KR",
-      "name": "Kroger",
-      "entry": 64.0200023651123,
-      "tp": 68.55000305175781,
-      "sl": 59.4900016784668,
-      "recommended_jpy": 82500.0,
-      "recommended_usd": 526.1010014438119,
-      "recommended_shares": 8,
-      "usdjpy_used": 156.81399536132812
-    },
-    {
-      "date": "2026-10-23",
-      "type": "new_watching",
-      "mode": "MODE A",
-      "code": "MSFT",
-      "name": "Microsoft",
-      "entry": 491.9250183105469,
-      "tp": 551.1500244140625,
-      "sl": 432.70001220703125,
-      "recommended_jpy": 82500.0,
-      "recommended_usd": 526.1010014438119,
-      "recommended_shares": 1,
-      "usdjpy_used": 156.81399536132812
-    },
-    {
-      "date": "2026-10-23",
-      "type": "new_watching",
-      "mode": "MODE A",
-      "code": "NDAQ",
-      "name": "Nasdaq, Inc.",
-      "entry": 96.93000030517578,
-      "tp": 104.20999908447266,
-      "sl": 89.6500015258789,
-      "recommended_jpy": 82500.0,
-      "recommended_usd": 526.1010014438119,
-      "recommended_shares": 5,
-      "usdjpy_used": 156.81399536132812
-    },
-    {
-      "date": "2026-10-23",
-      "type": "new_watching",
-      "mode": "MODE A",
-      "code": "ULTA",
-      "name": "Ulta Beauty",
-      "entry": 593.0599975585938,
-      "tp": 637.260009765625,
-      "sl": 548.8599853515625,
-      "recommended_jpy": 82500.0,
-      "recommended_usd": 526.1010014438119,
-      "recommended_shares": 0,
-      "usdjpy_used": 156.81399536132812
-    },
-    {
-      "date": "2026-10-23",
-      "type": "closed_win",
-      "mode": "MODE A",
-      "code": "CHD",
-      "name": "Church & Dwight",
-      "entry": 95.76499938964844,
-      "exit_price": 106.86249732971191,
-      "pnl_pct": 11.588260858134609
-    },
-    {
-      "date": "2026-10-23",
-      "type": "closed_win",
-      "mode": "MODE B",
-      "code": "CHD",
-      "name": "Church & Dwight",
-      "entry": 94.5,
-      "exit_price": 106.86249732971191,
-      "pnl_pct": 13.082007756308903
-    },
-    {
-      "date": "2026-10-23",
-      "type": "expired",
-      "mode": "MODE B",
-      "code": "SNA",
-      "name": "Snap-on",
-      "entry": 384.5199890136719,
-      "sl": 346.0199890136719
-    }
-  ],
+  "whats_new": [],
   "market_zone": {
     "boundary_near": true,
     "market_score": 4.56,
