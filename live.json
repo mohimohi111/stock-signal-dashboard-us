@@ -1,15 +1,15 @@
 {
- "updated_jst": "2026-10-24 11:50 JST",
- "updated_et": "2026-10-23 22:50 ET",
+ "updated_jst": "2026-10-24 12:50 JST",
+ "updated_et": "2026-10-23 23:50 ET",
  "connected": true,
  "account": {
-  "net_liq_jpy": 2264924,
+  "net_liq_jpy": 2264926,
   "cash_jpy": 765917,
   "usdjpy": 156.814,
   "positions_cost_usd": 9206.11,
-  "positions_value_usd": 9552.31,
-  "unrealized_usd": 346.2,
-  "unrealized_pct": 3.76,
+  "positions_value_usd": 9563.39,
+  "unrealized_usd": 357.28,
+  "unrealized_pct": 3.88,
   "pending_total_usd": 3000.87,
   "realized_usd": 37.12,
   "realized_count": 1
@@ -192,11 +192,26 @@
    ],
    "qty": 5,
    "avg_cost": 85.35,
-   "last_price": 84.96,
-   "unrealized_usd": -1.95,
-   "unrealized_pct": -0.46,
+   "last_price": null,
+   "unrealized_usd": 0.0,
+   "unrealized_pct": null,
    "sl": 76.65,
-   "sl_gap_pct": -9.78,
+   "sl_gap_pct": null,
+   "protected": true
+  },
+  {
+   "code": "JPM",
+   "name": "JPMorgan Chase",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 1,
+   "avg_cost": 340.71,
+   "last_price": null,
+   "unrealized_usd": 0.0,
+   "unrealized_pct": null,
+   "sl": 312.91,
+   "sl_gap_pct": null,
    "protected": true
   },
   {
@@ -227,21 +242,6 @@
    "unrealized_pct": -0.79,
    "sl": 55.04,
    "sl_gap_pct": -10.47,
-   "protected": true
-  },
-  {
-   "code": "JPM",
-   "name": "JPMorgan Chase",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 1,
-   "avg_cost": 340.71,
-   "last_price": 331.58,
-   "unrealized_usd": -9.13,
-   "unrealized_pct": -2.68,
-   "sl": 312.91,
-   "sl_gap_pct": -5.63,
    "protected": true
   },
   {
