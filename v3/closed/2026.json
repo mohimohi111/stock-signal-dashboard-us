@@ -16,7 +16,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 4,
-    "pnl_yen": 6960.97196198185
+    "pnl_yen": 6989.5149651065
   },
   {
     "code": "CHD",
@@ -35,7 +35,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 5,
-    "pnl_yen": 9693.062994579377
+    "pnl_yen": 9732.808755495062
   },
   {
     "code": "PFE",
@@ -54,7 +54,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 17,
-    "pnl_yen": 7451.017192980798
+    "pnl_yen": 7481.569594022294
   },
   {
     "code": "KO",
@@ -73,7 +73,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 5,
-    "pnl_yen": 5958.93062733463
+    "pnl_yen": 5983.364826530451
   },
   {
     "code": "GILD",
@@ -92,7 +92,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 90000.0,
     "recommended_shares": 4,
-    "pnl_yen": 12306.768864350393
+    "pnl_yen": 12357.231952561066
   },
   {
     "code": "GILD",
@@ -111,7 +111,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 90000.0,
     "recommended_shares": 4,
-    "pnl_yen": 12306.768864350393
+    "pnl_yen": 12357.231952561066
   },
   {
     "code": "BNY",
@@ -130,7 +130,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 3,
-    "pnl_yen": -1745.3357484815642
+    "pnl_yen": -1752.4923817785457
   },
   {
     "code": "IVZ",
@@ -149,7 +149,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 15,
-    "pnl_yen": -4539.765883547952
+    "pnl_yen": -4558.3808919845615
   },
   {
     "code": "INCY",
@@ -168,7 +168,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 3,
-    "pnl_yen": -5650.009257841157
+    "pnl_yen": -5673.176745482488
   },
   {
     "code": "IVZ",
@@ -187,7 +187,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 15,
-    "pnl_yen": -3904.6726120627136
+    "pnl_yen": -3920.6834627277567
   },
   {
     "code": "BAC",
@@ -206,7 +206,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 8,
-    "pnl_yen": -7765.432113066316
+    "pnl_yen": -7797.273751601577
   },
   {
     "code": "KEYS",
@@ -225,7 +225,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 125000.0,
     "recommended_shares": 2,
-    "pnl_yen": 28614.942952243062
+    "pnl_yen": 28732.27662497704
   },
   {
     "code": "RTX",
@@ -244,7 +244,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 2,
-    "pnl_yen": -6880.998882148415
+    "pnl_yen": -6909.213960971683
   },
   {
     "code": "AFL",
@@ -263,7 +263,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 4,
-    "pnl_yen": -4371.974956367165
+    "pnl_yen": -4389.901949252933
   },
   {
     "code": "KVUE",
@@ -282,7 +282,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 25,
-    "pnl_yen": -5312.072298271232
+    "pnl_yen": -5333.854097858421
   },
   {
     "code": "COF",
@@ -301,7 +301,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 2,
-    "pnl_yen": -4785.961415617727
+    "pnl_yen": -4805.58593247924
   },
   {
     "code": "ITW",
@@ -320,7 +320,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 1,
-    "pnl_yen": -3562.814166032709
+    "pnl_yen": -3577.423248848878
   },
   {
     "code": "SCHW",
@@ -339,7 +339,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 4,
-    "pnl_yen": -1480.3197134742513
+    "pnl_yen": -1486.389666124247
   },
   {
     "code": "ACGL",
@@ -358,7 +358,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 4,
-    "pnl_yen": -3431.090984199196
+    "pnl_yen": -3445.159944858402
   },
   {
     "code": "GM",
@@ -377,7 +377,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 5,
-    "pnl_yen": -5315.9934856323525
+    "pnl_yen": -5337.791363787837
   },
   {
     "code": "NTRS",
@@ -396,7 +396,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 2,
-    "pnl_yen": -2992.013711420819
+    "pnl_yen": -3004.2822648901492
   },
   {
     "code": "GD",
@@ -415,7 +415,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 1,
-    "pnl_yen": -5474.377152333967
+    "pnl_yen": -5496.824472193606
   },
   {
     "code": "HPE",
@@ -434,7 +434,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 250000.0,
     "recommended_shares": 35,
-    "pnl_yen": 101893.82200130858
+    "pnl_yen": 102311.63084979271
   },
   {
     "code": "BIIB",
@@ -453,7 +453,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 2,
-    "pnl_yen": 7983.401078115217
+    "pnl_yen": 8016.136483912356
   },
   {
     "code": "FITB",
@@ -472,7 +472,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 8,
-    "pnl_yen": -5174.861846923828
+    "pnl_yen": -5196.081024169922
   },
   {
     "code": "MS",
@@ -491,7 +491,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 2,
-    "pnl_yen": -5480.65105211176
+    "pnl_yen": -5503.124097680673
   },
   {
     "code": "D",
@@ -510,7 +510,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 7,
-    "pnl_yen": -5933.05617453251
+    "pnl_yen": -5957.384277253412
   },
   {
     "code": "KHC",
@@ -529,7 +529,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 18,
-    "pnl_yen": -6153.382039383519
+    "pnl_yen": -6178.613573677372
   },
   {
     "code": "CASY",
@@ -548,7 +548,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 125000.0,
     "recommended_shares": 1,
-    "pnl_yen": -27589.069891048595
+    "pnl_yen": -27702.197039442137
   },
   {
     "code": "AEE",
@@ -567,7 +567,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 4,
-    "pnl_yen": -5209.3611173266545
+    "pnl_yen": -5230.7217565393075
   },
   {
     "code": "AXP",
@@ -586,7 +586,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 1,
-    "pnl_yen": -4303.7612512316555
+    "pnl_yen": -4321.408538350835
   },
   {
     "code": "FFIV",
@@ -605,7 +605,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 90000.0,
     "recommended_shares": 1,
-    "pnl_yen": 9853.955922093151
+    "pnl_yen": 9894.361413770264
   },
   {
     "code": "KEY",
@@ -624,7 +624,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 21,
-    "pnl_yen": -5845.240420877875
+    "pnl_yen": -5869.208440934366
   },
   {
     "code": "COST",
@@ -681,7 +681,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 6,
-    "pnl_yen": -6054.586063820869
+    "pnl_yen": -6079.412491779774
   },
   {
     "code": "MMM",
@@ -700,7 +700,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 2,
-    "pnl_yen": -3843.5101649011485
+    "pnl_yen": -3859.2702230145223
   },
   {
     "code": "TT",
@@ -719,7 +719,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 1,
-    "pnl_yen": -6258.447129140608
+    "pnl_yen": -6284.109475855716
   },
   {
     "code": "TROW",
@@ -738,7 +738,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 4,
-    "pnl_yen": -4409.613569450565
+    "pnl_yen": -4427.694896969013
   },
   {
     "code": "DTE",
@@ -757,7 +757,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 3,
-    "pnl_yen": -5297.1777682781685
+    "pnl_yen": -5318.898493834538
   },
   {
     "code": "DTE",
@@ -776,7 +776,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 3,
-    "pnl_yen": -5297.1777682781685
+    "pnl_yen": -5318.898493834538
   },
   {
     "code": "DE",
@@ -795,7 +795,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 100000.0,
     "recommended_shares": 1,
-    "pnl_yen": 17486.955869151996
+    "pnl_yen": 17558.6599700649
   },
   {
     "code": "DE",
@@ -814,7 +814,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 100000.0,
     "recommended_shares": 1,
-    "pnl_yen": 18213.787876246748
+    "pnl_yen": 18288.472303522536
   },
   {
     "code": "URI",
@@ -852,7 +852,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 1,
-    "pnl_yen": 8855.28890226921
+    "pnl_yen": 8891.599426171277
   },
   {
     "code": "MSI",
@@ -871,7 +871,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 1,
-    "pnl_yen": 8855.28890226921
+    "pnl_yen": 8891.599426171277
   },
   {
     "code": "HON",
@@ -890,7 +890,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 2,
-    "pnl_yen": -7796.648473287933
+    "pnl_yen": -7828.618112434633
   },
   {
     "code": "HON",
@@ -909,7 +909,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 2,
-    "pnl_yen": -7796.648473287933
+    "pnl_yen": -7828.618112434633
   },
   {
     "code": "IR",
@@ -928,7 +928,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 5,
-    "pnl_yen": -4971.000781604089
+    "pnl_yen": -4991.384040093981
   },
   {
     "code": "AON",
@@ -947,7 +947,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 1,
-    "pnl_yen": -3365.231786074117
+    "pnl_yen": -3379.0306954663247
   },
   {
     "code": "HRL",
@@ -966,7 +966,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 19,
-    "pnl_yen": -5437.524720866029
+    "pnl_yen": -5459.820929778478
   },
   {
     "code": "CNP",
@@ -985,7 +985,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 11,
-    "pnl_yen": -5036.865662609402
+    "pnl_yen": -5057.5189956685645
   },
   {
     "code": "TXT",
@@ -1004,7 +1004,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 5,
-    "pnl_yen": -6986.0603827179875
+    "pnl_yen": -7014.706259245286
   },
   {
     "code": "TXT",
@@ -1023,7 +1023,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 5,
-    "pnl_yen": -4343.748389346292
+    "pnl_yen": -4361.559641069034
   },
   {
     "code": "WMT",
@@ -1042,7 +1042,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 90000.0,
     "recommended_shares": 4,
-    "pnl_yen": -10155.275870986283
+    "pnl_yen": -10196.916905097663
   },
   {
     "code": "WMT",
@@ -1061,7 +1061,7 @@
     "liq_mult": 1.0,
     "recommended_jpy": 90000.0,
     "recommended_shares": 4,
-    "pnl_yen": -10007.870332499966
+    "pnl_yen": -10048.906939992681
   },
   {
     "code": "UPS",
@@ -1080,6 +1080,6 @@
     "liq_mult": 1.0,
     "recommended_jpy": 75000.0,
     "recommended_shares": 4,
-    "pnl_yen": -5294.039621993434
+    "pnl_yen": -5315.747479789425
   }
 ]
