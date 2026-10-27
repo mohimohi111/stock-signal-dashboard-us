@@ -1,15 +1,15 @@
 {
- "updated_jst": "2026-10-27 20:50 JST",
- "updated_et": "2026-10-27 07:50 ET",
+ "updated_jst": "2026-10-27 21:50 JST",
+ "updated_et": "2026-10-27 08:50 ET",
  "connected": true,
  "account": {
-  "net_liq_jpy": 2285500,
+  "net_liq_jpy": 2278672,
   "cash_jpy": 765917,
-  "usdjpy": 157.667,
+  "usdjpy": 157.793,
   "positions_cost_usd": 9206.11,
-  "positions_value_usd": 9594.79,
-  "unrealized_usd": 388.68,
-  "unrealized_pct": 4.22,
+  "positions_value_usd": 9553.81,
+  "unrealized_usd": 347.7,
+  "unrealized_pct": 3.78,
   "pending_total_usd": 4222.78,
   "realized_usd": 37.12,
   "realized_count": 1
@@ -59,22 +59,6 @@
    "unrealized_pct": 8.65,
    "sl": 87.5,
    "sl_gap_pct": -12.78,
-   "protected": true
-  },
-  {
-   "code": "DOV",
-   "name": "Dover Corporation",
-   "modes": [
-    "MODE A",
-    "MODE B"
-   ],
-   "qty": 4,
-   "avg_cost": 187.61,
-   "last_price": 202.51,
-   "unrealized_usd": 59.6,
-   "unrealized_pct": 7.94,
-   "sl": 172.26,
-   "sl_gap_pct": -14.94,
    "protected": true
   },
   {
@@ -183,6 +167,37 @@
    "protected": true
   },
   {
+   "code": "DOV",
+   "name": "Dover Corporation",
+   "modes": [
+    "MODE A",
+    "MODE B"
+   ],
+   "qty": 4,
+   "avg_cost": 187.61,
+   "last_price": null,
+   "unrealized_usd": 0.0,
+   "unrealized_pct": null,
+   "sl": 172.26,
+   "sl_gap_pct": null,
+   "protected": true
+  },
+  {
+   "code": "DXCM",
+   "name": "Dexcom",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 7,
+   "avg_cost": 81.23,
+   "last_price": null,
+   "unrealized_usd": 0.0,
+   "unrealized_pct": null,
+   "sl": 69.77,
+   "sl_gap_pct": null,
+   "protected": true
+  },
+  {
    "code": "USB",
    "name": "U.S. Bancorp",
    "modes": [
@@ -240,21 +255,6 @@
    "unrealized_pct": -1.96,
    "sl": 312.91,
    "sl_gap_pct": -6.33,
-   "protected": true
-  },
-  {
-   "code": "DXCM",
-   "name": "Dexcom",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 7,
-   "avg_cost": 81.23,
-   "last_price": 78.57,
-   "unrealized_usd": -18.62,
-   "unrealized_pct": -3.27,
-   "sl": 69.77,
-   "sl_gap_pct": -11.2,
    "protected": true
   },
   {
