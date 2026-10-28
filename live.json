@@ -1,9 +1,9 @@
 {
- "updated_jst": "2026-10-29 05:50 JST",
- "updated_et": "2026-10-28 16:50 ET",
- "connected": false,
+ "updated_jst": "2026-10-29 08:50 JST",
+ "updated_et": "2026-10-28 19:50 ET",
+ "connected": true,
  "account": {
-  "net_liq_jpy": 2297059,
+  "net_liq_jpy": 2297255,
   "cash_jpy": 672987,
   "usdjpy": 157.917,
   "positions_cost_usd": 9793.79,
@@ -394,7 +394,5 @@
  "alerts": [
   "ポジション不一致 TGT: 台帳enteredの株数合計=0 / IBKR保有=4"
  ],
- "unprotected": [],
- "error": "本番口座に接続できませんでした(Gateway未ログインの可能性)",
- "last_attempt_jst": "2026-10-29 07:50 JST"
+ "unprotected": []
 }
