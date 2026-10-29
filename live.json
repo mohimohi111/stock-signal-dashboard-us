@@ -1,35 +1,20 @@
 {
- "updated_jst": "2026-10-29 20:50 JST",
- "updated_et": "2026-10-29 07:50 ET",
+ "updated_jst": "2026-10-30 02:50 JST",
+ "updated_et": "2026-10-29 13:50 ET",
  "connected": true,
  "account": {
-  "net_liq_jpy": 2306879,
-  "cash_jpy": 672982,
-  "usdjpy": 157.964,
-  "positions_cost_usd": 9793.79,
-  "positions_value_usd": 10283.54,
-  "unrealized_usd": 489.75,
-  "unrealized_pct": 5.0,
+  "net_liq_jpy": 2308213,
+  "cash_jpy": 728775,
+  "usdjpy": 157.998,
+  "positions_cost_usd": 9483.66,
+  "positions_value_usd": 10000.54,
+  "unrealized_usd": 516.88,
+  "unrealized_pct": 5.45,
   "pending_total_usd": 2958.71,
   "realized_usd": 37.12,
   "realized_count": 1
  },
  "positions": [
-  {
-   "code": "LH",
-   "name": "Labcorp",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 1,
-   "avg_cost": 310.13,
-   "last_price": 360.25,
-   "unrealized_usd": 50.12,
-   "unrealized_pct": 16.16,
-   "sl": 368.51,
-   "sl_gap_pct": 2.29,
-   "protected": true
-  },
   {
    "code": "UPS",
    "name": "United Parcel Service",
@@ -39,11 +24,41 @@
    ],
    "qty": 11,
    "avg_cost": 92.33,
-   "last_price": 105.62,
-   "unrealized_usd": 146.19,
-   "unrealized_pct": 14.39,
+   "last_price": 106.7,
+   "unrealized_usd": 158.07,
+   "unrealized_pct": 15.56,
    "sl": 87.5,
-   "sl_gap_pct": -17.16,
+   "sl_gap_pct": -17.99,
+   "protected": true
+  },
+  {
+   "code": "BALL",
+   "name": "Ball Corporation",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 10,
+   "avg_cost": 57.51,
+   "last_price": 63.99,
+   "unrealized_usd": 64.8,
+   "unrealized_pct": 11.27,
+   "sl": 50.34,
+   "sl_gap_pct": -21.33,
+   "protected": true
+  },
+  {
+   "code": "AIZ",
+   "name": "Assurant",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 2,
+   "avg_cost": 262.18,
+   "last_price": 291.3,
+   "unrealized_usd": 58.23,
+   "unrealized_pct": 11.1,
+   "sl": 219.42,
+   "sl_gap_pct": -24.67,
    "protected": true
   },
   {
@@ -55,41 +70,11 @@
    ],
    "qty": 4,
    "avg_cost": 187.61,
-   "last_price": 207.99,
-   "unrealized_usd": 81.52,
-   "unrealized_pct": 10.86,
+   "last_price": 207.56,
+   "unrealized_usd": 79.8,
+   "unrealized_pct": 10.63,
    "sl": 172.26,
-   "sl_gap_pct": -17.18,
-   "protected": true
-  },
-  {
-   "code": "BALL",
-   "name": "Ball Corporation",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 10,
-   "avg_cost": 57.51,
-   "last_price": 63.26,
-   "unrealized_usd": 57.5,
-   "unrealized_pct": 10.0,
-   "sl": 50.34,
-   "sl_gap_pct": -20.42,
-   "protected": true
-  },
-  {
-   "code": "AIZ",
-   "name": "Assurant",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 2,
-   "avg_cost": 262.18,
-   "last_price": 284.99,
-   "unrealized_usd": 45.62,
-   "unrealized_pct": 8.7,
-   "sl": 219.42,
-   "sl_gap_pct": -23.01,
+   "sl_gap_pct": -17.01,
    "protected": true
   },
   {
@@ -100,11 +85,11 @@
    ],
    "qty": 2,
    "avg_cost": 282.76,
-   "last_price": 304.58,
-   "unrealized_usd": 43.64,
-   "unrealized_pct": 7.72,
+   "last_price": 308.91,
+   "unrealized_usd": 52.3,
+   "unrealized_pct": 9.25,
    "sl": 219.15,
-   "sl_gap_pct": -28.05,
+   "sl_gap_pct": -29.06,
    "protected": true
   },
   {
@@ -115,26 +100,11 @@
    ],
    "qty": 5,
    "avg_cost": 87.48,
-   "last_price": 91.69,
-   "unrealized_usd": 21.05,
-   "unrealized_pct": 4.81,
+   "last_price": 92.4,
+   "unrealized_usd": 24.6,
+   "unrealized_pct": 5.62,
    "sl": 79.74,
-   "sl_gap_pct": -13.03,
-   "protected": true
-  },
-  {
-   "code": "CSCO",
-   "name": "Cisco",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 7,
-   "avg_cost": 105.91,
-   "last_price": 110.29,
-   "unrealized_usd": 30.66,
-   "unrealized_pct": 4.14,
-   "sl": 81.17,
-   "sl_gap_pct": -26.4,
+   "sl_gap_pct": -13.7,
    "protected": true
   },
   {
@@ -145,11 +115,11 @@
    ],
    "qty": 21,
    "avg_cost": 30.59,
-   "last_price": 31.73,
-   "unrealized_usd": 23.94,
-   "unrealized_pct": 3.73,
+   "last_price": 32.15,
+   "unrealized_usd": 32.86,
+   "unrealized_pct": 5.12,
    "sl": 24.81,
-   "sl_gap_pct": -21.81,
+   "sl_gap_pct": -22.84,
    "protected": true
   },
   {
@@ -160,26 +130,26 @@
    ],
    "qty": 2,
    "avg_cost": 243.72,
-   "last_price": 250.2,
-   "unrealized_usd": 12.96,
-   "unrealized_pct": 2.66,
+   "last_price": 254.81,
+   "unrealized_usd": 22.18,
+   "unrealized_pct": 4.55,
    "sl": 209.23,
-   "sl_gap_pct": -16.37,
+   "sl_gap_pct": -17.89,
    "protected": true
   },
   {
-   "code": "SJM",
-   "name": "J.M. Smucker Company (The)",
+   "code": "CSCO",
+   "name": "Cisco",
    "modes": [
     "MODE A"
    ],
-   "qty": 4,
-   "avg_cost": 122.99,
-   "last_price": 125.46,
-   "unrealized_usd": 9.88,
-   "unrealized_pct": 2.01,
-   "sl": 109.58,
-   "sl_gap_pct": -12.66,
+   "qty": 7,
+   "avg_cost": 105.91,
+   "last_price": 108.66,
+   "unrealized_usd": 19.28,
+   "unrealized_pct": 2.6,
+   "sl": 81.17,
+   "sl_gap_pct": -25.3,
    "protected": true
   },
   {
@@ -190,26 +160,26 @@
    ],
    "qty": 4,
    "avg_cost": 146.92,
-   "last_price": 148.96,
-   "unrealized_usd": 8.16,
-   "unrealized_pct": 1.39,
+   "last_price": 150.35,
+   "unrealized_usd": 13.72,
+   "unrealized_pct": 2.33,
    "sl": 122.91,
-   "sl_gap_pct": -17.49,
+   "sl_gap_pct": -18.25,
    "protected": true
   },
   {
-   "code": "JPM",
-   "name": "JPMorgan Chase",
+   "code": "SJM",
+   "name": "J.M. Smucker Company (The)",
    "modes": [
     "MODE A"
    ],
-   "qty": 1,
-   "avg_cost": 340.71,
-   "last_price": 339.3,
-   "unrealized_usd": -1.41,
-   "unrealized_pct": -0.41,
-   "sl": 312.91,
-   "sl_gap_pct": -7.78,
+   "qty": 4,
+   "avg_cost": 122.99,
+   "last_price": 125.8,
+   "unrealized_usd": 11.24,
+   "unrealized_pct": 2.28,
+   "sl": 109.58,
+   "sl_gap_pct": -12.89,
    "protected": true
   },
   {
@@ -220,11 +190,26 @@
    ],
    "qty": 5,
    "avg_cost": 85.35,
-   "last_price": 84.96,
-   "unrealized_usd": -1.95,
-   "unrealized_pct": -0.46,
+   "last_price": 86.15,
+   "unrealized_usd": 4.0,
+   "unrealized_pct": 0.94,
    "sl": 76.65,
-   "sl_gap_pct": -9.78,
+   "sl_gap_pct": -11.03,
+   "protected": true
+  },
+  {
+   "code": "JPM",
+   "name": "JPMorgan Chase",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 1,
+   "avg_cost": 340.71,
+   "last_price": 343.34,
+   "unrealized_usd": 2.63,
+   "unrealized_pct": 0.77,
+   "sl": 312.91,
+   "sl_gap_pct": -8.86,
    "protected": true
   },
   {
@@ -235,11 +220,11 @@
    ],
    "qty": 8,
    "avg_cost": 60.02,
-   "last_price": 59.6,
-   "unrealized_usd": -3.36,
-   "unrealized_pct": -0.7,
+   "last_price": 60.42,
+   "unrealized_usd": 3.24,
+   "unrealized_pct": 0.67,
    "sl": 53.08,
-   "sl_gap_pct": -10.94,
+   "sl_gap_pct": -12.16,
    "protected": true
   },
   {
@@ -250,11 +235,11 @@
    ],
    "qty": 2,
    "avg_cost": 176.19,
-   "last_price": 173.54,
-   "unrealized_usd": -5.3,
-   "unrealized_pct": -1.5,
+   "last_price": 174.24,
+   "unrealized_usd": -3.9,
+   "unrealized_pct": -1.11,
    "sl": 155.46,
-   "sl_gap_pct": -10.42,
+   "sl_gap_pct": -10.78,
    "protected": true
   },
   {
@@ -265,11 +250,11 @@
    ],
    "qty": 8,
    "avg_cost": 61.97,
-   "last_price": 60.57,
-   "unrealized_usd": -11.2,
-   "unrealized_pct": -2.26,
+   "last_price": 60.54,
+   "unrealized_usd": -11.44,
+   "unrealized_pct": -2.31,
    "sl": 55.04,
-   "sl_gap_pct": -9.13,
+   "sl_gap_pct": -9.08,
    "protected": true
   },
   {
@@ -280,25 +265,15 @@
    ],
    "qty": 7,
    "avg_cost": 81.23,
-   "last_price": 78.62,
-   "unrealized_usd": -18.27,
-   "unrealized_pct": -3.21,
+   "last_price": 79.12,
+   "unrealized_usd": -14.74,
+   "unrealized_pct": -2.59,
    "sl": 69.77,
-   "sl_gap_pct": -11.26,
+   "sl_gap_pct": -11.82,
    "protected": true
   }
  ],
  "pending": [
-  {
-   "code": "MRK",
-   "name": "Merck & Co.",
-   "mode": "MODE A",
-   "qty": 4,
-   "limit": 134.91,
-   "sl": 112.9,
-   "last_price": 140.93,
-   "gap_pct": 4.46
-  },
   {
    "code": "CPAY",
    "name": "Corpay",
@@ -306,8 +281,18 @@
    "qty": 1,
    "limit": 373.51,
    "sl": 319.56,
-   "last_price": 395.86,
-   "gap_pct": 5.98
+   "last_price": 395.47,
+   "gap_pct": 5.88
+  },
+  {
+   "code": "MRK",
+   "name": "Merck & Co.",
+   "mode": "MODE A",
+   "qty": 4,
+   "limit": 134.91,
+   "sl": 112.9,
+   "last_price": 147.12,
+   "gap_pct": 9.05
   },
   {
    "code": "ROST",
@@ -316,8 +301,8 @@
    "qty": 2,
    "limit": 211.04,
    "sl": 165.07,
-   "last_price": 227.98,
-   "gap_pct": 8.03
+   "last_price": 231.15,
+   "gap_pct": 9.53
   },
   {
    "code": "AME",
@@ -326,18 +311,8 @@
    "qty": 2,
    "limit": 225.56,
    "sl": 189.95,
-   "last_price": 248.13,
-   "gap_pct": 10.01
-  },
-  {
-   "code": "JCI",
-   "name": "Johnson Controls",
-   "mode": "MODE A",
-   "qty": 4,
-   "limit": 136.29,
-   "sl": 112.17,
-   "last_price": 157.35,
-   "gap_pct": 15.45
+   "last_price": 250.78,
+   "gap_pct": 11.18
   },
   {
    "code": "CSX",
@@ -346,8 +321,18 @@
    "qty": 14,
    "limit": 44.8,
    "sl": 35.99,
-   "last_price": 51.98,
-   "gap_pct": 16.03
+   "last_price": 51.63,
+   "gap_pct": 15.25
+  },
+  {
+   "code": "JCI",
+   "name": "Johnson Controls",
+   "mode": "MODE A",
+   "qty": 4,
+   "limit": 136.29,
+   "sl": 112.17,
+   "last_price": 157.07,
+   "gap_pct": 15.25
   }
  ],
  "fills": [
