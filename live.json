@@ -1,35 +1,20 @@
 {
- "updated_jst": "2026-10-29 08:50 JST",
- "updated_et": "2026-10-28 19:50 ET",
+ "updated_jst": "2026-10-29 09:50 JST",
+ "updated_et": "2026-10-28 20:50 ET",
  "connected": true,
  "account": {
-  "net_liq_jpy": 2297255,
+  "net_liq_jpy": 2299288,
   "cash_jpy": 672987,
   "usdjpy": 157.917,
   "positions_cost_usd": 9793.79,
-  "positions_value_usd": 10283.54,
-  "unrealized_usd": 489.75,
-  "unrealized_pct": 5.0,
+  "positions_value_usd": 10271.18,
+  "unrealized_usd": 477.39,
+  "unrealized_pct": 4.87,
   "pending_total_usd": 3635.46,
   "realized_usd": 37.12,
   "realized_count": 1
  },
  "positions": [
-  {
-   "code": "LH",
-   "name": "Labcorp",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 1,
-   "avg_cost": 310.13,
-   "last_price": 360.25,
-   "unrealized_usd": 50.12,
-   "unrealized_pct": 16.16,
-   "sl": 283.47,
-   "sl_gap_pct": -21.31,
-   "protected": true
-  },
   {
    "code": "UPS",
    "name": "United Parcel Service",
@@ -39,11 +24,26 @@
    ],
    "qty": 11,
    "avg_cost": 92.33,
-   "last_price": 105.62,
-   "unrealized_usd": 146.19,
-   "unrealized_pct": 14.39,
+   "last_price": 106.09,
+   "unrealized_usd": 151.36,
+   "unrealized_pct": 14.9,
    "sl": 87.5,
-   "sl_gap_pct": -17.16,
+   "sl_gap_pct": -17.52,
+   "protected": true
+  },
+  {
+   "code": "BALL",
+   "name": "Ball Corporation",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 10,
+   "avg_cost": 57.51,
+   "last_price": 64.1,
+   "unrealized_usd": 65.9,
+   "unrealized_pct": 11.46,
+   "sl": 50.34,
+   "sl_gap_pct": -21.47,
    "protected": true
   },
   {
@@ -55,26 +55,11 @@
    ],
    "qty": 4,
    "avg_cost": 187.61,
-   "last_price": 207.99,
-   "unrealized_usd": 81.52,
-   "unrealized_pct": 10.86,
+   "last_price": 206.18,
+   "unrealized_usd": 74.28,
+   "unrealized_pct": 9.9,
    "sl": 172.26,
-   "sl_gap_pct": -17.18,
-   "protected": true
-  },
-  {
-   "code": "BALL",
-   "name": "Ball Corporation",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 10,
-   "avg_cost": 57.51,
-   "last_price": 63.26,
-   "unrealized_usd": 57.5,
-   "unrealized_pct": 10.0,
-   "sl": 50.34,
-   "sl_gap_pct": -20.42,
+   "sl_gap_pct": -16.45,
    "protected": true
   },
   {
@@ -85,11 +70,11 @@
    ],
    "qty": 2,
    "avg_cost": 262.18,
-   "last_price": 284.99,
-   "unrealized_usd": 45.62,
-   "unrealized_pct": 8.7,
+   "last_price": 286.3,
+   "unrealized_usd": 48.24,
+   "unrealized_pct": 9.2,
    "sl": 219.42,
-   "sl_gap_pct": -23.01,
+   "sl_gap_pct": -23.36,
    "protected": true
   },
   {
@@ -100,11 +85,26 @@
    ],
    "qty": 2,
    "avg_cost": 282.76,
-   "last_price": 304.58,
-   "unrealized_usd": 43.64,
-   "unrealized_pct": 7.72,
+   "last_price": 307.1,
+   "unrealized_usd": 48.68,
+   "unrealized_pct": 8.61,
    "sl": 219.15,
-   "sl_gap_pct": -28.05,
+   "sl_gap_pct": -28.64,
+   "protected": true
+  },
+  {
+   "code": "LH",
+   "name": "Labcorp",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 1,
+   "avg_cost": 310.13,
+   "last_price": 331.17,
+   "unrealized_usd": 21.04,
+   "unrealized_pct": 6.78,
+   "sl": 283.47,
+   "sl_gap_pct": -14.4,
    "protected": true
   },
   {
@@ -115,11 +115,11 @@
    ],
    "qty": 5,
    "avg_cost": 87.48,
-   "last_price": 91.69,
-   "unrealized_usd": 21.05,
-   "unrealized_pct": 4.81,
+   "last_price": 92.17,
+   "unrealized_usd": 23.45,
+   "unrealized_pct": 5.36,
    "sl": 79.74,
-   "sl_gap_pct": -13.03,
+   "sl_gap_pct": -13.49,
    "protected": true
   },
   {
@@ -130,41 +130,11 @@
    ],
    "qty": 7,
    "avg_cost": 105.91,
-   "last_price": 110.29,
-   "unrealized_usd": 30.66,
-   "unrealized_pct": 4.14,
+   "last_price": 111.38,
+   "unrealized_usd": 38.29,
+   "unrealized_pct": 5.16,
    "sl": 81.17,
-   "sl_gap_pct": -26.4,
-   "protected": true
-  },
-  {
-   "code": "BEN",
-   "name": "Franklin Resources",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 21,
-   "avg_cost": 30.59,
-   "last_price": 31.73,
-   "unrealized_usd": 23.94,
-   "unrealized_pct": 3.73,
-   "sl": 24.81,
-   "sl_gap_pct": -21.81,
-   "protected": true
-  },
-  {
-   "code": "ALL",
-   "name": "Allstate",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 2,
-   "avg_cost": 243.72,
-   "last_price": 250.2,
-   "unrealized_usd": 12.96,
-   "unrealized_pct": 2.66,
-   "sl": 209.23,
-   "sl_gap_pct": -16.37,
+   "sl_gap_pct": -27.12,
    "protected": true
   },
   {
@@ -175,11 +145,41 @@
    ],
    "qty": 4,
    "avg_cost": 122.99,
-   "last_price": 125.46,
-   "unrealized_usd": 9.88,
-   "unrealized_pct": 2.01,
+   "last_price": 127.41,
+   "unrealized_usd": 17.68,
+   "unrealized_pct": 3.59,
    "sl": 109.58,
-   "sl_gap_pct": -12.66,
+   "sl_gap_pct": -13.99,
+   "protected": true
+  },
+  {
+   "code": "ALL",
+   "name": "Allstate",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 2,
+   "avg_cost": 243.72,
+   "last_price": 251.71,
+   "unrealized_usd": 15.98,
+   "unrealized_pct": 3.28,
+   "sl": 209.23,
+   "sl_gap_pct": -16.88,
+   "protected": true
+  },
+  {
+   "code": "BEN",
+   "name": "Franklin Resources",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 21,
+   "avg_cost": 30.59,
+   "last_price": 31.23,
+   "unrealized_usd": 13.44,
+   "unrealized_pct": 2.09,
+   "sl": 24.81,
+   "sl_gap_pct": -20.56,
    "protected": true
   },
   {
@@ -191,41 +191,11 @@
    ],
    "qty": 4,
    "avg_cost": 146.92,
-   "last_price": 148.96,
-   "unrealized_usd": 8.16,
-   "unrealized_pct": 1.39,
+   "last_price": 148.01,
+   "unrealized_usd": 4.36,
+   "unrealized_pct": 0.74,
    "sl": 122.91,
-   "sl_gap_pct": -17.49,
-   "protected": true
-  },
-  {
-   "code": "JPM",
-   "name": "JPMorgan Chase",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 1,
-   "avg_cost": 340.71,
-   "last_price": 339.3,
-   "unrealized_usd": -1.41,
-   "unrealized_pct": -0.41,
-   "sl": 312.91,
-   "sl_gap_pct": -7.78,
-   "protected": true
-  },
-  {
-   "code": "HSIC",
-   "name": "Henry Schein",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 5,
-   "avg_cost": 85.35,
-   "last_price": 84.96,
-   "unrealized_usd": -1.95,
-   "unrealized_pct": -0.46,
-   "sl": 76.65,
-   "sl_gap_pct": -9.78,
+   "sl_gap_pct": -16.96,
    "protected": true
   },
   {
@@ -236,26 +206,11 @@
    ],
    "qty": 8,
    "avg_cost": 60.02,
-   "last_price": 59.6,
-   "unrealized_usd": -3.36,
-   "unrealized_pct": -0.7,
+   "last_price": 59.74,
+   "unrealized_usd": -2.24,
+   "unrealized_pct": -0.47,
    "sl": 53.08,
-   "sl_gap_pct": -10.94,
-   "protected": true
-  },
-  {
-   "code": "STT",
-   "name": "State Street Corporation",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 2,
-   "avg_cost": 176.19,
-   "last_price": 173.54,
-   "unrealized_usd": -5.3,
-   "unrealized_pct": -1.5,
-   "sl": 155.46,
-   "sl_gap_pct": -10.42,
+   "sl_gap_pct": -11.15,
    "protected": true
   },
   {
@@ -266,11 +221,56 @@
    ],
    "qty": 8,
    "avg_cost": 61.97,
-   "last_price": 60.57,
-   "unrealized_usd": -11.2,
-   "unrealized_pct": -2.26,
+   "last_price": 61.55,
+   "unrealized_usd": -3.36,
+   "unrealized_pct": -0.68,
    "sl": 55.04,
-   "sl_gap_pct": -9.13,
+   "sl_gap_pct": -10.58,
+   "protected": true
+  },
+  {
+   "code": "HSIC",
+   "name": "Henry Schein",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 5,
+   "avg_cost": 85.35,
+   "last_price": 84.25,
+   "unrealized_usd": -5.5,
+   "unrealized_pct": -1.29,
+   "sl": 76.65,
+   "sl_gap_pct": -9.02,
+   "protected": true
+  },
+  {
+   "code": "JPM",
+   "name": "JPMorgan Chase",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 1,
+   "avg_cost": 340.71,
+   "last_price": 335.79,
+   "unrealized_usd": -4.92,
+   "unrealized_pct": -1.44,
+   "sl": 312.91,
+   "sl_gap_pct": -6.81,
+   "protected": true
+  },
+  {
+   "code": "STT",
+   "name": "State Street Corporation",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 2,
+   "avg_cost": 176.19,
+   "last_price": 170.89,
+   "unrealized_usd": -10.6,
+   "unrealized_pct": -3.01,
+   "sl": 155.46,
+   "sl_gap_pct": -9.03,
    "protected": true
   },
   {
@@ -281,11 +281,11 @@
    ],
    "qty": 7,
    "avg_cost": 81.23,
-   "last_price": 78.62,
-   "unrealized_usd": -18.27,
-   "unrealized_pct": -3.21,
+   "last_price": 78.56,
+   "unrealized_usd": -18.69,
+   "unrealized_pct": -3.29,
    "sl": 69.77,
-   "sl_gap_pct": -11.26,
+   "sl_gap_pct": -11.19,
    "protected": true
   }
  ],
@@ -297,8 +297,8 @@
    "qty": 4,
    "limit": 134.91,
    "sl": 112.9,
-   "last_price": 140.93,
-   "gap_pct": 4.46
+   "last_price": 141.82,
+   "gap_pct": 5.12
   },
   {
    "code": "CPAY",
@@ -307,8 +307,8 @@
    "qty": 1,
    "limit": 373.51,
    "sl": 319.56,
-   "last_price": 395.86,
-   "gap_pct": 5.98
+   "last_price": 397.02,
+   "gap_pct": 6.29
   },
   {
    "code": "ROST",
@@ -317,8 +317,8 @@
    "qty": 2,
    "limit": 211.04,
    "sl": 165.07,
-   "last_price": 227.98,
-   "gap_pct": 8.03
+   "last_price": 230.09,
+   "gap_pct": 9.03
   },
   {
    "code": "AME",
@@ -327,8 +327,8 @@
    "qty": 2,
    "limit": 225.56,
    "sl": 189.95,
-   "last_price": 248.13,
-   "gap_pct": 10.01
+   "last_price": 246.22,
+   "gap_pct": 9.16
   },
   {
    "code": "JCI",
@@ -337,8 +337,8 @@
    "qty": 4,
    "limit": 136.29,
    "sl": 112.17,
-   "last_price": 157.35,
-   "gap_pct": 15.45
+   "last_price": 155.88,
+   "gap_pct": 14.37
   },
   {
    "code": "CSX",
@@ -347,8 +347,8 @@
    "qty": 14,
    "limit": 44.8,
    "sl": 35.99,
-   "last_price": 51.98,
-   "gap_pct": 16.03
+   "last_price": 52.27,
+   "gap_pct": 16.67
   },
   {
    "code": "RVTY",
@@ -357,8 +357,8 @@
    "qty": 5,
    "limit": 135.35,
    "sl": 104.44,
-   "last_price": 165.33,
-   "gap_pct": 22.15
+   "last_price": 161.86,
+   "gap_pct": 19.59
   }
  ],
  "fills": [
