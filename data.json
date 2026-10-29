@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28 18:17 ET",
+  "updated": "2026-10-28 21:10 ET",
   "watching": [
     {
       "code": "ABBV",
@@ -15,9 +15,9 @@
       "zone_badge": "on",
       "zone_badge_label": "🟢 指値対象",
       "recommended_jpy": 99000.00000000001,
-      "recommended_usd": 627.3326769997628,
+      "recommended_usd": 626.8084326929543,
       "recommended_shares": 2,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -34,9 +34,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 99000.00000000001,
-      "recommended_usd": 627.3326769997628,
+      "recommended_usd": 626.8084326929543,
       "recommended_shares": 2,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -53,9 +53,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 137500.0,
-      "recommended_usd": 871.2953847218927,
+      "recommended_usd": 870.5672676291031,
       "recommended_shares": 7,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": "🔥🔥激アツ最上位"
     },
     {
@@ -72,9 +72,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 4,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -91,9 +91,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 99000.00000000001,
-      "recommended_usd": 627.3326769997628,
+      "recommended_usd": 626.8084326929543,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -110,9 +110,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 99000.00000000001,
-      "recommended_usd": 627.3326769997628,
+      "recommended_usd": 626.8084326929543,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -129,9 +129,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 110000.00000000001,
-      "recommended_usd": 697.0363077775143,
+      "recommended_usd": 696.4538141032825,
       "recommended_shares": 3,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -148,9 +148,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 8,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -167,9 +167,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 50000.0,
-      "recommended_usd": 316.8346853534155,
+      "recommended_usd": 316.56991550149206,
       "recommended_shares": 2,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -186,9 +186,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 137500.0,
-      "recommended_usd": 871.2953847218927,
+      "recommended_usd": 870.5672676291031,
       "recommended_shares": 7,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -205,9 +205,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 110000.00000000001,
-      "recommended_usd": 697.0363077775143,
+      "recommended_usd": 696.4538141032825,
       "recommended_shares": 3,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -224,9 +224,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 37500.0,
-      "recommended_usd": 237.62601401506163,
+      "recommended_usd": 237.42743662611903,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -243,9 +243,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 6,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -262,9 +262,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 137500.0,
-      "recommended_usd": 871.2953847218927,
+      "recommended_usd": 870.5672676291031,
       "recommended_shares": 7,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -281,9 +281,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 4,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -300,9 +300,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 137500.0,
-      "recommended_usd": 871.2953847218927,
+      "recommended_usd": 870.5672676291031,
       "recommended_shares": 5,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": "🔥🔥激アツ最上位"
     },
     {
@@ -319,9 +319,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 110000.00000000001,
-      "recommended_usd": 697.0363077775143,
+      "recommended_usd": 696.4538141032825,
       "recommended_shares": 7,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -338,9 +338,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 50000.0,
-      "recommended_usd": 316.8346853534155,
+      "recommended_usd": 316.56991550149206,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -357,9 +357,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 110000.00000000001,
-      "recommended_usd": 697.0363077775143,
+      "recommended_usd": 696.4538141032825,
       "recommended_shares": 15,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -376,9 +376,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 99000.00000000001,
-      "recommended_usd": 627.3326769997628,
+      "recommended_usd": 626.8084326929543,
       "recommended_shares": 5,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -395,9 +395,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 5,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -414,9 +414,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 37500.0,
-      "recommended_usd": 237.62601401506163,
+      "recommended_usd": 237.42743662611903,
       "recommended_shares": 2,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -433,9 +433,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 110000.00000000001,
-      "recommended_usd": 697.0363077775143,
+      "recommended_usd": 696.4538141032825,
       "recommended_shares": 4,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -452,9 +452,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 137500.0,
-      "recommended_usd": 871.2953847218927,
+      "recommended_usd": 870.5672676291031,
       "recommended_shares": 26,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": "🔥激アツ"
     },
     {
@@ -471,9 +471,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 37500.0,
-      "recommended_usd": 237.62601401506163,
+      "recommended_usd": 237.42743662611903,
       "recommended_shares": 2,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -490,9 +490,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 16,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -509,9 +509,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 16,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -528,9 +528,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -547,9 +547,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 110000.00000000001,
-      "recommended_usd": 697.0363077775143,
+      "recommended_usd": 696.4538141032825,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -566,9 +566,9 @@
       "zone_badge": "on",
       "zone_badge_label": "🟢 指値対象",
       "recommended_jpy": 99000.00000000001,
-      "recommended_usd": 627.3326769997628,
+      "recommended_usd": 626.8084326929543,
       "recommended_shares": 0,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -585,9 +585,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 99000.00000000001,
-      "recommended_usd": 627.3326769997628,
+      "recommended_usd": 626.8084326929543,
       "recommended_shares": 0,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -604,9 +604,9 @@
       "zone_badge": "on",
       "zone_badge_label": "🟢 指値対象",
       "recommended_jpy": 99000.00000000001,
-      "recommended_usd": 627.3326769997628,
+      "recommended_usd": 626.8084326929543,
       "recommended_shares": 4,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -623,9 +623,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -642,9 +642,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 99000.00000000001,
-      "recommended_usd": 627.3326769997628,
+      "recommended_usd": 626.8084326929543,
       "recommended_shares": 7,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -661,9 +661,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 2,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -680,9 +680,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 37500.0,
-      "recommended_usd": 237.62601401506163,
+      "recommended_usd": 237.42743662611903,
       "recommended_shares": 2,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -699,9 +699,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 110000.00000000001,
-      "recommended_usd": 697.0363077775143,
+      "recommended_usd": 696.4538141032825,
       "recommended_shares": 14,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -718,9 +718,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 37500.0,
-      "recommended_usd": 237.62601401506163,
+      "recommended_usd": 237.42743662611903,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -737,9 +737,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 137500.0,
-      "recommended_usd": 871.2953847218927,
+      "recommended_usd": 870.5672676291031,
       "recommended_shares": 3,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -756,9 +756,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 99000.00000000001,
-      "recommended_usd": 627.3326769997628,
+      "recommended_usd": 626.8084326929543,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -775,9 +775,9 @@
       "zone_badge": "on",
       "zone_badge_label": "🟢 指値対象",
       "recommended_jpy": 37500.0,
-      "recommended_usd": 237.62601401506163,
+      "recommended_usd": 237.42743662611903,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -794,9 +794,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 37500.0,
-      "recommended_usd": 237.62601401506163,
+      "recommended_usd": 237.42743662611903,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -813,9 +813,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -832,9 +832,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 99000.00000000001,
-      "recommended_usd": 627.3326769997628,
+      "recommended_usd": 626.8084326929543,
       "recommended_shares": 9,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -851,9 +851,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 110000.00000000001,
-      "recommended_usd": 697.0363077775143,
+      "recommended_usd": 696.4538141032825,
       "recommended_shares": 5,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -870,9 +870,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 110000.00000000001,
-      "recommended_usd": 697.0363077775143,
+      "recommended_usd": 696.4538141032825,
       "recommended_shares": 9,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -889,9 +889,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 99000.00000000001,
-      "recommended_usd": 627.3326769997628,
+      "recommended_usd": 626.8084326929543,
       "recommended_shares": 7,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -908,9 +908,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 37500.0,
-      "recommended_usd": 237.62601401506163,
+      "recommended_usd": 237.42743662611903,
       "recommended_shares": 2,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -927,9 +927,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 110000.00000000001,
-      "recommended_usd": 697.0363077775143,
+      "recommended_usd": 696.4538141032825,
       "recommended_shares": 4,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -946,9 +946,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 37500.0,
-      "recommended_usd": 237.62601401506163,
+      "recommended_usd": 237.42743662611903,
       "recommended_shares": 8,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -965,9 +965,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 0,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -984,9 +984,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 110000.00000000001,
-      "recommended_usd": 697.0363077775143,
+      "recommended_usd": 696.4538141032825,
       "recommended_shares": 11,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1003,9 +1003,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 110000.00000000001,
-      "recommended_usd": 697.0363077775143,
+      "recommended_usd": 696.4538141032825,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1022,9 +1022,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 2,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1041,9 +1041,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 45000.0,
-      "recommended_usd": 285.151216818074,
+      "recommended_usd": 284.9129239513428,
       "recommended_shares": 17,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1060,9 +1060,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 99000.00000000001,
-      "recommended_usd": 627.3326769997628,
+      "recommended_usd": 626.8084326929543,
       "recommended_shares": 3,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1079,9 +1079,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 2,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1098,9 +1098,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 110000.00000000001,
-      "recommended_usd": 697.0363077775143,
+      "recommended_usd": 696.4538141032825,
       "recommended_shares": 2,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1117,9 +1117,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 99000.00000000001,
-      "recommended_usd": 627.3326769997628,
+      "recommended_usd": 626.8084326929543,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1136,9 +1136,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 45000.0,
-      "recommended_usd": 285.151216818074,
+      "recommended_usd": 284.9129239513428,
       "recommended_shares": 3,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1155,9 +1155,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 99000.00000000001,
-      "recommended_usd": 627.3326769997628,
+      "recommended_usd": 626.8084326929543,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1174,9 +1174,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 110000.00000000001,
-      "recommended_usd": 697.0363077775143,
+      "recommended_usd": 696.4538141032825,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1193,9 +1193,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1212,9 +1212,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1231,9 +1231,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 99000.00000000001,
-      "recommended_usd": 627.3326769997628,
+      "recommended_usd": 626.8084326929543,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1250,9 +1250,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 45000.0,
-      "recommended_usd": 285.151216818074,
+      "recommended_usd": 284.9129239513428,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1269,9 +1269,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1288,9 +1288,9 @@
       "zone_badge": "on",
       "zone_badge_label": "🟢 指値対象",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 5,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1307,9 +1307,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 5,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1326,9 +1326,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 99000.00000000001,
-      "recommended_usd": 627.3326769997628,
+      "recommended_usd": 626.8084326929543,
       "recommended_shares": 2,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1345,9 +1345,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 45000.0,
-      "recommended_usd": 285.151216818074,
+      "recommended_usd": 284.9129239513428,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1364,9 +1364,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1383,9 +1383,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 8,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1402,9 +1402,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 99000.00000000001,
-      "recommended_usd": 627.3326769997628,
+      "recommended_usd": 626.8084326929543,
       "recommended_shares": 2,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1421,9 +1421,9 @@
       "zone_badge": "on",
       "zone_badge_label": "🟢 指値対象",
       "recommended_jpy": 110000.00000000001,
-      "recommended_usd": 697.0363077775143,
+      "recommended_usd": 696.4538141032825,
       "recommended_shares": 5,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1440,9 +1440,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 37500.0,
-      "recommended_usd": 237.62601401506163,
+      "recommended_usd": 237.42743662611903,
       "recommended_shares": 2,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1459,9 +1459,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 8,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1478,9 +1478,9 @@
       "zone_badge": "on",
       "zone_badge_label": "🟢 指値対象",
       "recommended_jpy": 99000.00000000001,
-      "recommended_usd": 627.3326769997628,
+      "recommended_usd": 626.8084326929543,
       "recommended_shares": 2,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1497,9 +1497,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 10,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1516,9 +1516,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 99000.00000000001,
-      "recommended_usd": 627.3326769997628,
+      "recommended_usd": 626.8084326929543,
       "recommended_shares": 0,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1535,9 +1535,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 37500.0,
-      "recommended_usd": 237.62601401506163,
+      "recommended_usd": 237.42743662611903,
       "recommended_shares": 7,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1554,9 +1554,9 @@
       "zone_badge": "on",
       "zone_badge_label": "🟢 指値対象",
       "recommended_jpy": 275000.0,
-      "recommended_usd": 1742.5907694437853,
+      "recommended_usd": 1741.1345352582061,
       "recommended_shares": 10,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": "🔥🔥激アツ最上位"
     },
     {
@@ -1573,9 +1573,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 137500.0,
-      "recommended_usd": 871.2953847218927,
+      "recommended_usd": 870.5672676291031,
       "recommended_shares": 5,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": "🔥🔥激アツ最上位"
     },
     {
@@ -1592,9 +1592,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 18,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1611,9 +1611,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 37500.0,
-      "recommended_usd": 237.62601401506163,
+      "recommended_usd": 237.42743662611903,
       "recommended_shares": 2,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1630,9 +1630,9 @@
       "zone_badge": "on",
       "zone_badge_label": "🟢 指値対象",
       "recommended_jpy": 99000.00000000001,
-      "recommended_usd": 627.3326769997628,
+      "recommended_usd": 626.8084326929543,
       "recommended_shares": 3,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1649,9 +1649,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 99000.00000000001,
-      "recommended_usd": 627.3326769997628,
+      "recommended_usd": 626.8084326929543,
       "recommended_shares": 3,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1668,9 +1668,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 37500.0,
-      "recommended_usd": 237.62601401506163,
+      "recommended_usd": 237.42743662611903,
       "recommended_shares": 0,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1687,9 +1687,9 @@
       "zone_badge": "on",
       "zone_badge_label": "🟢 指値対象",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 2,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1706,9 +1706,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 2,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1725,9 +1725,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 99000.00000000001,
-      "recommended_usd": 627.3326769997628,
+      "recommended_usd": 626.8084326929543,
       "recommended_shares": 11,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1744,9 +1744,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 99000.00000000001,
-      "recommended_usd": 627.3326769997628,
+      "recommended_usd": 626.8084326929543,
       "recommended_shares": 0,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1763,9 +1763,9 @@
       "zone_badge": "on",
       "zone_badge_label": "🟢 指値対象",
       "recommended_jpy": 137500.0,
-      "recommended_usd": 871.2953847218927,
+      "recommended_usd": 870.5672676291031,
       "recommended_shares": 6,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": "🔥激アツ"
     },
     {
@@ -1782,9 +1782,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 137500.0,
-      "recommended_usd": 871.2953847218927,
+      "recommended_usd": 870.5672676291031,
       "recommended_shares": 6,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1801,9 +1801,9 @@
       "zone_badge": "on",
       "zone_badge_label": "🟢 指値対象",
       "recommended_jpy": 110000.00000000001,
-      "recommended_usd": 697.0363077775143,
+      "recommended_usd": 696.4538141032825,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1820,9 +1820,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 110000.00000000001,
-      "recommended_usd": 697.0363077775143,
+      "recommended_usd": 696.4538141032825,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1839,9 +1839,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 99000.00000000001,
-      "recommended_usd": 627.3326769997628,
+      "recommended_usd": 626.8084326929543,
       "recommended_shares": 14,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1858,9 +1858,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 137500.0,
-      "recommended_usd": 871.2953847218927,
+      "recommended_usd": 870.5672676291031,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1877,9 +1877,9 @@
       "zone_badge": "on",
       "zone_badge_label": "🟢 指値対象",
       "recommended_jpy": 37500.0,
-      "recommended_usd": 237.62601401506163,
+      "recommended_usd": 237.42743662611903,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1896,9 +1896,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 37500.0,
-      "recommended_usd": 237.62601401506163,
+      "recommended_usd": 237.42743662611903,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1915,9 +1915,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 50000.0,
-      "recommended_usd": 316.8346853534155,
+      "recommended_usd": 316.56991550149206,
       "recommended_shares": 10,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1934,9 +1934,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 45000.0,
-      "recommended_usd": 285.151216818074,
+      "recommended_usd": 284.9129239513428,
       "recommended_shares": 2,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1953,9 +1953,9 @@
       "zone_badge": "on",
       "zone_badge_label": "🟢 指値対象",
       "recommended_jpy": 110000.00000000001,
-      "recommended_usd": 697.0363077775143,
+      "recommended_usd": 696.4538141032825,
       "recommended_shares": 15,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1972,9 +1972,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 110000.00000000001,
-      "recommended_usd": 697.0363077775143,
+      "recommended_usd": 696.4538141032825,
       "recommended_shares": 2,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -1991,9 +1991,9 @@
       "zone_badge": "on",
       "zone_badge_label": "🟢 指値対象",
       "recommended_jpy": 45000.0,
-      "recommended_usd": 285.151216818074,
+      "recommended_usd": 284.9129239513428,
       "recommended_shares": 0,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2010,9 +2010,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 45000.0,
-      "recommended_usd": 285.151216818074,
+      "recommended_usd": 284.9129239513428,
       "recommended_shares": 0,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2029,9 +2029,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 110000.00000000001,
-      "recommended_usd": 697.0363077775143,
+      "recommended_usd": 696.4538141032825,
       "recommended_shares": 3,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2048,9 +2048,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 45000.0,
-      "recommended_usd": 285.151216818074,
+      "recommended_usd": 284.9129239513428,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2067,9 +2067,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 99000.00000000001,
-      "recommended_usd": 627.3326769997628,
+      "recommended_usd": 626.8084326929543,
       "recommended_shares": 4,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2086,9 +2086,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 99000.00000000001,
-      "recommended_usd": 627.3326769997628,
+      "recommended_usd": 626.8084326929543,
       "recommended_shares": 3,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2105,9 +2105,9 @@
       "zone_badge": "on",
       "zone_badge_label": "🟢 指値対象",
       "recommended_jpy": 110000.00000000001,
-      "recommended_usd": 697.0363077775143,
+      "recommended_usd": 696.4538141032825,
       "recommended_shares": 3,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": "🔥激アツ"
     },
     {
@@ -2124,9 +2124,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 110000.00000000001,
-      "recommended_usd": 697.0363077775143,
+      "recommended_usd": 696.4538141032825,
       "recommended_shares": 3,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2143,9 +2143,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 110000.00000000001,
-      "recommended_usd": 697.0363077775143,
+      "recommended_usd": 696.4538141032825,
       "recommended_shares": 56,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2162,9 +2162,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 110000.00000000001,
-      "recommended_usd": 697.0363077775143,
+      "recommended_usd": 696.4538141032825,
       "recommended_shares": 2,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2181,9 +2181,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 45000.0,
-      "recommended_usd": 285.151216818074,
+      "recommended_usd": 284.9129239513428,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2200,9 +2200,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 45000.0,
-      "recommended_usd": 285.151216818074,
+      "recommended_usd": 284.9129239513428,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2219,9 +2219,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 110000.00000000001,
-      "recommended_usd": 697.0363077775143,
+      "recommended_usd": 696.4538141032825,
       "recommended_shares": 4,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2238,9 +2238,9 @@
       "zone_badge": "on",
       "zone_badge_label": "🟢 指値対象",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 3,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2257,9 +2257,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 3,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2276,9 +2276,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 137500.0,
-      "recommended_usd": 871.2953847218927,
+      "recommended_usd": 870.5672676291031,
       "recommended_shares": 2,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": "🔥激アツ"
     },
     {
@@ -2295,9 +2295,9 @@
       "zone_badge": "on",
       "zone_badge_label": "🟢 指値対象",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 0,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2314,9 +2314,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 0,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2333,9 +2333,9 @@
       "zone_badge": "on",
       "zone_badge_label": "🟢 指値対象",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2352,9 +2352,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2371,9 +2371,9 @@
       "zone_badge": "on",
       "zone_badge_label": "🟢 指値対象",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 8,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2390,9 +2390,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 8,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2409,9 +2409,9 @@
       "zone_badge": "on",
       "zone_badge_label": "🟢 指値対象",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2428,9 +2428,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2447,9 +2447,9 @@
       "zone_badge": "on",
       "zone_badge_label": "🟢 指値対象",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 5,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2466,9 +2466,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 5,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2485,9 +2485,9 @@
       "zone_badge": "on",
       "zone_badge_label": "🟢 指値対象",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 0,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2504,9 +2504,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 0,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2523,9 +2523,9 @@
       "zone_badge": "on",
       "zone_badge_label": "🟢 指値対象",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2542,9 +2542,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2561,9 +2561,9 @@
       "zone_badge": "on",
       "zone_badge_label": "🟢 指値対象",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2580,9 +2580,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2599,9 +2599,9 @@
       "zone_badge": "off",
       "zone_badge_label": "⚪ 監視のみ・指値解除",
       "recommended_jpy": 82500.0,
-      "recommended_usd": 522.7772308331356,
+      "recommended_usd": 522.3403605774619,
       "recommended_shares": 7,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     }
   ],
@@ -2621,9 +2621,9 @@
       "gap_sl_pct": 17.487917479620208,
       "unrealized_pct": 1.4506605300348105,
       "recommended_jpy": 99000.00000000001,
-      "recommended_usd": 627.3326769997628,
+      "recommended_usd": 626.8084326929543,
       "recommended_shares": 4,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2641,9 +2641,9 @@
       "gap_sl_pct": 11.25668506021564,
       "unrealized_pct": -3.1534785101853786,
       "recommended_jpy": 99000.00000000001,
-      "recommended_usd": 627.3326769997628,
+      "recommended_usd": 626.8084326929543,
       "recommended_shares": 7,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2661,9 +2661,9 @@
       "gap_sl_pct": 21.80901410692622,
       "unrealized_pct": 3.8795235018984346,
       "recommended_jpy": 100000.0,
-      "recommended_usd": 633.669370706831,
+      "recommended_usd": 633.1398310029841,
       "recommended_shares": 20,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2681,9 +2681,9 @@
       "gap_sl_pct": 23.433609632538282,
       "unrealized_pct": 6.960839545351346,
       "recommended_jpy": 100000.0,
-      "recommended_usd": 633.669370706831,
+      "recommended_usd": 633.1398310029841,
       "recommended_shares": 4,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2701,9 +2701,9 @@
       "gap_sl_pct": 7.725321595634982,
       "unrealized_pct": 1.1211554076645616,
       "recommended_jpy": 75000.0,
-      "recommended_usd": 475.25202803012326,
+      "recommended_usd": 474.85487325223806,
       "recommended_shares": 4,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2721,9 +2721,9 @@
       "gap_sl_pct": 8.904806381984736,
       "unrealized_pct": 0.8950094172468704,
       "recommended_jpy": 75000.0,
-      "recommended_usd": 475.25202803012326,
+      "recommended_usd": 474.85487325223806,
       "recommended_shares": 16,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2741,9 +2741,9 @@
       "gap_sl_pct": 10.41834002059418,
       "unrealized_pct": -1.226561036133398,
       "recommended_jpy": 75000.0,
-      "recommended_usd": 475.25202803012326,
+      "recommended_usd": 474.85487325223806,
       "recommended_shares": 2,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2761,9 +2761,9 @@
       "gap_sl_pct": 4.544744499281505,
       "unrealized_pct": 0.04687309265136719,
       "recommended_jpy": 75000.0,
-      "recommended_usd": 475.25202803012326,
+      "recommended_usd": 474.85487325223806,
       "recommended_shares": 14,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2781,9 +2781,9 @@
       "gap_sl_pct": 17.83013088118045,
       "unrealized_pct": 2.008720006584691,
       "recommended_jpy": 90000.0,
-      "recommended_usd": 570.302433636148,
+      "recommended_usd": 569.8258479026856,
       "recommended_shares": 3,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2801,9 +2801,9 @@
       "gap_sl_pct": 21.204521015840154,
       "unrealized_pct": 8.424434860506013,
       "recommended_jpy": 90000.0,
-      "recommended_usd": 570.302433636148,
+      "recommended_usd": 569.8258479026856,
       "recommended_shares": 0,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2821,9 +2821,9 @@
       "gap_sl_pct": 23.007822840200493,
       "unrealized_pct": 8.907822493891281,
       "recommended_jpy": 90000.0,
-      "recommended_usd": 570.302433636148,
+      "recommended_usd": 569.8258479026856,
       "recommended_shares": 2,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2841,9 +2841,9 @@
       "gap_sl_pct": 28.047171492905598,
       "unrealized_pct": 7.906850673651733,
       "recommended_jpy": 100000.0,
-      "recommended_usd": 633.669370706831,
+      "recommended_usd": 633.1398310029841,
       "recommended_shares": 2,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": "🔥激アツ"
     },
     {
@@ -2861,9 +2861,9 @@
       "gap_sl_pct": 9.129930340365215,
       "unrealized_pct": -2.053687669194685,
       "recommended_jpy": 75000.0,
-      "recommended_usd": 475.25202803012326,
+      "recommended_usd": 474.85487325223806,
       "recommended_shares": 7,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2881,9 +2881,9 @@
       "gap_sl_pct": 26.403121320930488,
       "unrealized_pct": 4.273427641029655,
       "recommended_jpy": 125000.0,
-      "recommended_usd": 792.0867133835388,
+      "recommended_usd": 791.4247887537301,
       "recommended_shares": 7,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": "🔥激アツ"
     },
     {
@@ -2901,9 +2901,9 @@
       "gap_sl_pct": -2.293130211495923,
       "unrealized_pct": 18.714166659208065,
       "recommended_jpy": 75000.0,
-      "recommended_usd": 475.25202803012326,
+      "recommended_usd": 474.85487325223806,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2921,9 +2921,9 @@
       "gap_sl_pct": 7.77777338057607,
       "unrealized_pct": -0.11922522067760513,
       "recommended_jpy": 75000.0,
-      "recommended_usd": 475.25202803012326,
+      "recommended_usd": 474.85487325223806,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2941,9 +2941,9 @@
       "gap_sl_pct": 16.37490076755613,
       "unrealized_pct": 2.867714469268761,
       "recommended_jpy": 90000.0,
-      "recommended_usd": 570.302433636148,
+      "recommended_usd": 569.8258479026856,
       "recommended_shares": 2,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2961,9 +2961,9 @@
       "gap_sl_pct": 12.657418595010439,
       "unrealized_pct": 2.220229323803226,
       "recommended_jpy": 75000.0,
-      "recommended_usd": 475.25202803012326,
+      "recommended_usd": 474.85487325223806,
       "recommended_shares": 3,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -2981,9 +2981,9 @@
       "gap_sl_pct": 23.90943540486297,
       "unrealized_pct": 19.4211653980114,
       "recommended_jpy": 90000.0,
-      "recommended_usd": 570.302433636148,
+      "recommended_usd": 569.8258479026856,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3001,9 +3001,9 @@
       "gap_sl_pct": 9.78107067813339,
       "unrealized_pct": 0.6456176781786485,
       "recommended_jpy": 75000.0,
-      "recommended_usd": 475.25202803012326,
+      "recommended_usd": 474.85487325223806,
       "recommended_shares": 5,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3021,9 +3021,9 @@
       "gap_sl_pct": 9.075150360966175,
       "unrealized_pct": -0.808183832525379,
       "recommended_jpy": 75000.0,
-      "recommended_usd": 475.25202803012326,
+      "recommended_usd": 474.85487325223806,
       "recommended_shares": 4,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3041,9 +3041,9 @@
       "gap_sl_pct": 10.939591963072704,
       "unrealized_pct": 0.033562676152828624,
       "recommended_jpy": 75000.0,
-      "recommended_usd": 475.25202803012326,
+      "recommended_usd": 474.85487325223806,
       "recommended_shares": 7,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3061,9 +3061,9 @@
       "gap_sl_pct": 7.920941374055546,
       "unrealized_pct": -3.610726580538954,
       "recommended_jpy": 75000.0,
-      "recommended_usd": 475.25202803012326,
+      "recommended_usd": 474.85487325223806,
       "recommended_shares": 7,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3081,9 +3081,9 @@
       "gap_sl_pct": 16.923076611736597,
       "unrealized_pct": 6.077654812053355,
       "recommended_jpy": 90000.0,
-      "recommended_usd": 570.302433636148,
+      "recommended_usd": 569.8258479026856,
       "recommended_shares": 10,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3101,9 +3101,9 @@
       "gap_sl_pct": 14.32162543542543,
       "unrealized_pct": 4.305300616047669,
       "recommended_jpy": 75000.0,
-      "recommended_usd": 475.25202803012326,
+      "recommended_usd": 474.85487325223806,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3121,9 +3121,9 @@
       "gap_sl_pct": 8.75165816611645,
       "unrealized_pct": -5.74897561881051,
       "recommended_jpy": 90000.0,
-      "recommended_usd": 570.302433636148,
+      "recommended_usd": 569.8258479026856,
       "recommended_shares": 3,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3141,9 +3141,9 @@
       "gap_sl_pct": 15.49496449098312,
       "unrealized_pct": 2.88998086956447,
       "recommended_jpy": 90000.0,
-      "recommended_usd": 570.302433636148,
+      "recommended_usd": 569.8258479026856,
       "recommended_shares": 12,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3161,9 +3161,9 @@
       "gap_sl_pct": 10.828963600641819,
       "unrealized_pct": -2.1999675701446217,
       "recommended_jpy": 75000.0,
-      "recommended_usd": 475.25202803012326,
+      "recommended_usd": 474.85487325223806,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3181,9 +3181,9 @@
       "gap_sl_pct": 13.673586519960127,
       "unrealized_pct": 4.4313564462447115,
       "recommended_jpy": 75000.0,
-      "recommended_usd": 475.25202803012326,
+      "recommended_usd": 474.85487325223806,
       "recommended_shares": 5,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3201,9 +3201,9 @@
       "gap_sl_pct": 15.888023568804263,
       "unrealized_pct": 3.1406854332246334,
       "recommended_jpy": 90000.0,
-      "recommended_usd": 570.302433636148,
+      "recommended_usd": 569.8258479026856,
       "recommended_shares": 5,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3221,9 +3221,9 @@
       "gap_sl_pct": 9.21052103227511,
       "unrealized_pct": -0.298566577406273,
       "recommended_jpy": 75000.0,
-      "recommended_usd": 475.25202803012326,
+      "recommended_usd": 474.85487325223806,
       "recommended_shares": 4,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3241,9 +3241,9 @@
       "gap_sl_pct": 14.804543474069598,
       "unrealized_pct": 3.3488742002575225,
       "recommended_jpy": 100000.0,
-      "recommended_usd": 633.669370706831,
+      "recommended_usd": 633.1398310029841,
       "recommended_shares": 3,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": "🔥激アツ"
     },
     {
@@ -3261,9 +3261,9 @@
       "gap_sl_pct": 14.461851607962714,
       "unrealized_pct": 5.704919366888661,
       "recommended_jpy": 75000.0,
-      "recommended_usd": 475.25202803012326,
+      "recommended_usd": 474.85487325223806,
       "recommended_shares": 1,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3281,9 +3281,9 @@
       "gap_sl_pct": 15.241800499850466,
       "unrealized_pct": -3.7556196989238115,
       "recommended_jpy": 100000.0,
-      "recommended_usd": 633.669370706831,
+      "recommended_usd": 633.1398310029841,
       "recommended_shares": 6,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3301,9 +3301,9 @@
       "gap_sl_pct": 20.423646082436658,
       "unrealized_pct": 6.65092767757869,
       "recommended_jpy": 90000.0,
-      "recommended_usd": 570.302433636148,
+      "recommended_usd": 569.8258479026856,
       "recommended_shares": 9,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3321,9 +3321,9 @@
       "gap_sl_pct": 16.754313686920167,
       "unrealized_pct": 6.708993926135146,
       "recommended_jpy": 75000.0,
-      "recommended_usd": 475.25202803012326,
+      "recommended_usd": 474.85487325223806,
       "recommended_shares": 0,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3341,9 +3341,9 @@
       "gap_sl_pct": 12.466056212629585,
       "unrealized_pct": 5.621097127045002,
       "recommended_jpy": 75000.0,
-      "recommended_usd": 475.25202803012326,
+      "recommended_usd": 474.85487325223806,
       "recommended_shares": 4,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3361,9 +3361,9 @@
       "gap_sl_pct": 13.033050779198389,
       "unrealized_pct": 2.406882892351318,
       "recommended_jpy": 75000.0,
-      "recommended_usd": 475.25202803012326,
+      "recommended_usd": 474.85487325223806,
       "recommended_shares": 5,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3381,9 +3381,9 @@
       "gap_sl_pct": 17.178715343368964,
       "unrealized_pct": 1.5080584132378079,
       "recommended_jpy": 90000.0,
-      "recommended_usd": 570.302433636148,
+      "recommended_usd": 569.8258479026856,
       "recommended_shares": 2,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3401,9 +3401,9 @@
       "gap_sl_pct": 12.311323190677456,
       "unrealized_pct": 7.1248094097146595,
       "recommended_jpy": 75000.0,
-      "recommended_usd": 475.25202803012326,
-      "recommended_shares": 24,
-      "usdjpy_used": 157.81100463867188,
+      "recommended_usd": 474.85487325223806,
+      "recommended_shares": 23,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3421,9 +3421,9 @@
       "gap_sl_pct": 16.754313686920167,
       "unrealized_pct": 6.881208600143436,
       "recommended_jpy": 75000.0,
-      "recommended_usd": 475.25202803012326,
+      "recommended_usd": 474.85487325223806,
       "recommended_shares": 0,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3441,9 +3441,9 @@
       "gap_sl_pct": 17.15584385095882,
       "unrealized_pct": 8.339322044270837,
       "recommended_jpy": 90000.0,
-      "recommended_usd": 570.302433636148,
+      "recommended_usd": 569.8258479026856,
       "recommended_shares": 5,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3461,9 +3461,9 @@
       "gap_sl_pct": 9.879837032460834,
       "unrealized_pct": 5.865724000579618,
       "recommended_jpy": 90000.0,
-      "recommended_usd": 570.302433636148,
+      "recommended_usd": 569.8258479026856,
       "recommended_shares": 40,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3481,9 +3481,9 @@
       "gap_sl_pct": 28.114809960508474,
       "unrealized_pct": 7.6413959388300325,
       "recommended_jpy": 100000.0,
-      "recommended_usd": 633.669370706831,
+      "recommended_usd": 633.1398310029841,
       "recommended_shares": 4,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3501,9 +3501,9 @@
       "gap_sl_pct": -0.8711558193441401,
       "unrealized_pct": 15.513514613246057,
       "recommended_jpy": 75000.0,
-      "recommended_usd": 475.25202803012326,
+      "recommended_usd": 474.85487325223806,
       "recommended_shares": 8,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3521,9 +3521,9 @@
       "gap_sl_pct": 20.423646082436658,
       "unrealized_pct": 6.65092767757869,
       "recommended_jpy": 90000.0,
-      "recommended_usd": 570.302433636148,
+      "recommended_usd": 569.8258479026856,
       "recommended_shares": 9,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3541,9 +3541,9 @@
       "gap_sl_pct": 13.033050779198389,
       "unrealized_pct": 2.406882892351318,
       "recommended_jpy": 75000.0,
-      "recommended_usd": 475.25202803012326,
+      "recommended_usd": 474.85487325223806,
       "recommended_shares": 5,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3561,9 +3561,9 @@
       "gap_sl_pct": 9.879837032460834,
       "unrealized_pct": 5.716298246867984,
       "recommended_jpy": 90000.0,
-      "recommended_usd": 570.302433636148,
+      "recommended_usd": 569.8258479026856,
       "recommended_shares": 40,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3581,9 +3581,9 @@
       "gap_sl_pct": 28.114809960508474,
       "unrealized_pct": 7.6413959388300325,
       "recommended_jpy": 100000.0,
-      "recommended_usd": 633.669370706831,
+      "recommended_usd": 633.1398310029841,
       "recommended_shares": 4,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": "🔥激アツ"
     },
     {
@@ -3601,9 +3601,9 @@
       "gap_sl_pct": 17.178715343368964,
       "unrealized_pct": 1.5973057116855105,
       "recommended_jpy": 90000.0,
-      "recommended_usd": 570.302433636148,
+      "recommended_usd": 569.8258479026856,
       "recommended_shares": 2,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3621,9 +3621,9 @@
       "gap_sl_pct": -0.8711558193441401,
       "unrealized_pct": 14.313738273840004,
       "recommended_jpy": 75000.0,
-      "recommended_usd": 475.25202803012326,
+      "recommended_usd": 474.85487325223806,
       "recommended_shares": 8,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3641,9 +3641,9 @@
       "gap_sl_pct": 17.15584385095882,
       "unrealized_pct": 0.6336057395318718,
       "recommended_jpy": 90000.0,
-      "recommended_usd": 570.302433636148,
+      "recommended_usd": 569.8258479026856,
       "recommended_shares": 5,
-      "usdjpy_used": 157.81100463867188,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     },
     {
@@ -3661,9 +3661,9 @@
       "gap_sl_pct": 12.311323190677456,
       "unrealized_pct": 2.663443847793761,
       "recommended_jpy": 75000.0,
-      "recommended_usd": 475.25202803012326,
-      "recommended_shares": 23,
-      "usdjpy_used": 157.81100463867188,
+      "recommended_usd": 474.85487325223806,
+      "recommended_shares": 22,
+      "usdjpy_used": 157.9429931640625,
       "span_badge": null
     }
   ],
@@ -3673,413 +3673,297 @@
       "count": 57,
       "wins": 14,
       "losses": 43,
-      "pnl_yen": 21315.98980910323
+      "pnl_yen": 21333.817881794275
     }
   ],
   "equity_curve": [
     {
       "date": "2026-08-18",
       "cum_pnl_pct": -7.674121351007751,
-      "cum_pnl_yen": -5327.698649719823
+      "cum_pnl_yen": -5332.154581611976
     },
     {
       "date": "2026-08-21",
       "cum_pnl_pct": -17.383172629901996,
-      "cum_pnl_yen": -12358.175775966374
+      "cum_pnl_yen": -12368.511794046499
     },
     {
       "date": "2026-08-21",
       "cum_pnl_pct": -23.65014188318365,
-      "cum_pnl_yen": -16729.541326859035
+      "cum_pnl_yen": -16743.533427696675
     },
     {
       "date": "2026-08-21",
       "cum_pnl_pct": -37.25861651988801,
-      "cum_pnl_yen": -26949.383528382517
+      "cum_pnl_yen": -26971.923207413405
     },
     {
       "date": "2026-08-21",
       "cum_pnl_pct": -50.696104833391836,
-      "cum_pnl_yen": -37020.883000264876
+      "cum_pnl_yen": -37051.846187952906
     },
     {
       "date": "2026-08-24",
       "cum_pnl_pct": -57.723782320440115,
-      "cum_pnl_yen": -42089.77260169928
+      "cum_pnl_yen": -42124.97526093363
     },
     {
       "date": "2026-08-28",
       "cum_pnl_pct": -65.07524183015586,
-      "cum_pnl_yen": -47561.86861564408
+      "cum_pnl_yen": -47601.64797651803
     },
     {
       "date": "2026-08-31",
       "cum_pnl_pct": -71.16509145148122,
-      "cum_pnl_yen": -50948.49624271694
+      "cum_pnl_yen": -50991.108080245904
     },
     {
       "date": "2026-09-01",
       "cum_pnl_pct": -81.72458493645726,
-      "cum_pnl_yen": -58794.7151057022
+      "cum_pnl_yen": -58843.8892920356
     },
     {
       "date": "2026-09-01",
       "cum_pnl_pct": -92.2840784214333,
-      "cum_pnl_yen": -66640.93396868746
+      "cum_pnl_yen": -66696.6705038253
     },
     {
       "date": "2026-09-01",
       "cum_pnl_pct": -100.10930256433407,
-      "cum_pnl_yen": -71643.53992612756
+      "cum_pnl_yen": -71703.4604951035
     },
     {
       "date": "2026-09-02",
       "cum_pnl_pct": -107.02071017591375,
-      "cum_pnl_yen": -71643.53992612756
+      "cum_pnl_yen": -71703.4604951035
     },
     {
       "date": "2026-09-02",
       "cum_pnl_pct": -94.0441684296767,
-      "cum_pnl_yen": -62731.94989353654
+      "cum_pnl_yen": -62784.41706830857
     },
     {
       "date": "2026-09-02",
       "cum_pnl_pct": -81.06762668343966,
-      "cum_pnl_yen": -53820.35986094552
+      "cum_pnl_yen": -53865.37364151364
     },
     {
       "date": "2026-09-08",
       "cum_pnl_pct": -61.61315584268583,
-      "cum_pnl_yen": -36222.22349930067
+      "cum_pnl_yen": -36252.51871145643
     },
     {
       "date": "2026-09-08",
       "cum_pnl_pct": -41.184889675003745,
-      "cum_pnl_yen": -17892.633998037312
+      "cum_pnl_yen": -17907.598875690568
     },
     {
       "date": "2026-09-14",
       "cum_pnl_pct": -48.283269293125244,
-      "cum_pnl_yen": -21760.58085484942
+      "cum_pnl_yen": -21778.780770534966
     },
     {
       "date": "2026-09-14",
       "cum_pnl_pct": -56.89272737240327,
-      "cum_pnl_yen": -28058.818627899975
+      "cum_pnl_yen": -28082.286206117216
     },
     {
       "date": "2026-09-14",
       "cum_pnl_pct": -63.15275071848578,
-      "cum_pnl_yen": -32496.468123787545
+      "cum_pnl_yen": -32523.647222722266
     },
     {
       "date": "2026-09-14",
       "cum_pnl_pct": -71.00655689866241,
-      "cum_pnl_yen": -37827.32487184391
+      "cum_pnl_yen": -37858.9625440122
     },
     {
       "date": "2026-09-14",
       "cum_pnl_pct": -78.86036307883904,
-      "cum_pnl_yen": -43158.18161990028
+      "cum_pnl_yen": -43194.27786530214
     },
     {
       "date": "2026-09-15",
       "cum_pnl_pct": -87.75155141541072,
-      "cum_pnl_yen": -49251.26219731476
+      "cum_pnl_yen": -49292.45451774853
     },
     {
       "date": "2026-09-16",
       "cum_pnl_pct": -95.71297600592962,
-      "cum_pnl_yen": -55133.66613101872
+      "cum_pnl_yen": -55179.77832267908
     },
     {
       "date": "2026-09-16",
       "cum_pnl_pct": -103.9381023211526,
-      "cum_pnl_yen": -55133.66613101872
+      "cum_pnl_yen": -55179.77832267908
     },
     {
       "date": "2026-09-16",
       "cum_pnl_pct": -113.27048234347403,
-      "cum_pnl_yen": -55133.66613101872
+      "cum_pnl_yen": -55179.77832267908
     },
     {
       "date": "2026-09-22",
       "cum_pnl_pct": -120.8194532576685,
-      "cum_pnl_yen": -60376.147897755785
+      "cum_pnl_yen": -60426.64474839074
     },
     {
       "date": "2026-09-22",
       "cum_pnl_pct": -128.9950313048308,
-      "cum_pnl_yen": -64707.272075906454
+      "cum_pnl_yen": -64761.39135258747
     },
     {
       "date": "2026-09-22",
       "cum_pnl_pct": -112.5625845205586,
-      "cum_pnl_yen": -54790.66558840792
+      "cum_pnl_yen": -54836.49090441008
     },
     {
       "date": "2026-09-23",
       "cum_pnl_pct": -120.55991950985306,
-      "cum_pnl_yen": -60761.44360042937
+      "cum_pnl_yen": -60812.262701161846
     },
     {
       "date": "2026-09-23",
       "cum_pnl_pct": -129.01608804015515,
-      "cum_pnl_yen": -66953.94828933259
+      "cum_pnl_yen": -67009.94662052643
     },
     {
       "date": "2026-09-23",
       "cum_pnl_pct": -152.4143448510729,
-      "cum_pnl_yen": -94718.42700515655
+      "cum_pnl_yen": -94797.64673724276
     },
     {
       "date": "2026-09-24",
       "cum_pnl_pct": -139.7718646917804,
-      "cum_pnl_yen": -86684.26818108061
+      "cum_pnl_yen": -86756.76837685582
     },
     {
       "date": "2026-09-24",
       "cum_pnl_pct": -147.2210746240603,
-      "cum_pnl_yen": -91892.03133415678
+      "cum_pnl_yen": -91968.88715126988
     },
     {
       "date": "2026-09-24",
       "cum_pnl_pct": -155.35371271761034,
-      "cum_pnl_yen": -97407.52787268223
+      "cum_pnl_yen": -97488.99669036892
     },
     {
       "date": "2026-09-28",
       "cum_pnl_pct": -114.17593413931633,
-      "cum_pnl_yen": 5134.125883727276
+      "cum_pnl_yen": 5138.419916999002
     },
     {
       "date": "2026-09-30",
       "cum_pnl_pct": -119.73487838309718,
-      "cum_pnl_yen": 1681.2203316715895
+      "cum_pnl_yen": 1682.6264553632936
     },
     {
       "date": "2026-09-30",
       "cum_pnl_pct": -127.70478411204874,
-      "cum_pnl_yen": -3668.5717623774544
+      "cum_pnl_yen": -3671.6400488908985
     },
     {
       "date": "2026-09-30",
       "cum_pnl_pct": -133.04125461432724,
-      "cum_pnl_yen": -6679.608427848725
+      "cum_pnl_yen": -6685.195057682286
     },
     {
       "date": "2026-09-30",
       "cum_pnl_pct": -142.60328151516848,
-      "cum_pnl_yen": -12188.79117770592
+      "cum_pnl_yen": -12198.985527444223
     },
     {
       "date": "2026-10-01",
       "cum_pnl_pct": -149.82032316506013,
-      "cum_pnl_yen": -17534.637153837306
+      "cum_pnl_yen": -17549.302613362728
     },
     {
       "date": "2026-10-01",
       "cum_pnl_pct": -157.21910838049573,
-      "cum_pnl_yen": -22351.027281646093
+      "cum_pnl_yen": -22369.721029516368
     },
     {
       "date": "2026-10-01",
       "cum_pnl_pct": -165.35664427854428,
-      "cum_pnl_yen": -25936.493499677104
+      "cum_pnl_yen": -25958.186027005373
     },
     {
       "date": "2026-10-01",
       "cum_pnl_pct": -167.7280199422928,
-      "cum_pnl_yen": -27426.224952737277
+      "cum_pnl_yen": -27449.1634480395
     },
     {
       "date": "2026-10-02",
       "cum_pnl_pct": -173.68121528880533,
-      "cum_pnl_yen": -31825.996532624995
+      "cum_pnl_yen": -31852.614868659584
     },
     {
       "date": "2026-10-05",
       "cum_pnl_pct": -142.71948722060074,
-      "cum_pnl_yen": -3029.1223469591023
+      "cum_pnl_yen": -3031.6558166161667
     },
     {
       "date": "2026-10-05",
       "cum_pnl_pct": -153.4250606469888,
-      "cum_pnl_yen": -9953.87000106557
+      "cum_pnl_yen": -9962.19512786125
     },
     {
       "date": "2026-10-08",
       "cum_pnl_pct": -163.90948196375456,
-      "cum_pnl_yen": -17768.674033018786
+      "cum_pnl_yen": -17783.53523416971
     },
     {
       "date": "2026-10-13",
       "cum_pnl_pct": -173.8688498558799,
-      "cum_pnl_yen": -23454.605541512163
+      "cum_pnl_yen": -23474.222290078786
     },
     {
       "date": "2026-10-13",
       "cum_pnl_pct": -179.33477579887912,
-      "cum_pnl_yen": -27384.103710823427
+      "cum_pnl_yen": -27407.0069771464
     },
     {
       "date": "2026-10-14",
       "cum_pnl_pct": -181.94120515853095,
-      "cum_pnl_yen": -29140.536147003728
+      "cum_pnl_yen": -29164.908442230804
     },
     {
       "date": "2026-10-14",
       "cum_pnl_pct": -188.29616153601816,
-      "cum_pnl_yen": -33709.16545369473
+      "cum_pnl_yen": -33737.35881733606
     },
     {
       "date": "2026-10-16",
       "cum_pnl_pct": -179.39582364113065,
-      "cum_pnl_yen": -27712.348481427616
+      "cum_pnl_yen": -27735.526282111095
     },
     {
       "date": "2026-10-16",
       "cum_pnl_pct": -165.1474497770766,
-      "cum_pnl_yen": -15327.334287611506
+      "cum_pnl_yen": -15340.15362334429
     },
     {
       "date": "2026-10-16",
       "cum_pnl_pct": -150.89907591302253,
-      "cum_pnl_yen": -2942.320093795395
+      "cum_pnl_yen": -2944.7809645774832
     },
     {
       "date": "2026-10-21",
       "cum_pnl_pct": -140.62522888441652,
-      "cum_pnl_yen": 4556.06999629151
+      "cum_pnl_yen": 4559.880560464546
     },
     {
       "date": "2026-10-23",
       "cum_pnl_pct": -129.0369680262819,
-      "cum_pnl_yen": 11561.299191879545
+      "cum_pnl_yen": 11570.96872560712
     },
     {
       "date": "2026-10-23",
       "cum_pnl_pct": -115.954960269973,
-      "cum_pnl_yen": 21315.989809103223
+      "cum_pnl_yen": 21333.817881794268
     }
   ],
-  "whats_new": [
-    {
-      "date": "2026-10-28",
-      "type": "level_up_entered",
-      "mode": "MODE A",
-      "code": "FTV",
-      "name": "Fortive",
-      "prev_sl": 49.744998931884766,
-      "sl": 64.6684986114502,
-      "tp": 67.02999877929688
-    },
-    {
-      "date": "2026-10-28",
-      "type": "level_up_watching",
-      "mode": "MODE A",
-      "code": "GILD",
-      "name": "Gilead Sciences",
-      "prev_entry": 146.69499969482422,
-      "entry": 146.8550033569336,
-      "prev_tp": 160.50999450683594,
-      "tp": 160.8300018310547
-    },
-    {
-      "date": "2026-10-28",
-      "type": "level_up_entered",
-      "mode": "MODE A",
-      "code": "LH",
-      "name": "Labcorp",
-      "prev_sl": 283.4700012207031,
-      "sl": 368.51100158691406,
-      "tp": 371.0
-    },
-    {
-      "date": "2026-10-28",
-      "type": "level_up_watching",
-      "mode": "MODE A",
-      "code": "MTD",
-      "name": "Mettler Toledo",
-      "prev_entry": 1594.9625244140625,
-      "entry": 1599.6400146484375,
-      "prev_tp": 1713.385009765625,
-      "tp": 1722.739990234375
-    },
-    {
-      "date": "2026-10-28",
-      "type": "level_up_watching",
-      "mode": "MODE A",
-      "code": "NDAQ",
-      "name": "Nasdaq, Inc.",
-      "prev_entry": 97.54999923706055,
-      "entry": 97.65999984741211,
-      "prev_tp": 105.44999694824219,
-      "tp": 105.66999816894531
-    },
-    {
-      "date": "2026-10-28",
-      "type": "level_up_watching",
-      "mode": "MODE A",
-      "code": "RVTY",
-      "name": "Revvity",
-      "prev_entry": 135.34500122070312,
-      "entry": 136.75,
-      "prev_tp": 166.25,
-      "tp": 169.05999755859375
-    },
-    {
-      "date": "2026-10-28",
-      "type": "level_up_watching",
-      "mode": "MODE A",
-      "code": "WAT",
-      "name": "Waters Corporation",
-      "prev_entry": 435.3505096435547,
-      "entry": 441.06500244140625,
-      "prev_tp": 470.85101318359375,
-      "tp": 482.2799987792969
-    },
-    {
-      "date": "2026-10-28",
-      "type": "level_up_entered",
-      "mode": "MODE B",
-      "code": "FTV",
-      "name": "Fortive",
-      "prev_sl": 49.744998931884766,
-      "sl": 64.6684986114502,
-      "tp": 67.02999877929688
-    },
-    {
-      "date": "2026-10-28",
-      "type": "entered",
-      "mode": "MODE A",
-      "code": "CFG",
-      "name": "Citizens Financial Group",
-      "entry": 67.71500015258789,
-      "tp": 75.33000183105469,
-      "sl": 60.099998474121094,
-      "entered_date": "2026-09-16",
-      "recommended_jpy": 75000.0,
-      "recommended_usd": 475.25202803012326,
-      "recommended_shares": 7,
-      "usdjpy_used": 157.81100463867188
-    },
-    {
-      "date": "2026-10-28",
-      "type": "entered",
-      "mode": "MODE A",
-      "code": "TGT",
-      "name": "Target Corporation",
-      "entry": 146.8300018310547,
-      "tp": 170.75,
-      "sl": 122.91000366210938,
-      "entered_date": "2026-10-28",
-      "recommended_jpy": 99000.00000000001,
-      "recommended_usd": 627.3326769997628,
-      "recommended_shares": 4,
-      "usdjpy_used": 157.81100463867188
-    }
-  ],
+  "whats_new": [],
   "market_zone": {
     "boundary_near": false,
     "market_score": 6.04,
@@ -4090,5 +3974,5 @@
       "MODE B": false
     }
   },
-  "usdjpy_used": 157.81100463867188
+  "usdjpy_used": 157.9429931640625
 }
