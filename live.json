@@ -1,15 +1,15 @@
 {
- "updated_jst": "2026-11-03 08:50 JST",
- "updated_et": "2026-11-02 18:50 ET",
+ "updated_jst": "2026-11-03 09:50 JST",
+ "updated_et": "2026-11-02 19:50 ET",
  "connected": true,
  "account": {
-  "net_liq_jpy": 2346890,
-  "cash_jpy": 729540,
+  "net_liq_jpy": 2346715,
+  "cash_jpy": 729526,
   "usdjpy": 157.804,
   "positions_cost_usd": 9483.66,
-  "positions_value_usd": 10232.5,
-  "unrealized_usd": 748.84,
-  "unrealized_pct": 7.9,
+  "positions_value_usd": 10136.81,
+  "unrealized_usd": 653.15,
+  "unrealized_pct": 6.89,
   "pending_total_usd": 2958.71,
   "realized_usd": 37.12,
   "realized_count": 1
@@ -75,21 +75,6 @@
    "unrealized_pct": 13.37,
    "sl": 219.42,
    "sl_gap_pct": -26.18,
-   "protected": true
-  },
-  {
-   "code": "FDX",
-   "name": "FedEx",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 2,
-   "avg_cost": 282.76,
-   "last_price": 318.25,
-   "unrealized_usd": 70.98,
-   "unrealized_pct": 12.55,
-   "sl": 219.15,
-   "sl_gap_pct": -31.14,
    "protected": true
   },
   {
@@ -168,21 +153,6 @@
    "protected": true
   },
   {
-   "code": "DXCM",
-   "name": "Dexcom",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 7,
-   "avg_cost": 81.23,
-   "last_price": 84.76,
-   "unrealized_usd": 24.71,
-   "unrealized_pct": 4.35,
-   "sl": 69.77,
-   "sl_gap_pct": -17.69,
-   "protected": true
-  },
-  {
    "code": "BMY",
    "name": "Bristol Myers Squibb",
    "modes": [
@@ -225,6 +195,36 @@
    "unrealized_pct": 0.78,
    "sl": 53.08,
    "sl_gap_pct": -12.25,
+   "protected": true
+  },
+  {
+   "code": "DXCM",
+   "name": "Dexcom",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 7,
+   "avg_cost": 81.23,
+   "last_price": null,
+   "unrealized_usd": 0.0,
+   "unrealized_pct": null,
+   "sl": 69.77,
+   "sl_gap_pct": null,
+   "protected": true
+  },
+  {
+   "code": "FDX",
+   "name": "FedEx",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 2,
+   "avg_cost": 282.76,
+   "last_price": null,
+   "unrealized_usd": 0.0,
+   "unrealized_pct": null,
+   "sl": 219.15,
+   "sl_gap_pct": null,
    "protected": true
   },
   {
