@@ -1,15 +1,15 @@
 {
- "updated_jst": "2026-11-03 18:50 JST",
- "updated_et": "2026-11-03 04:50 ET",
+ "updated_jst": "2026-11-03 19:50 JST",
+ "updated_et": "2026-11-03 05:50 ET",
  "connected": true,
  "account": {
-  "net_liq_jpy": 2349295,
-  "cash_jpy": 729620,
-  "usdjpy": 158.055,
+  "net_liq_jpy": 2349566,
+  "cash_jpy": 729641,
+  "usdjpy": 158.192,
   "positions_cost_usd": 9483.66,
-  "positions_value_usd": 10226.15,
-  "unrealized_usd": 742.49,
-  "unrealized_pct": 7.83,
+  "positions_value_usd": 10232.5,
+  "unrealized_usd": 748.84,
+  "unrealized_pct": 7.9,
   "pending_total_usd": 4514.9,
   "realized_usd": 37.12,
   "realized_count": 1
@@ -198,6 +198,21 @@
    "protected": true
   },
   {
+   "code": "HSIC",
+   "name": "Henry Schein",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 5,
+   "avg_cost": 85.35,
+   "last_price": 86.62,
+   "unrealized_usd": 6.35,
+   "unrealized_pct": 1.49,
+   "sl": 76.65,
+   "sl_gap_pct": -11.51,
+   "protected": true
+  },
+  {
    "code": "USB",
    "name": "U.S. Bancorp",
    "modes": [
@@ -210,21 +225,6 @@
    "unrealized_pct": 0.78,
    "sl": 53.08,
    "sl_gap_pct": -12.25,
-   "protected": true
-  },
-  {
-   "code": "HSIC",
-   "name": "Henry Schein",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 5,
-   "avg_cost": 85.35,
-   "last_price": null,
-   "unrealized_usd": 0.0,
-   "unrealized_pct": null,
-   "sl": 76.65,
-   "sl_gap_pct": null,
    "protected": true
   },
   {
@@ -295,6 +295,16 @@
    "gap_pct": 7.25
   },
   {
+   "code": "JCI",
+   "name": "Johnson Controls",
+   "mode": "MODE A",
+   "qty": 4,
+   "limit": 136.29,
+   "sl": 112.17,
+   "last_price": 146.49,
+   "gap_pct": 7.48
+  },
+  {
    "code": "ROST",
    "name": "Ross Stores",
    "mode": "MODE A",
@@ -333,16 +343,6 @@
    "sl": 35.99,
    "last_price": 51.62,
    "gap_pct": 15.22
-  },
-  {
-   "code": "JCI",
-   "name": "Johnson Controls",
-   "mode": "MODE A",
-   "qty": 4,
-   "limit": 136.29,
-   "sl": 112.17,
-   "last_price": null,
-   "gap_pct": null
   }
  ],
  "fills": [
