@@ -1,11 +1,11 @@
 {
- "updated_jst": "2026-11-04 15:50 JST",
- "updated_et": "2026-11-04 01:50 ET",
- "connected": false,
+ "updated_jst": "2026-11-04 19:50 JST",
+ "updated_et": "2026-11-04 05:50 ET",
+ "connected": true,
  "account": {
-  "net_liq_jpy": 2323184,
-  "cash_jpy": 729611,
-  "usdjpy": 158.106,
+  "net_liq_jpy": 2329692,
+  "cash_jpy": 729736,
+  "usdjpy": 158.466,
   "positions_cost_usd": 9483.66,
   "positions_value_usd": 10090.01,
   "unrealized_usd": 606.35,
@@ -376,7 +376,5 @@
   }
  ],
  "alerts": [],
- "unprotected": [],
- "error": "本番口座に接続できませんでした(Gateway未ログインの可能性)",
- "last_attempt_jst": "2026-11-04 18:50 JST"
+ "unprotected": []
 }
