@@ -1,15 +1,15 @@
 {
- "updated_jst": "2026-11-05 00:50 JST",
- "updated_et": "2026-11-04 10:50 ET",
+ "updated_jst": "2026-11-05 01:50 JST",
+ "updated_et": "2026-11-04 11:50 ET",
  "connected": true,
  "account": {
-  "net_liq_jpy": 2372584,
-  "cash_jpy": 729761,
+  "net_liq_jpy": 2380516,
+  "cash_jpy": 729723,
   "usdjpy": 158.307,
   "positions_cost_usd": 9483.66,
-  "positions_value_usd": 10361.64,
-  "unrealized_usd": 877.98,
-  "unrealized_pct": 9.26,
+  "positions_value_usd": 10420.47,
+  "unrealized_usd": 936.81,
+  "unrealized_pct": 9.88,
   "pending_total_usd": 4514.9,
   "realized_usd": 37.12,
   "realized_count": 1
@@ -24,11 +24,11 @@
    ],
    "qty": 11,
    "avg_cost": 92.33,
-   "last_price": 113.35,
-   "unrealized_usd": 231.17,
-   "unrealized_pct": 22.76,
+   "last_price": 113.72,
+   "unrealized_usd": 235.34,
+   "unrealized_pct": 23.17,
    "sl": 87.5,
-   "sl_gap_pct": -22.8,
+   "sl_gap_pct": -23.06,
    "protected": true
   },
   {
@@ -39,26 +39,11 @@
    ],
    "qty": 2,
    "avg_cost": 262.18,
-   "last_price": 306.14,
-   "unrealized_usd": 87.92,
-   "unrealized_pct": 16.77,
+   "last_price": 311.74,
+   "unrealized_usd": 99.13,
+   "unrealized_pct": 18.9,
    "sl": 219.42,
-   "sl_gap_pct": -28.33,
-   "protected": true
-  },
-  {
-   "code": "FDX",
-   "name": "FedEx",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 2,
-   "avg_cost": 282.76,
-   "last_price": 323.22,
-   "unrealized_usd": 80.92,
-   "unrealized_pct": 14.31,
-   "sl": 219.15,
-   "sl_gap_pct": -32.2,
+   "sl_gap_pct": -29.62,
    "protected": true
   },
   {
@@ -69,26 +54,11 @@
    ],
    "qty": 10,
    "avg_cost": 57.51,
-   "last_price": 65.44,
-   "unrealized_usd": 79.3,
-   "unrealized_pct": 13.79,
+   "last_price": 66.62,
+   "unrealized_usd": 91.1,
+   "unrealized_pct": 15.84,
    "sl": 50.34,
-   "sl_gap_pct": -23.07,
-   "protected": true
-  },
-  {
-   "code": "CL",
-   "name": "Colgate-Palmolive",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 5,
-   "avg_cost": 87.48,
-   "last_price": 99.21,
-   "unrealized_usd": 58.65,
-   "unrealized_pct": 13.41,
-   "sl": 79.74,
-   "sl_gap_pct": -19.63,
+   "sl_gap_pct": -24.44,
    "protected": true
   },
   {
@@ -100,11 +70,41 @@
    ],
    "qty": 4,
    "avg_cost": 187.61,
-   "last_price": 212.37,
-   "unrealized_usd": 99.04,
-   "unrealized_pct": 13.2,
+   "last_price": 214.54,
+   "unrealized_usd": 107.7,
+   "unrealized_pct": 14.35,
    "sl": 172.26,
-   "sl_gap_pct": -18.89,
+   "sl_gap_pct": -19.71,
+   "protected": true
+  },
+  {
+   "code": "FDX",
+   "name": "FedEx",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 2,
+   "avg_cost": 282.76,
+   "last_price": 322.77,
+   "unrealized_usd": 80.03,
+   "unrealized_pct": 14.15,
+   "sl": 219.15,
+   "sl_gap_pct": -32.1,
+   "protected": true
+  },
+  {
+   "code": "CL",
+   "name": "Colgate-Palmolive",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 5,
+   "avg_cost": 87.48,
+   "last_price": 99.49,
+   "unrealized_usd": 60.05,
+   "unrealized_pct": 13.73,
+   "sl": 79.74,
+   "sl_gap_pct": -19.85,
    "protected": true
   },
   {
@@ -115,11 +115,11 @@
    ],
    "qty": 4,
    "avg_cost": 146.92,
-   "last_price": 160.85,
-   "unrealized_usd": 55.72,
-   "unrealized_pct": 9.48,
+   "last_price": 161.8,
+   "unrealized_usd": 59.52,
+   "unrealized_pct": 10.13,
    "sl": 122.91,
-   "sl_gap_pct": -23.59,
+   "sl_gap_pct": -24.04,
    "protected": true
   },
   {
@@ -130,26 +130,11 @@
    ],
    "qty": 2,
    "avg_cost": 243.72,
-   "last_price": 266.54,
-   "unrealized_usd": 45.64,
-   "unrealized_pct": 9.36,
+   "last_price": 267.92,
+   "unrealized_usd": 48.4,
+   "unrealized_pct": 9.93,
    "sl": 209.23,
-   "sl_gap_pct": -21.5,
-   "protected": true
-  },
-  {
-   "code": "DXCM",
-   "name": "Dexcom",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 7,
-   "avg_cost": 81.23,
-   "last_price": 88.49,
-   "unrealized_usd": 50.82,
-   "unrealized_pct": 8.94,
-   "sl": 69.77,
-   "sl_gap_pct": -21.15,
+   "sl_gap_pct": -21.91,
    "protected": true
   },
   {
@@ -160,11 +145,11 @@
    ],
    "qty": 21,
    "avg_cost": 30.59,
-   "last_price": 32.99,
-   "unrealized_usd": 50.4,
-   "unrealized_pct": 7.85,
+   "last_price": 33.4,
+   "unrealized_usd": 58.91,
+   "unrealized_pct": 9.17,
    "sl": 24.81,
-   "sl_gap_pct": -24.8,
+   "sl_gap_pct": -25.71,
    "protected": true
   },
   {
@@ -175,11 +160,26 @@
    ],
    "qty": 4,
    "avg_cost": 122.99,
-   "last_price": 132.15,
-   "unrealized_usd": 36.66,
-   "unrealized_pct": 7.45,
+   "last_price": 133.26,
+   "unrealized_usd": 41.08,
+   "unrealized_pct": 8.35,
    "sl": 109.58,
-   "sl_gap_pct": -17.08,
+   "sl_gap_pct": -17.77,
+   "protected": true
+  },
+  {
+   "code": "DXCM",
+   "name": "Dexcom",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 7,
+   "avg_cost": 81.23,
+   "last_price": 88.0,
+   "unrealized_usd": 47.39,
+   "unrealized_pct": 8.33,
+   "sl": 69.77,
+   "sl_gap_pct": -20.72,
    "protected": true
   },
   {
@@ -190,11 +190,11 @@
    ],
    "qty": 5,
    "avg_cost": 85.35,
-   "last_price": 87.79,
-   "unrealized_usd": 12.2,
-   "unrealized_pct": 2.86,
+   "last_price": 88.43,
+   "unrealized_usd": 15.42,
+   "unrealized_pct": 3.61,
    "sl": 76.65,
-   "sl_gap_pct": -12.69,
+   "sl_gap_pct": -13.33,
    "protected": true
   },
   {
@@ -205,11 +205,11 @@
    ],
    "qty": 1,
    "avg_cost": 340.71,
-   "last_price": 347.91,
-   "unrealized_usd": 7.2,
-   "unrealized_pct": 2.11,
+   "last_price": 350.73,
+   "unrealized_usd": 10.02,
+   "unrealized_pct": 2.94,
    "sl": 312.91,
-   "sl_gap_pct": -10.06,
+   "sl_gap_pct": -10.78,
    "protected": true
   },
   {
@@ -220,11 +220,11 @@
    ],
    "qty": 8,
    "avg_cost": 61.97,
-   "last_price": 63.09,
-   "unrealized_usd": 8.92,
-   "unrealized_pct": 1.8,
+   "last_price": 63.12,
+   "unrealized_usd": 9.24,
+   "unrealized_pct": 1.86,
    "sl": 55.04,
-   "sl_gap_pct": -12.75,
+   "sl_gap_pct": -12.81,
    "protected": true
   },
   {
@@ -235,26 +235,11 @@
    ],
    "qty": 8,
    "avg_cost": 60.02,
-   "last_price": 60.47,
-   "unrealized_usd": 3.6,
-   "unrealized_pct": 0.75,
+   "last_price": 60.57,
+   "unrealized_usd": 4.4,
+   "unrealized_pct": 0.92,
    "sl": 53.08,
-   "sl_gap_pct": -12.22,
-   "protected": true
-  },
-  {
-   "code": "CSCO",
-   "name": "Cisco",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 7,
-   "avg_cost": 105.91,
-   "last_price": 103.05,
-   "unrealized_usd": -20.02,
-   "unrealized_pct": -2.7,
-   "sl": 81.17,
-   "sl_gap_pct": -21.23,
+   "sl_gap_pct": -12.37,
    "protected": true
   },
   {
@@ -265,11 +250,26 @@
    ],
    "qty": 2,
    "avg_cost": 176.19,
-   "last_price": 171.11,
-   "unrealized_usd": -10.16,
-   "unrealized_pct": -2.88,
+   "last_price": 171.23,
+   "unrealized_usd": -9.92,
+   "unrealized_pct": -2.82,
    "sl": 155.46,
-   "sl_gap_pct": -9.15,
+   "sl_gap_pct": -9.21,
+   "protected": true
+  },
+  {
+   "code": "CSCO",
+   "name": "Cisco",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 7,
+   "avg_cost": 105.91,
+   "last_price": 102.91,
+   "unrealized_usd": -21.0,
+   "unrealized_pct": -2.83,
+   "sl": 81.17,
+   "sl_gap_pct": -21.13,
    "protected": true
   }
  ],
@@ -281,8 +281,8 @@
    "qty": 4,
    "limit": 136.29,
    "sl": 112.17,
-   "last_price": 138.21,
-   "gap_pct": 1.41
+   "last_price": 139.77,
+   "gap_pct": 2.55
   },
   {
    "code": "AME",
@@ -291,8 +291,8 @@
    "qty": 2,
    "limit": 225.56,
    "sl": 189.95,
-   "last_price": 234.57,
-   "gap_pct": 3.99
+   "last_price": 235.31,
+   "gap_pct": 4.32
   },
   {
    "code": "NTAP",
@@ -301,8 +301,8 @@
    "qty": 9,
    "limit": 172.91,
    "sl": 104.96,
-   "last_price": 187.53,
-   "gap_pct": 8.46
+   "last_price": 188.13,
+   "gap_pct": 8.8
   },
   {
    "code": "MRK",
@@ -311,8 +311,8 @@
    "qty": 4,
    "limit": 134.91,
    "sl": 112.9,
-   "last_price": 148.86,
-   "gap_pct": 10.34
+   "last_price": 148.21,
+   "gap_pct": 9.86
   },
   {
    "code": "CPAY",
@@ -321,8 +321,8 @@
    "qty": 1,
    "limit": 373.51,
    "sl": 319.56,
-   "last_price": 419.17,
-   "gap_pct": 12.23
+   "last_price": 421.05,
+   "gap_pct": 12.73
   },
   {
    "code": "CSX",
@@ -331,8 +331,8 @@
    "qty": 14,
    "limit": 44.8,
    "sl": 35.99,
-   "last_price": 50.97,
-   "gap_pct": 13.76
+   "last_price": 51.29,
+   "gap_pct": 14.5
   },
   {
    "code": "ROST",
@@ -341,8 +341,8 @@
    "qty": 2,
    "limit": 211.04,
    "sl": 165.07,
-   "last_price": 243.96,
-   "gap_pct": 15.6
+   "last_price": 248.01,
+   "gap_pct": 17.52
   }
  ],
  "fills": [
