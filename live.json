@@ -1,10 +1,10 @@
 {
- "updated_jst": "2026-11-05 21:50 JST",
- "updated_et": "2026-11-05 07:50 ET",
+ "updated_jst": "2026-11-05 22:50 JST",
+ "updated_et": "2026-11-05 08:50 ET",
  "connected": true,
  "account": {
-  "net_liq_jpy": 2689784,
-  "cash_jpy": 1029739,
+  "net_liq_jpy": 2693283,
+  "cash_jpy": 1029740,
   "usdjpy": 158.439,
   "positions_cost_usd": 9483.66,
   "positions_value_usd": 10469.52,
