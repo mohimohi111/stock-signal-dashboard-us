@@ -1,15 +1,15 @@
 {
- "updated_jst": "2026-11-06 03:50 JST",
- "updated_et": "2026-11-05 13:50 ET",
+ "updated_jst": "2026-11-06 04:50 JST",
+ "updated_et": "2026-11-05 14:50 ET",
  "connected": true,
  "account": {
-  "net_liq_jpy": 2628418,
-  "cash_jpy": 801642,
+  "net_liq_jpy": 2638188,
+  "cash_jpy": 801705,
   "usdjpy": 158.439,
   "positions_cost_usd": 11075.43,
-  "positions_value_usd": 11578.8,
-  "unrealized_usd": 503.37,
-  "unrealized_pct": 4.54,
+  "positions_value_usd": 11629.0,
+  "unrealized_usd": 553.57,
+  "unrealized_pct": 5.0,
   "pending_total_usd": 1962.43,
   "realized_usd": 187.62,
   "realized_count": 3
@@ -24,11 +24,11 @@
    ],
    "qty": 11,
    "avg_cost": 92.33,
-   "last_price": 111.38,
-   "unrealized_usd": 209.55,
-   "unrealized_pct": 20.63,
+   "last_price": 111.22,
+   "unrealized_usd": 207.79,
+   "unrealized_pct": 20.46,
    "sl": 87.5,
-   "sl_gap_pct": -21.44,
+   "sl_gap_pct": -21.33,
    "protected": true
   },
   {
@@ -39,11 +39,11 @@
    ],
    "qty": 10,
    "avg_cost": 57.51,
-   "last_price": 66.4,
-   "unrealized_usd": 88.95,
-   "unrealized_pct": 15.47,
+   "last_price": 66.3,
+   "unrealized_usd": 87.9,
+   "unrealized_pct": 15.28,
    "sl": 50.34,
-   "sl_gap_pct": -24.19,
+   "sl_gap_pct": -24.07,
    "protected": true
   },
   {
@@ -54,11 +54,11 @@
    ],
    "qty": 2,
    "avg_cost": 282.76,
-   "last_price": 319.16,
-   "unrealized_usd": 72.8,
-   "unrealized_pct": 12.87,
+   "last_price": 318.76,
+   "unrealized_usd": 72.0,
+   "unrealized_pct": 12.73,
    "sl": 219.15,
-   "sl_gap_pct": -31.34,
+   "sl_gap_pct": -31.25,
    "protected": true
   },
   {
@@ -69,26 +69,11 @@
    ],
    "qty": 2,
    "avg_cost": 243.72,
-   "last_price": 269.82,
-   "unrealized_usd": 52.2,
-   "unrealized_pct": 10.71,
+   "last_price": 270.36,
+   "unrealized_usd": 53.29,
+   "unrealized_pct": 10.93,
    "sl": 209.23,
-   "sl_gap_pct": -22.46,
-   "protected": true
-  },
-  {
-   "code": "SJM",
-   "name": "J.M. Smucker Company (The)",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 4,
-   "avg_cost": 122.99,
-   "last_price": 133.12,
-   "unrealized_usd": 40.52,
-   "unrealized_pct": 8.24,
-   "sl": 109.58,
-   "sl_gap_pct": -17.68,
+   "sl_gap_pct": -22.61,
    "protected": true
   },
   {
@@ -100,11 +85,26 @@
    ],
    "qty": 4,
    "avg_cost": 187.61,
-   "last_price": 202.36,
-   "unrealized_usd": 59.0,
-   "unrealized_pct": 7.86,
+   "last_price": 203.61,
+   "unrealized_usd": 64.0,
+   "unrealized_pct": 8.53,
    "sl": 172.26,
-   "sl_gap_pct": -14.87,
+   "sl_gap_pct": -15.4,
+   "protected": true
+  },
+  {
+   "code": "SJM",
+   "name": "J.M. Smucker Company (The)",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 4,
+   "avg_cost": 122.99,
+   "last_price": 133.0,
+   "unrealized_usd": 40.04,
+   "unrealized_pct": 8.14,
+   "sl": 109.58,
+   "sl_gap_pct": -17.61,
    "protected": true
   },
   {
@@ -115,11 +115,11 @@
    ],
    "qty": 4,
    "avg_cost": 146.92,
-   "last_price": 158.1,
-   "unrealized_usd": 44.74,
-   "unrealized_pct": 7.61,
+   "last_price": 158.66,
+   "unrealized_usd": 46.96,
+   "unrealized_pct": 7.99,
    "sl": 122.91,
-   "sl_gap_pct": -22.26,
+   "sl_gap_pct": -22.53,
    "protected": true
   },
   {
@@ -130,11 +130,11 @@
    ],
    "qty": 21,
    "avg_cost": 30.59,
-   "last_price": 32.12,
-   "unrealized_usd": 32.24,
-   "unrealized_pct": 5.02,
+   "last_price": 32.28,
+   "unrealized_usd": 35.59,
+   "unrealized_pct": 5.54,
    "sl": 24.81,
-   "sl_gap_pct": -22.77,
+   "sl_gap_pct": -23.15,
    "protected": true
   },
   {
@@ -145,11 +145,11 @@
    ],
    "qty": 7,
    "avg_cost": 81.23,
-   "last_price": 83.45,
-   "unrealized_usd": 15.54,
-   "unrealized_pct": 2.73,
+   "last_price": 84.31,
+   "unrealized_usd": 21.53,
+   "unrealized_pct": 3.79,
    "sl": 69.77,
-   "sl_gap_pct": -16.39,
+   "sl_gap_pct": -17.24,
    "protected": true
   },
   {
@@ -160,11 +160,11 @@
    ],
    "qty": 8,
    "avg_cost": 61.97,
-   "last_price": 63.5,
-   "unrealized_usd": 12.24,
-   "unrealized_pct": 2.47,
+   "last_price": 63.33,
+   "unrealized_usd": 10.84,
+   "unrealized_pct": 2.19,
    "sl": 55.04,
-   "sl_gap_pct": -13.32,
+   "sl_gap_pct": -13.08,
    "protected": true
   },
   {
@@ -176,56 +176,11 @@
    ],
    "qty": 9,
    "avg_cost": 172.95,
-   "last_price": 172.15,
-   "unrealized_usd": -7.2,
-   "unrealized_pct": -0.46,
+   "last_price": 173.96,
+   "unrealized_usd": 9.05,
+   "unrealized_pct": 0.58,
    "sl": 104.96,
-   "sl_gap_pct": -39.03,
-   "protected": true
-  },
-  {
-   "code": "HSIC",
-   "name": "Henry Schein",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 5,
-   "avg_cost": 85.35,
-   "last_price": 84.86,
-   "unrealized_usd": -2.45,
-   "unrealized_pct": -0.57,
-   "sl": 76.65,
-   "sl_gap_pct": -9.67,
-   "protected": true
-  },
-  {
-   "code": "USB",
-   "name": "U.S. Bancorp",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 8,
-   "avg_cost": 60.02,
-   "last_price": 59.52,
-   "unrealized_usd": -4.0,
-   "unrealized_pct": -0.83,
-   "sl": 53.08,
-   "sl_gap_pct": -10.82,
-   "protected": true
-  },
-  {
-   "code": "JPM",
-   "name": "JPMorgan Chase",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 1,
-   "avg_cost": 340.71,
-   "last_price": 337.7,
-   "unrealized_usd": -3.01,
-   "unrealized_pct": -0.88,
-   "sl": 312.91,
-   "sl_gap_pct": -7.34,
+   "sl_gap_pct": -39.66,
    "protected": true
   },
   {
@@ -236,11 +191,56 @@
    ],
    "qty": 2,
    "avg_cost": 225.73,
-   "last_price": 223.49,
-   "unrealized_usd": -4.47,
-   "unrealized_pct": -0.99,
+   "last_price": 226.31,
+   "unrealized_usd": 1.16,
+   "unrealized_pct": 0.26,
    "sl": 189.95,
-   "sl_gap_pct": -15.01,
+   "sl_gap_pct": -16.07,
+   "protected": true
+  },
+  {
+   "code": "HSIC",
+   "name": "Henry Schein",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 5,
+   "avg_cost": 85.35,
+   "last_price": 85.13,
+   "unrealized_usd": -1.1,
+   "unrealized_pct": -0.26,
+   "sl": 76.65,
+   "sl_gap_pct": -9.96,
+   "protected": true
+  },
+  {
+   "code": "USB",
+   "name": "U.S. Bancorp",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 8,
+   "avg_cost": 60.02,
+   "last_price": 59.57,
+   "unrealized_usd": -3.6,
+   "unrealized_pct": -0.75,
+   "sl": 53.08,
+   "sl_gap_pct": -10.89,
+   "protected": true
+  },
+  {
+   "code": "JPM",
+   "name": "JPMorgan Chase",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 1,
+   "avg_cost": 340.71,
+   "last_price": 337.17,
+   "unrealized_usd": -3.54,
+   "unrealized_pct": -1.04,
+   "sl": 312.91,
+   "sl_gap_pct": -7.2,
    "protected": true
   },
   {
@@ -251,11 +251,11 @@
    ],
    "qty": 4,
    "avg_cost": 136.38,
-   "last_price": 133.4,
-   "unrealized_usd": -11.92,
-   "unrealized_pct": -2.19,
+   "last_price": 134.65,
+   "unrealized_usd": -6.92,
+   "unrealized_pct": -1.27,
    "sl": 112.17,
-   "sl_gap_pct": -15.91,
+   "sl_gap_pct": -16.7,
    "protected": true
   },
   {
@@ -266,11 +266,11 @@
    ],
    "qty": 2,
    "avg_cost": 176.19,
-   "last_price": 166.01,
-   "unrealized_usd": -20.37,
-   "unrealized_pct": -5.78,
+   "last_price": 166.77,
+   "unrealized_usd": -18.84,
+   "unrealized_pct": -5.35,
    "sl": 155.46,
-   "sl_gap_pct": -6.35,
+   "sl_gap_pct": -6.78,
    "protected": true
   },
   {
@@ -281,11 +281,11 @@
    ],
    "qty": 7,
    "avg_cost": 105.91,
-   "last_price": 95.77,
-   "unrealized_usd": -70.98,
-   "unrealized_pct": -9.57,
+   "last_price": 96.97,
+   "unrealized_usd": -62.58,
+   "unrealized_pct": -8.44,
    "sl": 81.17,
-   "sl_gap_pct": -15.24,
+   "sl_gap_pct": -16.29,
    "protected": true
   }
  ],
@@ -297,8 +297,8 @@
    "qty": 4,
    "limit": 134.91,
    "sl": 112.9,
-   "last_price": 149.17,
-   "gap_pct": 10.57
+   "last_price": 148.34,
+   "gap_pct": 9.95
   },
   {
    "code": "ROST",
@@ -307,8 +307,8 @@
    "qty": 2,
    "limit": 211.04,
    "sl": 165.07,
-   "last_price": 234.96,
-   "gap_pct": 11.33
+   "last_price": 235.28,
+   "gap_pct": 11.49
   },
   {
    "code": "CSX",
@@ -317,8 +317,8 @@
    "qty": 14,
    "limit": 44.8,
    "sl": 35.99,
-   "last_price": 51.03,
-   "gap_pct": 13.91
+   "last_price": 51.06,
+   "gap_pct": 13.96
   },
   {
    "code": "CPAY",
@@ -327,8 +327,8 @@
    "qty": 1,
    "limit": 373.51,
    "sl": 319.56,
-   "last_price": 451.05,
-   "gap_pct": 20.76
+   "last_price": 453.85,
+   "gap_pct": 21.51
   }
  ],
  "fills": [
