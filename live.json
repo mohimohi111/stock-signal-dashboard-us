@@ -1,15 +1,15 @@
 {
- "updated_jst": "2026-11-11 00:50 JST",
- "updated_et": "2026-11-10 10:50 ET",
+ "updated_jst": "2026-11-11 01:50 JST",
+ "updated_et": "2026-11-10 11:50 ET",
  "connected": true,
  "account": {
-  "net_liq_jpy": 2664633,
-  "cash_jpy": 802143,
+  "net_liq_jpy": 2669108,
+  "cash_jpy": 802276,
   "usdjpy": 158.207,
   "positions_cost_usd": 11075.43,
-  "positions_value_usd": 11729.57,
-  "unrealized_usd": 654.14,
-  "unrealized_pct": 5.91,
+  "positions_value_usd": 11757.33,
+  "unrealized_usd": 681.9,
+  "unrealized_pct": 6.16,
   "pending_total_usd": 2118.62,
   "realized_usd": 187.62,
   "realized_count": 3
@@ -24,11 +24,11 @@
    ],
    "qty": 11,
    "avg_cost": 92.33,
-   "last_price": 109.4,
-   "unrealized_usd": 187.77,
-   "unrealized_pct": 18.49,
+   "last_price": 109.97,
+   "unrealized_usd": 194.04,
+   "unrealized_pct": 19.11,
    "sl": 87.5,
-   "sl_gap_pct": -20.02,
+   "sl_gap_pct": -20.43,
    "protected": true
   },
   {
@@ -39,11 +39,11 @@
    ],
    "qty": 21,
    "avg_cost": 30.59,
-   "last_price": 36.2,
-   "unrealized_usd": 117.81,
-   "unrealized_pct": 18.34,
+   "last_price": 36.24,
+   "unrealized_usd": 118.65,
+   "unrealized_pct": 18.47,
    "sl": 24.81,
-   "sl_gap_pct": -31.46,
+   "sl_gap_pct": -31.54,
    "protected": true
   },
   {
@@ -54,11 +54,11 @@
    ],
    "qty": 10,
    "avg_cost": 57.51,
-   "last_price": 65.97,
-   "unrealized_usd": 84.6,
-   "unrealized_pct": 14.71,
+   "last_price": 66.67,
+   "unrealized_usd": 91.6,
+   "unrealized_pct": 15.93,
    "sl": 50.34,
-   "sl_gap_pct": -23.69,
+   "sl_gap_pct": -24.49,
    "protected": true
   },
   {
@@ -70,11 +70,11 @@
    ],
    "qty": 4,
    "avg_cost": 187.61,
-   "last_price": 210.99,
-   "unrealized_usd": 93.54,
-   "unrealized_pct": 12.46,
+   "last_price": 212.01,
+   "unrealized_usd": 97.6,
+   "unrealized_pct": 13.01,
    "sl": 172.26,
-   "sl_gap_pct": -18.36,
+   "sl_gap_pct": -18.75,
    "protected": true
   },
   {
@@ -85,11 +85,11 @@
    ],
    "qty": 2,
    "avg_cost": 282.76,
-   "last_price": 313.64,
-   "unrealized_usd": 61.75,
-   "unrealized_pct": 10.92,
+   "last_price": 315.45,
+   "unrealized_usd": 65.38,
+   "unrealized_pct": 11.56,
    "sl": 219.15,
-   "sl_gap_pct": -30.13,
+   "sl_gap_pct": -30.53,
    "protected": true
   },
   {
@@ -100,11 +100,11 @@
    ],
    "qty": 4,
    "avg_cost": 146.92,
-   "last_price": 159.01,
-   "unrealized_usd": 48.36,
-   "unrealized_pct": 8.23,
+   "last_price": 159.76,
+   "unrealized_usd": 51.36,
+   "unrealized_pct": 8.74,
    "sl": 122.91,
-   "sl_gap_pct": -22.7,
+   "sl_gap_pct": -23.07,
    "protected": true
   },
   {
@@ -115,11 +115,11 @@
    ],
    "qty": 4,
    "avg_cost": 122.99,
-   "last_price": 132.93,
-   "unrealized_usd": 39.76,
-   "unrealized_pct": 8.08,
+   "last_price": 133.21,
+   "unrealized_usd": 40.9,
+   "unrealized_pct": 8.31,
    "sl": 109.58,
-   "sl_gap_pct": -17.57,
+   "sl_gap_pct": -17.74,
    "protected": true
   },
   {
@@ -130,11 +130,11 @@
    ],
    "qty": 2,
    "avg_cost": 243.72,
-   "last_price": 258.11,
-   "unrealized_usd": 28.78,
-   "unrealized_pct": 5.9,
+   "last_price": 259.77,
+   "unrealized_usd": 32.1,
+   "unrealized_pct": 6.59,
    "sl": 209.23,
-   "sl_gap_pct": -18.94,
+   "sl_gap_pct": -19.46,
    "protected": true
   },
   {
@@ -145,26 +145,11 @@
    ],
    "qty": 2,
    "avg_cost": 225.73,
-   "last_price": 237.2,
-   "unrealized_usd": 22.94,
-   "unrealized_pct": 5.08,
+   "last_price": 237.24,
+   "unrealized_usd": 23.02,
+   "unrealized_pct": 5.1,
    "sl": 189.95,
-   "sl_gap_pct": -19.92,
-   "protected": true
-  },
-  {
-   "code": "JCI",
-   "name": "Johnson Controls",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 4,
-   "avg_cost": 136.38,
-   "last_price": 141.78,
-   "unrealized_usd": 21.6,
-   "unrealized_pct": 3.96,
-   "sl": 112.17,
-   "sl_gap_pct": -20.88,
+   "sl_gap_pct": -19.93,
    "protected": true
   },
   {
@@ -175,26 +160,26 @@
    ],
    "qty": 5,
    "avg_cost": 85.35,
-   "last_price": 88.28,
-   "unrealized_usd": 14.65,
-   "unrealized_pct": 3.43,
+   "last_price": 88.58,
+   "unrealized_usd": 16.15,
+   "unrealized_pct": 3.78,
    "sl": 76.65,
-   "sl_gap_pct": -13.17,
+   "sl_gap_pct": -13.47,
    "protected": true
   },
   {
-   "code": "NTAP",
-   "name": "NetApp",
+   "code": "JCI",
+   "name": "Johnson Controls",
    "modes": [
     "MODE A"
    ],
-   "qty": 9,
-   "avg_cost": 172.95,
-   "last_price": 174.03,
-   "unrealized_usd": 9.72,
-   "unrealized_pct": 0.62,
-   "sl": 104.96,
-   "sl_gap_pct": -39.69,
+   "qty": 4,
+   "avg_cost": 136.38,
+   "last_price": 140.71,
+   "unrealized_usd": 17.3,
+   "unrealized_pct": 3.17,
+   "sl": 112.17,
+   "sl_gap_pct": -20.28,
    "protected": true
   },
   {
@@ -205,11 +190,26 @@
    ],
    "qty": 8,
    "avg_cost": 60.02,
-   "last_price": 60.39,
-   "unrealized_usd": 2.96,
-   "unrealized_pct": 0.62,
+   "last_price": 60.58,
+   "unrealized_usd": 4.44,
+   "unrealized_pct": 0.92,
    "sl": 53.08,
-   "sl_gap_pct": -12.1,
+   "sl_gap_pct": -12.37,
+   "protected": true
+  },
+  {
+   "code": "NTAP",
+   "name": "NetApp",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 9,
+   "avg_cost": 172.95,
+   "last_price": 173.87,
+   "unrealized_usd": 8.24,
+   "unrealized_pct": 0.53,
+   "sl": 104.96,
+   "sl_gap_pct": -39.63,
    "protected": true
   },
   {
@@ -220,11 +220,11 @@
    ],
    "qty": 1,
    "avg_cost": 340.71,
-   "last_price": 342.0,
-   "unrealized_usd": 1.29,
-   "unrealized_pct": 0.38,
+   "last_price": 341.79,
+   "unrealized_usd": 1.08,
+   "unrealized_pct": 0.32,
    "sl": 312.91,
-   "sl_gap_pct": -8.51,
+   "sl_gap_pct": -8.45,
    "protected": true
   },
   {
@@ -235,11 +235,11 @@
    ],
    "qty": 8,
    "avg_cost": 61.97,
-   "last_price": 61.8,
-   "unrealized_usd": -1.36,
-   "unrealized_pct": -0.27,
+   "last_price": 61.85,
+   "unrealized_usd": -1.0,
+   "unrealized_pct": -0.2,
    "sl": 55.04,
-   "sl_gap_pct": -10.94,
+   "sl_gap_pct": -11.0,
    "protected": true
   },
   {
@@ -250,11 +250,11 @@
    ],
    "qty": 7,
    "avg_cost": 81.23,
-   "last_price": 79.43,
-   "unrealized_usd": -12.63,
-   "unrealized_pct": -2.22,
+   "last_price": 79.63,
+   "unrealized_usd": -11.2,
+   "unrealized_pct": -1.97,
    "sl": 69.77,
-   "sl_gap_pct": -12.16,
+   "sl_gap_pct": -12.38,
    "protected": true
   },
   {
@@ -265,11 +265,11 @@
    ],
    "qty": 2,
    "avg_cost": 176.19,
-   "last_price": 170.93,
-   "unrealized_usd": -10.52,
-   "unrealized_pct": -2.99,
+   "last_price": 170.89,
+   "unrealized_usd": -10.6,
+   "unrealized_pct": -3.01,
    "sl": 155.46,
-   "sl_gap_pct": -9.05,
+   "sl_gap_pct": -9.03,
    "protected": true
   },
   {
@@ -280,11 +280,11 @@
    ],
    "qty": 7,
    "avg_cost": 105.91,
-   "last_price": 97.79,
-   "unrealized_usd": -56.87,
-   "unrealized_pct": -7.67,
+   "last_price": 97.75,
+   "unrealized_usd": -57.15,
+   "unrealized_pct": -7.71,
    "sl": 81.17,
-   "sl_gap_pct": -16.99,
+   "sl_gap_pct": -16.96,
    "protected": true
   }
  ],
@@ -296,8 +296,8 @@
    "qty": 4,
    "limit": 134.91,
    "sl": 112.9,
-   "last_price": 146.72,
-   "gap_pct": 8.75
+   "last_price": 146.12,
+   "gap_pct": 8.31
   },
   {
    "code": "ROST",
@@ -306,8 +306,8 @@
    "qty": 2,
    "limit": 211.04,
    "sl": 165.07,
-   "last_price": 236.35,
-   "gap_pct": 11.99
+   "last_price": 236.93,
+   "gap_pct": 12.27
   },
   {
    "code": "WAB",
@@ -316,8 +316,8 @@
    "qty": 2,
    "limit": 264.85,
    "sl": 223.05,
-   "last_price": 298.15,
-   "gap_pct": 12.57
+   "last_price": 298.86,
+   "gap_pct": 12.84
   },
   {
    "code": "CSX",
@@ -326,8 +326,8 @@
    "qty": 14,
    "limit": 44.8,
    "sl": 35.99,
-   "last_price": 50.44,
-   "gap_pct": 12.59
+   "last_price": 50.72,
+   "gap_pct": 13.23
   }
  ],
  "fills": [
