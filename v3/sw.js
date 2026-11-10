@@ -1,5 +1,5 @@
-const CACHE_NAME = "stock-signal-us-v3-fresh-2026-08-17";
-const APP_SHELL = ["./", "./index.html", "./manifest.json", "./icon-192.png", "./icon-512.png"];
+const CACHE_NAME = "stock-signal-us-v3-live-2026-11-11";
+const APP_SHELL = ["./", "./index.html", "./ledger.html", "./manifest.json", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
