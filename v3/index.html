@@ -340,7 +340,7 @@
     <div class="big" id="netLiq">—</div>
     <div class="chips" id="heroChips"></div>
     <div class="chart" id="chartWrap">
-      <svg id="eqChart" viewBox="0 0 640 190" aria-label="純資産の推移"></svg>
+      <svg id="eqChart" viewBox="0 0 640 190" aria-label="純資産の推移(入出金を除く)"></svg>
       <div class="tip" id="eqTip"></div>
     </div>
     <div class="range" id="rangeBtns"></div>
@@ -435,6 +435,9 @@ async function load() {
   }
 }
 
+// 入出金を除いた純資産(export_live_public.py が付ける adj_net_liq_jpy。無い古いデータは純資産そのまま)
+function adj(h) { return h.adj_net_liq_jpy != null ? h.adj_net_liq_jpy : h.net_liq_jpy; }
+
 function render(live) {
   const a = live.account || {};
   const fx = a.usdjpy || 0;
@@ -457,16 +460,19 @@ function render(live) {
   // ヒーロー
   const net = a.net_liq_jpy;
   document.getElementById('netLiq').innerHTML = net != null ? `<span class="cur">¥</span>${Math.round(net).toLocaleString('ja-JP')}` : '—';
+  // 推移・増減は入出金を除いた値(adj_net_liq_jpy = 純資産 − 推移開始以降の入出金累計)で見る
   const chips = [];
   if (hist.length >= 2) {
-    const prev = hist[hist.length - 2].net_liq_jpy, last = hist[hist.length - 1].net_liq_jpy;
+    const prev = adj(hist[hist.length - 2]), last = adj(hist[hist.length - 1]);
     const d = last - prev;
     chips.push(`<span class="chip ${d >= 0 ? 'up' : 'down'}"><small>前日比</small>${jpyS(d)} (${pct(d / prev * 100)})</span>`);
     const w = hist.filter(h => h.date >= addDays(hist[hist.length - 1].date, -7));
-    if (w.length >= 2) { const dw = last - w[0].net_liq_jpy; chips.push(`<span class="chip ${dw >= 0 ? 'up' : 'down'}"><small>1週間</small>${jpyS(dw)} (${pct(dw / w[0].net_liq_jpy * 100)})</span>`); }
-    const d0 = last - hist[0].net_liq_jpy;
+    if (w.length >= 2) { const dw = last - adj(w[0]); chips.push(`<span class="chip ${dw >= 0 ? 'up' : 'down'}"><small>1週間</small>${jpyS(dw)} (${pct(dw / adj(w[0]) * 100)})</span>`); }
+    const d0 = last - adj(hist[0]);
     chips.push(`<span class="chip ${d0 >= 0 ? 'up' : 'down'}"><small>${hist[0].date.slice(5).replace('-', '/')}〜</small>${jpyS(d0)}</span>`);
-    chips.push(`<span class="chip" style="font-family:var(--sans);font-weight:500;color:var(--muted)">※入出金・為替を含む純資産の変化</span>`);
+    const flows = (live.cash_flows || []).filter(f => f.date >= hist[0].date);
+    const flowSum = flows.reduce((s, f) => s + f.jpy, 0);
+    chips.push(`<span class="chip" style="font-family:var(--sans);font-weight:500;color:var(--muted)">${flows.length ? `※入出金 ${jpyS(flowSum)}(${flows.length}回)を除く・` : '※'}為替を含む</span>`);
   }
   document.getElementById('heroChips').innerHTML = chips.join('');
   renderRangeButtons(hist);
@@ -502,14 +508,14 @@ function renderChart(histAll) {
   const hist = histAll.length ? histAll.filter(h => h.date >= addDays(histAll[histAll.length - 1].date, -days)) : [];
   if (hist.length < 2) { svg.innerHTML = '<text class="axis" x="320" y="95" text-anchor="middle">推移はデータが2日分以上たまると表示されます</text>'; return; }
   const W = 640, H = 190, L = 58, R = 14, T = 14, B = 26;
-  const vals = hist.map(h => h.net_liq_jpy);
+  const vals = hist.map(h => adj(h));
   let lo = Math.min(...vals), hi = Math.max(...vals);
   const padV = (hi - lo) * 0.12 || hi * 0.01; lo -= padV; hi += padV;
   const n = hist.length;
   const X = i => L + (i / (n - 1)) * (W - L - R);
   const Y = v => H - B - ((v - lo) / (hi - lo)) * (H - T - B);
   // smooth path (monotone cubic-ish via simple catmull-rom)
-  const pts = hist.map((h, i) => [X(i), Y(h.net_liq_jpy)]);
+  const pts = hist.map((h, i) => [X(i), Y(adj(h))]);
   let d = `M ${pts[0][0].toFixed(1)} ${pts[0][1].toFixed(1)}`;
   for (let i = 0; i < pts.length - 1; i++) {
     const p0 = pts[i - 1] || pts[i], p1 = pts[i], p2 = pts[i + 1], p3 = pts[i + 2] || p2;
@@ -541,9 +547,9 @@ function renderChart(histAll) {
     let i = Math.round((sx - L) / (W - L - R) * (n - 1)); i = Math.max(0, Math.min(n - 1, i));
     const h = hist[i];
     cursor.setAttribute('x1', X(i)); cursor.setAttribute('x2', X(i)); cursor.style.opacity = 1;
-    tip.style.opacity = 1; tip.style.left = (X(i) / W * rect.width) + 'px'; tip.style.top = (Y(h.net_liq_jpy) / H * rect.height) + 'px';
+    tip.style.opacity = 1; tip.style.left = (X(i) / W * rect.width) + 'px'; tip.style.top = (Y(adj(h)) / H * rect.height) + 'px';
     const prev = hist[i - 1];
-    tip.textContent = `${h.date}  ${jpy(h.net_liq_jpy)}` + (prev ? `  (${jpyS(h.net_liq_jpy - prev.net_liq_jpy)})` : '');
+    tip.textContent = `${h.date}  ${jpy(adj(h))}` + (prev ? `  (${jpyS(adj(h) - adj(prev))})` : '') + ((h.flow_cum_jpy || 0) !== (prev ? (prev.flow_cum_jpy || 0) : 0) ? `  入出金 ${jpyS((h.flow_cum_jpy || 0) - (prev ? (prev.flow_cum_jpy || 0) : 0))}` : '');
   };
   svg.onmousemove = e => show(e.clientX, e.clientY);
   svg.ontouchstart = svg.ontouchmove = e => { const t = e.touches[0]; if (t) show(t.clientX, t.clientY); };

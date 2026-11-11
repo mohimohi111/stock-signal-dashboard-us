@@ -1,4 +1,4 @@
-const CACHE_NAME = "stock-signal-us-v3-live-2026-11-11";
+const CACHE_NAME = "stock-signal-us-v3-live-2026-11-11b";
 const APP_SHELL = ["./", "./index.html", "./ledger.html", "./manifest.json", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", (event) => {
