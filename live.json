@@ -1,16 +1,16 @@
 {
- "updated_jst": "2026-11-11 09:50 JST",
- "updated_et": "2026-11-10 19:50 ET",
+ "updated_jst": "2026-11-11 10:50 JST",
+ "updated_et": "2026-11-10 20:50 ET",
  "connected": true,
  "account": {
-  "net_liq_jpy": 2680676,
-  "cash_jpy": 802260,
-  "usdjpy": 158.207,
+  "net_liq_jpy": 2682158,
+  "cash_jpy": 802333,
+  "usdjpy": 158.92,
   "positions_cost_usd": 11075.43,
   "positions_value_usd": 11831.17,
   "unrealized_usd": 755.74,
   "unrealized_pct": 6.82,
-  "pending_total_usd": 2118.62,
+  "pending_total_usd": 3762.78,
   "realized_usd": 187.62,
   "realized_count": 3
  },
@@ -251,9 +251,9 @@
   },
   {
    "date": "2026-11-11",
-   "net_liq_jpy": 2680676,
-   "cash_jpy": 802260,
-   "usdjpy": 158.207,
+   "net_liq_jpy": 2682158,
+   "cash_jpy": 802333,
+   "usdjpy": 158.92,
    "positions_cost_usd": 11075.43,
    "positions_value_usd": 11831.17,
    "unrealized_usd": 755.74
@@ -307,7 +307,7 @@
    "sl": 50.34,
    "sl_gap_pct": -24.63,
    "protected": true,
-   "entered_date": "2026-03-19"
+   "entered_date": "2025-04-07"
   },
   {
    "code": "DOV",
@@ -552,6 +552,16 @@
   }
  ],
  "pending": [
+  {
+   "code": "JBL",
+   "name": "Jabil",
+   "mode": "MODE A",
+   "qty": 7,
+   "limit": 234.88,
+   "sl": 40.83,
+   "last_price": 249.82,
+   "gap_pct": 6.36
+  },
   {
    "code": "MRK",
    "name": "Merck & Co.",
