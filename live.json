@@ -1,10 +1,10 @@
 {
- "updated_jst": "2026-11-11 10:50 JST",
- "updated_et": "2026-11-10 20:50 ET",
+ "updated_jst": "2026-11-11 11:04 JST",
+ "updated_et": "2026-11-10 21:04 ET",
  "connected": true,
  "account": {
-  "net_liq_jpy": 2682158,
-  "cash_jpy": 802333,
+  "net_liq_jpy": 2681341,
+  "cash_jpy": 802293,
   "usdjpy": 158.92,
   "positions_cost_usd": 11075.43,
   "positions_value_usd": 11831.17,
@@ -22,7 +22,9 @@
    "usdjpy": 157.916,
    "positions_cost_usd": 8637.5,
    "positions_value_usd": 8942.15,
-   "unrealized_usd": 304.65
+   "unrealized_usd": 304.65,
+   "flow_cum_jpy": 0,
+   "adj_net_liq_jpy": 2267318
   },
   {
    "date": "2026-10-17",
@@ -31,7 +33,9 @@
    "usdjpy": 157.987,
    "positions_cost_usd": 8637.5,
    "positions_value_usd": 8888.39,
-   "unrealized_usd": 250.89
+   "unrealized_usd": 250.89,
+   "flow_cum_jpy": 0,
+   "adj_net_liq_jpy": 2260393
   },
   {
    "date": "2026-10-18",
@@ -40,7 +44,9 @@
    "usdjpy": 157.987,
    "positions_cost_usd": 8637.5,
    "positions_value_usd": 8888.39,
-   "unrealized_usd": 250.89
+   "unrealized_usd": 250.89,
+   "flow_cum_jpy": 0,
+   "adj_net_liq_jpy": 2260393
   },
   {
    "date": "2026-10-19",
@@ -49,7 +55,9 @@
    "usdjpy": 157.987,
    "positions_cost_usd": 8637.5,
    "positions_value_usd": 8847.26,
-   "unrealized_usd": 209.76
+   "unrealized_usd": 209.76,
+   "flow_cum_jpy": 0,
+   "adj_net_liq_jpy": 2258295
   },
   {
    "date": "2026-10-20",
@@ -58,7 +66,9 @@
    "usdjpy": 157.941,
    "positions_cost_usd": 8637.5,
    "positions_value_usd": 8961.36,
-   "unrealized_usd": 323.86
+   "unrealized_usd": 323.86,
+   "flow_cum_jpy": 0,
+   "adj_net_liq_jpy": 2272692
   },
   {
    "date": "2026-10-21",
@@ -67,7 +77,9 @@
    "usdjpy": 157.948,
    "positions_cost_usd": 8637.5,
    "positions_value_usd": 8974.39,
-   "unrealized_usd": 336.89
+   "unrealized_usd": 336.89,
+   "flow_cum_jpy": 0,
+   "adj_net_liq_jpy": 2275851
   },
   {
    "date": "2026-10-22",
@@ -76,7 +88,9 @@
    "usdjpy": 157.157,
    "positions_cost_usd": 9206.11,
    "positions_value_usd": 9553.92,
-   "unrealized_usd": 347.81
+   "unrealized_usd": 347.81,
+   "flow_cum_jpy": 0,
+   "adj_net_liq_jpy": 2268832
   },
   {
    "date": "2026-10-23",
@@ -85,7 +99,9 @@
    "usdjpy": 156.608,
    "positions_cost_usd": 9206.11,
    "positions_value_usd": 9550.72,
-   "unrealized_usd": 344.61
+   "unrealized_usd": 344.61,
+   "flow_cum_jpy": 0,
+   "adj_net_liq_jpy": 2264970
   },
   {
    "date": "2026-10-24",
@@ -94,7 +110,9 @@
    "usdjpy": 156.814,
    "positions_cost_usd": 9206.11,
    "positions_value_usd": 9552.31,
-   "unrealized_usd": 346.2
+   "unrealized_usd": 346.2,
+   "flow_cum_jpy": 0,
+   "adj_net_liq_jpy": 2264924
   },
   {
    "date": "2026-10-25",
@@ -103,7 +121,9 @@
    "usdjpy": 156.814,
    "positions_cost_usd": 9206.11,
    "positions_value_usd": 9552.31,
-   "unrealized_usd": 346.2
+   "unrealized_usd": 346.2,
+   "flow_cum_jpy": 0,
+   "adj_net_liq_jpy": 2264924
   },
   {
    "date": "2026-10-26",
@@ -112,7 +132,9 @@
    "usdjpy": 156.814,
    "positions_cost_usd": 9206.11,
    "positions_value_usd": 9602.88,
-   "unrealized_usd": 396.77
+   "unrealized_usd": 396.77,
+   "flow_cum_jpy": 0,
+   "adj_net_liq_jpy": 2280075
   },
   {
    "date": "2026-10-27",
@@ -121,7 +143,9 @@
    "usdjpy": 157.793,
    "positions_cost_usd": 9206.11,
    "positions_value_usd": 9631.22,
-   "unrealized_usd": 425.11
+   "unrealized_usd": 425.11,
+   "flow_cum_jpy": 0,
+   "adj_net_liq_jpy": 2286201
   },
   {
    "date": "2026-10-28",
@@ -130,7 +154,9 @@
    "usdjpy": 157.917,
    "positions_cost_usd": 9793.79,
    "positions_value_usd": 10253.67,
-   "unrealized_usd": 459.88
+   "unrealized_usd": 459.88,
+   "flow_cum_jpy": 0,
+   "adj_net_liq_jpy": 2295968
   },
   {
    "date": "2026-10-29",
@@ -139,7 +165,9 @@
    "usdjpy": 157.964,
    "positions_cost_usd": 9793.79,
    "positions_value_usd": 10283.54,
-   "unrealized_usd": 489.75
+   "unrealized_usd": 489.75,
+   "flow_cum_jpy": 0,
+   "adj_net_liq_jpy": 2306879
   },
   {
    "date": "2026-10-30",
@@ -148,7 +176,9 @@
    "usdjpy": 157.052,
    "positions_cost_usd": 9483.66,
    "positions_value_usd": 10111.63,
-   "unrealized_usd": 627.97
+   "unrealized_usd": 627.97,
+   "flow_cum_jpy": 0,
+   "adj_net_liq_jpy": 2320293
   },
   {
    "date": "2026-10-31",
@@ -157,7 +187,9 @@
    "usdjpy": 157.804,
    "positions_cost_usd": 9483.66,
    "positions_value_usd": 10080.34,
-   "unrealized_usd": 596.68
+   "unrealized_usd": 596.68,
+   "flow_cum_jpy": 0,
+   "adj_net_liq_jpy": 2319686
   },
   {
    "date": "2026-11-01",
@@ -166,7 +198,9 @@
    "usdjpy": 157.804,
    "positions_cost_usd": 9483.66,
    "positions_value_usd": 10080.34,
-   "unrealized_usd": 596.68
+   "unrealized_usd": 596.68,
+   "flow_cum_jpy": 0,
+   "adj_net_liq_jpy": 2319686
   },
   {
    "date": "2026-11-02",
@@ -175,7 +209,9 @@
    "usdjpy": 157.804,
    "positions_cost_usd": 9483.66,
    "positions_value_usd": 10188.31,
-   "unrealized_usd": 704.65
+   "unrealized_usd": 704.65,
+   "flow_cum_jpy": 0,
+   "adj_net_liq_jpy": 2335931
   },
   {
    "date": "2026-11-03",
@@ -184,7 +220,9 @@
    "usdjpy": 158.208,
    "positions_cost_usd": 9483.66,
    "positions_value_usd": 10132.17,
-   "unrealized_usd": 648.51
+   "unrealized_usd": 648.51,
+   "flow_cum_jpy": 0,
+   "adj_net_liq_jpy": 2331343
   },
   {
    "date": "2026-11-04",
@@ -193,7 +231,9 @@
    "usdjpy": 158.307,
    "positions_cost_usd": 9483.66,
    "positions_value_usd": 10317.51,
-   "unrealized_usd": 833.85
+   "unrealized_usd": 833.85,
+   "flow_cum_jpy": 0,
+   "adj_net_liq_jpy": 2367327
   },
   {
    "date": "2026-11-05",
@@ -202,7 +242,9 @@
    "usdjpy": 158.439,
    "positions_cost_usd": 9046.26,
    "positions_value_usd": 10016.21,
-   "unrealized_usd": 969.95
+   "unrealized_usd": 969.95,
+   "flow_cum_jpy": 378663,
+   "adj_net_liq_jpy": 2314511
   },
   {
    "date": "2026-11-06",
@@ -211,7 +253,9 @@
    "usdjpy": 158.337,
    "positions_cost_usd": 11075.43,
    "positions_value_usd": 11566.42,
-   "unrealized_usd": 490.99
+   "unrealized_usd": 490.99,
+   "flow_cum_jpy": 378663,
+   "adj_net_liq_jpy": 2254292
   },
   {
    "date": "2026-11-07",
@@ -220,7 +264,9 @@
    "usdjpy": 158.425,
    "positions_cost_usd": 11075.43,
    "positions_value_usd": 11457.54,
-   "unrealized_usd": 382.11
+   "unrealized_usd": 382.11,
+   "flow_cum_jpy": 378663,
+   "adj_net_liq_jpy": 2240873
   },
   {
    "date": "2026-11-08",
@@ -229,7 +275,9 @@
    "usdjpy": 158.425,
    "positions_cost_usd": 11075.43,
    "positions_value_usd": 11457.54,
-   "unrealized_usd": 382.11
+   "unrealized_usd": 382.11,
+   "flow_cum_jpy": 378663,
+   "adj_net_liq_jpy": 2240873
   },
   {
    "date": "2026-11-09",
@@ -238,7 +286,9 @@
    "usdjpy": 158.425,
    "positions_cost_usd": 11075.43,
    "positions_value_usd": 11699.02,
-   "unrealized_usd": 623.59
+   "unrealized_usd": 623.59,
+   "flow_cum_jpy": 378663,
+   "adj_net_liq_jpy": 2268758
   },
   {
    "date": "2026-11-10",
@@ -247,16 +297,27 @@
    "usdjpy": 158.207,
    "positions_cost_usd": 11075.43,
    "positions_value_usd": 11768.49,
-   "unrealized_usd": 693.06
+   "unrealized_usd": 693.06,
+   "flow_cum_jpy": 378663,
+   "adj_net_liq_jpy": 2290846
   },
   {
    "date": "2026-11-11",
-   "net_liq_jpy": 2682158,
-   "cash_jpy": 802333,
+   "net_liq_jpy": 2681341,
+   "cash_jpy": 802293,
    "usdjpy": 158.92,
    "positions_cost_usd": 11075.43,
    "positions_value_usd": 11831.17,
-   "unrealized_usd": 755.74
+   "unrealized_usd": 755.74,
+   "flow_cum_jpy": 378663,
+   "adj_net_liq_jpy": 2302678
+  }
+ ],
+ "cash_flows": [
+  {
+   "date": "2026-11-05",
+   "jpy": 378663,
+   "note": "入金(11/05 JST の現金増 +¥378,663 から推定。正確な額が分かれば修正)"
   }
  ],
  "positions": [
