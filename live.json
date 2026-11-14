@@ -1,6 +1,6 @@
 {
- "updated_jst": "2026-11-14 23:50 JST",
- "updated_et": "2026-11-14 09:50 ET",
+ "updated_jst": "2026-11-15 00:50 JST",
+ "updated_et": "2026-11-14 10:50 ET",
  "connected": true,
  "account": {
   "net_liq_jpy": 2700822,
@@ -336,6 +336,17 @@
   },
   {
    "date": "2026-11-14",
+   "net_liq_jpy": 2700822,
+   "cash_jpy": 803136,
+   "usdjpy": 159.875,
+   "positions_cost_usd": 11075.43,
+   "positions_value_usd": 11893.65,
+   "unrealized_usd": 818.22,
+   "flow_cum_jpy": 378663,
+   "adj_net_liq_jpy": 2322159
+  },
+  {
+   "date": "2026-11-15",
    "net_liq_jpy": 2700822,
    "cash_jpy": 803136,
    "usdjpy": 159.875,
