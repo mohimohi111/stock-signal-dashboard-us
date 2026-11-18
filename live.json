@@ -827,5 +827,5 @@
  "alerts": [],
  "unprotected": [],
  "error": "本番口座に接続できませんでした(Gateway未ログインの可能性)",
- "last_attempt_jst": "2026-11-18 16:50 JST"
+ "last_attempt_jst": "2026-11-18 17:50 JST"
 }
