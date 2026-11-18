@@ -1,15 +1,15 @@
 {
- "updated_jst": "2026-11-19 02:50 JST",
- "updated_et": "2026-11-18 12:50 ET",
+ "updated_jst": "2026-11-19 03:50 JST",
+ "updated_et": "2026-11-18 13:50 ET",
  "connected": true,
  "account": {
-  "net_liq_jpy": 2658799,
+  "net_liq_jpy": 2660456,
   "cash_jpy": 445380,
   "usdjpy": 159.39,
   "positions_cost_usd": 13318.48,
-  "positions_value_usd": 13869.95,
-  "unrealized_usd": 551.47,
-  "unrealized_pct": 4.14,
+  "positions_value_usd": 13881.19,
+  "unrealized_usd": 562.71,
+  "unrealized_pct": 4.23,
   "pending_total_usd": 2657.98,
   "realized_usd": 187.62,
   "realized_count": 3
@@ -380,14 +380,14 @@
   },
   {
    "date": "2026-11-19",
-   "net_liq_jpy": 2658799,
+   "net_liq_jpy": 2660456,
    "cash_jpy": 445380,
    "usdjpy": 159.39,
    "positions_cost_usd": 13318.48,
-   "positions_value_usd": 13869.95,
-   "unrealized_usd": 551.47,
+   "positions_value_usd": 13881.19,
+   "unrealized_usd": 562.71,
    "flow_cum_jpy": 378663,
-   "adj_net_liq_jpy": 2280136
+   "adj_net_liq_jpy": 2281793
   }
  ],
  "cash_flows": [
@@ -407,11 +407,11 @@
    ],
    "qty": 11,
    "avg_cost": 92.33,
-   "last_price": 111.75,
-   "unrealized_usd": 213.57,
-   "unrealized_pct": 21.03,
+   "last_price": 111.68,
+   "unrealized_usd": 212.85,
+   "unrealized_pct": 20.96,
    "sl": 87.5,
-   "sl_gap_pct": -21.7,
+   "sl_gap_pct": -21.65,
    "protected": true,
    "entered_date": "2026-03-05"
   },
@@ -423,11 +423,11 @@
    ],
    "qty": 4,
    "avg_cost": 146.92,
-   "last_price": 170.76,
-   "unrealized_usd": 95.34,
-   "unrealized_pct": 16.22,
+   "last_price": 171.71,
+   "unrealized_usd": 99.16,
+   "unrealized_pct": 16.87,
    "sl": 122.91,
-   "sl_gap_pct": -28.02,
+   "sl_gap_pct": -28.42,
    "protected": true,
    "entered_date": "2026-10-28"
   },
@@ -439,11 +439,11 @@
    ],
    "qty": 21,
    "avg_cost": 30.59,
-   "last_price": 34.86,
-   "unrealized_usd": 89.67,
-   "unrealized_pct": 13.96,
+   "last_price": 34.92,
+   "unrealized_usd": 90.93,
+   "unrealized_pct": 14.15,
    "sl": 24.81,
-   "sl_gap_pct": -28.83,
+   "sl_gap_pct": -28.95,
    "protected": true,
    "entered_date": "2026-10-14"
   },
@@ -455,11 +455,11 @@
    ],
    "qty": 10,
    "avg_cost": 57.51,
-   "last_price": 65.37,
-   "unrealized_usd": 78.6,
-   "unrealized_pct": 13.67,
+   "last_price": 65.4,
+   "unrealized_usd": 78.9,
+   "unrealized_pct": 13.72,
    "sl": 50.34,
-   "sl_gap_pct": -22.99,
+   "sl_gap_pct": -23.03,
    "protected": true,
    "entered_date": "2025-04-07"
   },
@@ -471,11 +471,11 @@
    ],
    "qty": 2,
    "avg_cost": 282.76,
-   "last_price": 320.04,
-   "unrealized_usd": 74.56,
-   "unrealized_pct": 13.18,
+   "last_price": 318.82,
+   "unrealized_usd": 72.12,
+   "unrealized_pct": 12.75,
    "sl": 219.15,
-   "sl_gap_pct": -31.52,
+   "sl_gap_pct": -31.26,
    "protected": true,
    "entered_date": "2026-09-24"
   },
@@ -487,11 +487,11 @@
    ],
    "qty": 2,
    "avg_cost": 243.72,
-   "last_price": 267.26,
-   "unrealized_usd": 47.08,
-   "unrealized_pct": 9.66,
+   "last_price": 267.56,
+   "unrealized_usd": 47.68,
+   "unrealized_pct": 9.78,
    "sl": 209.23,
-   "sl_gap_pct": -21.71,
+   "sl_gap_pct": -21.8,
    "protected": true,
    "entered_date": "2026-09-22"
   },
@@ -503,11 +503,11 @@
    ],
    "qty": 4,
    "avg_cost": 122.99,
-   "last_price": 134.48,
-   "unrealized_usd": 45.94,
-   "unrealized_pct": 9.34,
+   "last_price": 134.68,
+   "unrealized_usd": 46.74,
+   "unrealized_pct": 9.5,
    "sl": 109.58,
-   "sl_gap_pct": -18.51,
+   "sl_gap_pct": -18.63,
    "protected": true,
    "entered_date": "2026-09-18"
   },
@@ -520,11 +520,11 @@
    ],
    "qty": 4,
    "avg_cost": 187.61,
-   "last_price": 203.25,
-   "unrealized_usd": 62.56,
-   "unrealized_pct": 8.34,
+   "last_price": 203.44,
+   "unrealized_usd": 63.32,
+   "unrealized_pct": 8.44,
    "sl": 172.26,
-   "sl_gap_pct": -15.25,
+   "sl_gap_pct": -15.33,
    "protected": true,
    "entered_date": "2026-03-09"
   },
@@ -536,43 +536,11 @@
    ],
    "qty": 2,
    "avg_cost": 225.73,
-   "last_price": 237.26,
-   "unrealized_usd": 23.06,
-   "unrealized_pct": 5.11,
+   "last_price": 237.7,
+   "unrealized_usd": 23.93,
+   "unrealized_pct": 5.3,
    "sl": 189.95,
-   "sl_gap_pct": -19.94,
-   "protected": true,
-   "entered_date": "2026-11-05"
-  },
-  {
-   "code": "DXCM",
-   "name": "Dexcom",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 7,
-   "avg_cost": 81.23,
-   "last_price": 82.31,
-   "unrealized_usd": 7.53,
-   "unrealized_pct": 1.32,
-   "sl": 69.77,
-   "sl_gap_pct": -15.23,
-   "protected": true,
-   "entered_date": "2026-10-21"
-  },
-  {
-   "code": "JCI",
-   "name": "Johnson Controls",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 4,
-   "avg_cost": 136.38,
-   "last_price": 137.85,
-   "unrealized_usd": 5.88,
-   "unrealized_pct": 1.08,
-   "sl": 112.17,
-   "sl_gap_pct": -18.63,
+   "sl_gap_pct": -20.09,
    "protected": true,
    "entered_date": "2026-11-05"
   },
@@ -584,13 +552,45 @@
    ],
    "qty": 3,
    "avg_cost": 125.62,
-   "last_price": 126.45,
-   "unrealized_usd": 2.49,
-   "unrealized_pct": 0.66,
+   "last_price": 127.16,
+   "unrealized_usd": 4.62,
+   "unrealized_pct": 1.23,
    "sl": 111.14,
-   "sl_gap_pct": -12.11,
+   "sl_gap_pct": -12.6,
    "protected": true,
    "entered_date": "2026-06-01"
+  },
+  {
+   "code": "DXCM",
+   "name": "Dexcom",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 7,
+   "avg_cost": 81.23,
+   "last_price": 82.0,
+   "unrealized_usd": 5.39,
+   "unrealized_pct": 0.95,
+   "sl": 69.77,
+   "sl_gap_pct": -14.91,
+   "protected": true,
+   "entered_date": "2026-10-21"
+  },
+  {
+   "code": "JCI",
+   "name": "Johnson Controls",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 4,
+   "avg_cost": 136.38,
+   "last_price": 137.67,
+   "unrealized_usd": 5.16,
+   "unrealized_pct": 0.95,
+   "sl": 112.17,
+   "sl_gap_pct": -18.52,
+   "protected": true,
+   "entered_date": "2026-11-05"
   },
   {
    "code": "LMT",
@@ -601,11 +601,11 @@
    ],
    "qty": 1,
    "avg_cost": 576.3,
-   "last_price": 577.01,
-   "unrealized_usd": 0.71,
-   "unrealized_pct": 0.12,
+   "last_price": 575.99,
+   "unrealized_usd": -0.31,
+   "unrealized_pct": -0.05,
    "sl": 459.9,
-   "sl_gap_pct": -20.3,
+   "sl_gap_pct": -20.16,
    "protected": true,
    "entered_date": null
   },
@@ -617,11 +617,11 @@
    ],
    "qty": 9,
    "avg_cost": 172.95,
-   "last_price": 171.89,
-   "unrealized_usd": -9.54,
-   "unrealized_pct": -0.61,
+   "last_price": 172.35,
+   "unrealized_usd": -5.4,
+   "unrealized_pct": -0.35,
    "sl": 104.96,
-   "sl_gap_pct": -38.94,
+   "sl_gap_pct": -39.1,
    "protected": true,
    "entered_date": "2026-11-05"
   },
@@ -633,11 +633,11 @@
    ],
    "qty": 5,
    "avg_cost": 85.35,
-   "last_price": 84.41,
-   "unrealized_usd": -4.7,
-   "unrealized_pct": -1.1,
+   "last_price": 84.92,
+   "unrealized_usd": -2.15,
+   "unrealized_pct": -0.5,
    "sl": 76.65,
-   "sl_gap_pct": -9.19,
+   "sl_gap_pct": -9.74,
    "protected": true,
    "entered_date": "2026-09-17"
   },
@@ -649,11 +649,11 @@
    ],
    "qty": 1,
    "avg_cost": 387.39,
-   "last_price": 380.26,
-   "unrealized_usd": -7.13,
-   "unrealized_pct": -1.84,
+   "last_price": 380.48,
+   "unrealized_usd": -6.91,
+   "unrealized_pct": -1.79,
    "sl": 328.18,
-   "sl_gap_pct": -13.7,
+   "sl_gap_pct": -13.74,
    "protected": true,
    "entered_date": null
   },
@@ -665,11 +665,11 @@
    ],
    "qty": 8,
    "avg_cost": 60.02,
-   "last_price": 58.72,
-   "unrealized_usd": -10.36,
-   "unrealized_pct": -2.16,
+   "last_price": 58.7,
+   "unrealized_usd": -10.56,
+   "unrealized_pct": -2.2,
    "sl": 53.08,
-   "sl_gap_pct": -9.61,
+   "sl_gap_pct": -9.57,
    "protected": true,
    "entered_date": "2026-09-16"
   },
@@ -681,29 +681,13 @@
    ],
    "qty": 8,
    "avg_cost": 61.97,
-   "last_price": 60.08,
-   "unrealized_usd": -15.12,
-   "unrealized_pct": -3.05,
+   "last_price": 60.14,
+   "unrealized_usd": -14.64,
+   "unrealized_pct": -2.95,
    "sl": 55.04,
-   "sl_gap_pct": -8.39,
+   "sl_gap_pct": -8.48,
    "protected": true,
    "entered_date": "2026-09-23"
-  },
-  {
-   "code": "DVA",
-   "name": "DaVita",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 3,
-   "avg_cost": 171.78,
-   "last_price": 165.43,
-   "unrealized_usd": -19.04,
-   "unrealized_pct": -3.69,
-   "sl": 156.7,
-   "sl_gap_pct": -5.28,
-   "protected": true,
-   "entered_date": "2026-08-17"
   },
   {
    "code": "JPM",
@@ -713,13 +697,29 @@
    ],
    "qty": 1,
    "avg_cost": 340.71,
-   "last_price": 326.32,
-   "unrealized_usd": -14.39,
-   "unrealized_pct": -4.23,
+   "last_price": 326.05,
+   "unrealized_usd": -14.66,
+   "unrealized_pct": -4.3,
    "sl": 312.91,
-   "sl_gap_pct": -4.11,
+   "sl_gap_pct": -4.03,
    "protected": true,
    "entered_date": "2026-09-22"
+  },
+  {
+   "code": "DVA",
+   "name": "DaVita",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 3,
+   "avg_cost": 171.78,
+   "last_price": 164.04,
+   "unrealized_usd": -23.21,
+   "unrealized_pct": -4.5,
+   "sl": 156.7,
+   "sl_gap_pct": -4.48,
+   "protected": true,
+   "entered_date": "2026-08-17"
   },
   {
    "code": "STT",
@@ -729,29 +729,13 @@
    ],
    "qty": 2,
    "avg_cost": 176.19,
-   "last_price": 166.48,
-   "unrealized_usd": -19.42,
-   "unrealized_pct": -5.51,
+   "last_price": 166.96,
+   "unrealized_usd": -18.47,
+   "unrealized_pct": -5.24,
    "sl": 155.46,
-   "sl_gap_pct": -6.62,
+   "sl_gap_pct": -6.89,
    "protected": true,
    "entered_date": "2026-09-30"
-  },
-  {
-   "code": "UNH",
-   "name": "UnitedHealth Group",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 1,
-   "avg_cost": 387.16,
-   "last_price": 355.89,
-   "unrealized_usd": -31.27,
-   "unrealized_pct": -8.08,
-   "sl": 346.94,
-   "sl_gap_pct": -2.52,
-   "protected": true,
-   "entered_date": "2025-05-13"
   },
   {
    "code": "CSCO",
@@ -761,13 +745,29 @@
    ],
    "qty": 7,
    "avg_cost": 105.91,
-   "last_price": 96.69,
-   "unrealized_usd": -64.54,
-   "unrealized_pct": -8.71,
+   "last_price": 97.52,
+   "unrealized_usd": -58.73,
+   "unrealized_pct": -7.92,
    "sl": 81.17,
-   "sl_gap_pct": -16.05,
+   "sl_gap_pct": -16.77,
    "protected": true,
    "entered_date": "2026-09-22"
+  },
+  {
+   "code": "UNH",
+   "name": "UnitedHealth Group",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 1,
+   "avg_cost": 387.16,
+   "last_price": 354.1,
+   "unrealized_usd": -33.06,
+   "unrealized_pct": -8.54,
+   "sl": 346.94,
+   "sl_gap_pct": -2.02,
+   "protected": true,
+   "entered_date": "2025-05-13"
   }
  ],
  "pending": [
@@ -778,8 +778,8 @@
    "qty": 16,
    "limit": 30.98,
    "sl": 27.15,
-   "last_price": 31.59,
-   "gap_pct": 1.97
+   "last_price": 31.58,
+   "gap_pct": 1.95
   },
   {
    "code": "PNW",
@@ -788,8 +788,8 @@
    "qty": 4,
    "limit": 100.61,
    "sl": 90.06,
-   "last_price": 104.37,
-   "gap_pct": 3.74
+   "last_price": 104.41,
+   "gap_pct": 3.78
   },
   {
    "code": "LIN",
@@ -798,8 +798,8 @@
    "qty": 1,
    "limit": 485.79,
    "sl": 423.38,
-   "last_price": 511.8,
-   "gap_pct": 5.35
+   "last_price": 511.26,
+   "gap_pct": 5.24
   },
   {
    "code": "TXN",
@@ -808,8 +808,8 @@
    "qty": 3,
    "limit": 267.73,
    "sl": 201.43,
-   "last_price": 291.02,
-   "gap_pct": 8.7
+   "last_price": 291.58,
+   "gap_pct": 8.91
   },
   {
    "code": "A",
@@ -818,8 +818,8 @@
    "qty": 3,
    "limit": 156.96,
    "sl": 131.0,
-   "last_price": 175.6,
-   "gap_pct": 11.87
+   "last_price": 176.38,
+   "gap_pct": 12.37
   }
  ],
  "fills": [
@@ -958,9 +958,9 @@
  ],
  "alerts": [
   "UNH(MODE A): 数量不一致のためexit注文を見送り — UNH: IBKRポジション=1株 / entered必要株数合計=4株 (MODE A=4株) / 既存SL=0株 / 不足=3株。複数モードのうち一部が決済済みの可能性があるが、IBKRのポジションからはどのモードか判別できない",
-  "ポジション不一致 LMT: 台帳enteredの株数合計=0 / IBKR保有=1",
   "ポジション不一致 UNH: 台帳enteredの株数合計=4 / IBKR保有=1",
-  "ポジション不一致 ADI: 台帳enteredの株数合計=0 / IBKR保有=1"
+  "ポジション不一致 ADI: 台帳enteredの株数合計=0 / IBKR保有=1",
+  "ポジション不一致 LMT: 台帳enteredの株数合計=0 / IBKR保有=1"
  ],
  "unprotected": []
 }
