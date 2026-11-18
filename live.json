@@ -1,10 +1,10 @@
 {
- "updated_jst": "2026-11-19 07:50 JST",
- "updated_et": "2026-11-18 17:50 ET",
+ "updated_jst": "2026-11-19 08:50 JST",
+ "updated_et": "2026-11-18 18:50 ET",
  "connected": true,
  "account": {
-  "net_liq_jpy": 2646733,
-  "cash_jpy": 500607,
+  "net_liq_jpy": 4749914,
+  "cash_jpy": 2600624,
   "usdjpy": 159.39,
   "positions_cost_usd": 12931.32,
   "positions_value_usd": 13455.76,
@@ -380,14 +380,14 @@
   },
   {
    "date": "2026-11-19",
-   "net_liq_jpy": 2646733,
-   "cash_jpy": 500607,
+   "net_liq_jpy": 4749914,
+   "cash_jpy": 2600624,
    "usdjpy": 159.39,
    "positions_cost_usd": 12931.32,
    "positions_value_usd": 13455.76,
    "unrealized_usd": 524.44,
    "flow_cum_jpy": 378663,
-   "adj_net_liq_jpy": 2268070
+   "adj_net_liq_jpy": 4371251
   }
  ],
  "cash_flows": [
@@ -953,8 +953,8 @@
   }
  ],
  "alerts": [
-  "ポジション不一致 ADI: 台帳enteredの株数合計=0 / IBKR保有=1",
-  "ポジション不一致 LMT: 台帳enteredの株数合計=0 / IBKR保有=1"
+  "ポジション不一致 LMT: 台帳enteredの株数合計=0 / IBKR保有=1",
+  "ポジション不一致 ADI: 台帳enteredの株数合計=0 / IBKR保有=1"
  ],
  "unprotected": []
 }
