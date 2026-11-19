@@ -1,18 +1,18 @@
 {
- "updated_jst": "2026-11-19 23:50 JST",
- "updated_et": "2026-11-19 09:50 ET",
+ "updated_jst": "2026-11-20 00:27 JST",
+ "updated_et": "2026-11-19 10:27 ET",
  "connected": true,
  "account": {
-  "net_liq_jpy": 4758987,
-  "cash_jpy": 2110197,
+  "net_liq_jpy": 4745553,
+  "cash_jpy": 2123097,
   "usdjpy": 159.946,
-  "positions_cost_usd": 15998.13,
-  "positions_value_usd": 16555.51,
-  "unrealized_usd": 557.38,
-  "unrealized_pct": 3.48,
-  "pending_total_usd": 4714.72,
-  "realized_usd": 147.4,
-  "realized_count": 4
+  "positions_cost_usd": 15871.31,
+  "positions_value_usd": 16376.85,
+  "unrealized_usd": 505.54,
+  "unrealized_pct": 3.19,
+  "pending_total_usd": 4326.55,
+  "realized_usd": 101.62,
+  "realized_count": 5
  },
  "equity_history": [
   {
@@ -386,8 +386,19 @@
    "positions_cost_usd": 15998.13,
    "positions_value_usd": 16555.51,
    "unrealized_usd": 557.38,
-   "flow_cum_jpy": 378663,
-   "adj_net_liq_jpy": 4380324
+   "flow_cum_jpy": 2472422,
+   "adj_net_liq_jpy": 2286565
+  },
+  {
+   "date": "2026-11-20",
+   "net_liq_jpy": 4745553,
+   "cash_jpy": 2123097,
+   "usdjpy": 159.946,
+   "positions_cost_usd": 15871.31,
+   "positions_value_usd": 16376.85,
+   "unrealized_usd": 505.54,
+   "flow_cum_jpy": 2472422,
+   "adj_net_liq_jpy": 2273131
   }
  ],
  "cash_flows": [
@@ -395,6 +406,11 @@
    "date": "2026-11-05",
    "jpy": 378663,
    "note": "入金(11/05 JST の現金増 +¥378,663 から推定。正確な額が分かれば修正)"
+  },
+  {
+   "date": "2026-11-19",
+   "jpy": 2093759,
+   "note": "入金(11/19 JST の現金増 +¥2,093,759 から推定。正確な額が分かれば修正)"
   }
  ],
  "positions": [
@@ -407,29 +423,13 @@
    ],
    "qty": 11,
    "avg_cost": 92.33,
-   "last_price": 109.98,
-   "unrealized_usd": 194.15,
-   "unrealized_pct": 19.12,
+   "last_price": 110.23,
+   "unrealized_usd": 196.9,
+   "unrealized_pct": 19.39,
    "sl": 87.5,
-   "sl_gap_pct": -20.44,
+   "sl_gap_pct": -20.62,
    "protected": true,
    "entered_date": "2026-03-05"
-  },
-  {
-   "code": "BEN",
-   "name": "Franklin Resources",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 21,
-   "avg_cost": 30.59,
-   "last_price": 34.69,
-   "unrealized_usd": 86.1,
-   "unrealized_pct": 13.4,
-   "sl": 24.81,
-   "sl_gap_pct": -28.48,
-   "protected": true,
-   "entered_date": "2026-10-14"
   },
   {
    "code": "TGT",
@@ -439,11 +439,11 @@
    ],
    "qty": 4,
    "avg_cost": 146.92,
-   "last_price": 166.35,
-   "unrealized_usd": 77.72,
-   "unrealized_pct": 13.22,
+   "last_price": 169.5,
+   "unrealized_usd": 90.32,
+   "unrealized_pct": 15.37,
    "sl": 122.91,
-   "sl_gap_pct": -26.11,
+   "sl_gap_pct": -27.49,
    "protected": true,
    "entered_date": "2026-10-28"
   },
@@ -455,13 +455,29 @@
    ],
    "qty": 2,
    "avg_cost": 282.76,
-   "last_price": 319.85,
-   "unrealized_usd": 74.17,
-   "unrealized_pct": 13.12,
+   "last_price": 319.0,
+   "unrealized_usd": 72.48,
+   "unrealized_pct": 12.82,
    "sl": 219.15,
-   "sl_gap_pct": -31.48,
+   "sl_gap_pct": -31.3,
    "protected": true,
    "entered_date": "2026-09-24"
+  },
+  {
+   "code": "BEN",
+   "name": "Franklin Resources",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 21,
+   "avg_cost": 30.59,
+   "last_price": 34.34,
+   "unrealized_usd": 78.75,
+   "unrealized_pct": 12.26,
+   "sl": 24.81,
+   "sl_gap_pct": -27.75,
+   "protected": true,
+   "entered_date": "2026-10-14"
   },
   {
    "code": "BALL",
@@ -471,11 +487,11 @@
    ],
    "qty": 10,
    "avg_cost": 57.51,
-   "last_price": 63.85,
-   "unrealized_usd": 63.4,
-   "unrealized_pct": 11.02,
+   "last_price": 63.76,
+   "unrealized_usd": 62.55,
+   "unrealized_pct": 10.88,
    "sl": 50.34,
-   "sl_gap_pct": -21.16,
+   "sl_gap_pct": -21.05,
    "protected": true,
    "entered_date": "2025-04-07"
   },
@@ -487,11 +503,11 @@
    ],
    "qty": 2,
    "avg_cost": 243.72,
-   "last_price": 264.78,
-   "unrealized_usd": 42.12,
-   "unrealized_pct": 8.64,
+   "last_price": 264.69,
+   "unrealized_usd": 41.94,
+   "unrealized_pct": 8.6,
    "sl": 209.23,
-   "sl_gap_pct": -20.98,
+   "sl_gap_pct": -20.95,
    "protected": true,
    "entered_date": "2026-09-22"
   },
@@ -504,11 +520,11 @@
    ],
    "qty": 4,
    "avg_cost": 187.61,
-   "last_price": 202.52,
-   "unrealized_usd": 59.64,
-   "unrealized_pct": 7.95,
+   "last_price": 201.18,
+   "unrealized_usd": 54.28,
+   "unrealized_pct": 7.23,
    "sl": 172.26,
-   "sl_gap_pct": -14.94,
+   "sl_gap_pct": -14.38,
    "protected": true,
    "entered_date": "2026-03-09"
   },
@@ -520,11 +536,11 @@
    ],
    "qty": 4,
    "avg_cost": 122.99,
-   "last_price": 130.18,
-   "unrealized_usd": 28.76,
-   "unrealized_pct": 5.85,
+   "last_price": 131.15,
+   "unrealized_usd": 32.64,
+   "unrealized_pct": 6.63,
    "sl": 109.58,
-   "sl_gap_pct": -15.82,
+   "sl_gap_pct": -16.45,
    "protected": true,
    "entered_date": "2026-09-18"
   },
@@ -536,27 +552,11 @@
    ],
    "qty": 2,
    "avg_cost": 225.73,
-   "last_price": 237.28,
-   "unrealized_usd": 23.1,
-   "unrealized_pct": 5.12,
+   "last_price": 236.86,
+   "unrealized_usd": 22.26,
+   "unrealized_pct": 4.93,
    "sl": 189.95,
-   "sl_gap_pct": -19.95,
-   "protected": true,
-   "entered_date": "2026-11-05"
-  },
-  {
-   "code": "NTAP",
-   "name": "NetApp",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 9,
-   "avg_cost": 172.95,
-   "last_price": 179.18,
-   "unrealized_usd": 56.07,
-   "unrealized_pct": 3.6,
-   "sl": 104.96,
-   "sl_gap_pct": -41.42,
+   "sl_gap_pct": -19.8,
    "protected": true,
    "entered_date": "2026-11-05"
   },
@@ -568,13 +568,61 @@
    ],
    "qty": 4,
    "avg_cost": 136.38,
-   "last_price": 139.98,
-   "unrealized_usd": 14.4,
-   "unrealized_pct": 2.64,
+   "last_price": 138.82,
+   "unrealized_usd": 9.78,
+   "unrealized_pct": 1.79,
    "sl": 112.17,
-   "sl_gap_pct": -19.87,
+   "sl_gap_pct": -19.2,
    "protected": true,
    "entered_date": "2026-11-05"
+  },
+  {
+   "code": "NTAP",
+   "name": "NetApp",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 9,
+   "avg_cost": 172.95,
+   "last_price": 175.15,
+   "unrealized_usd": 19.8,
+   "unrealized_pct": 1.27,
+   "sl": 104.96,
+   "sl_gap_pct": -40.07,
+   "protected": true,
+   "entered_date": "2026-11-05"
+  },
+  {
+   "code": "MCD",
+   "name": "McDonald's",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 3,
+   "avg_cost": 268.44,
+   "last_price": 271.36,
+   "unrealized_usd": 8.75,
+   "unrealized_pct": 1.09,
+   "sl": 194.9,
+   "sl_gap_pct": -28.18,
+   "protected": true,
+   "entered_date": "2026-06-25"
+  },
+  {
+   "code": "ELV",
+   "name": "Elevance Health",
+   "modes": [
+    "MODE B"
+   ],
+   "qty": 1,
+   "avg_cost": 388.52,
+   "last_price": 389.09,
+   "unrealized_usd": 0.57,
+   "unrealized_pct": 0.15,
+   "sl": 325.65,
+   "sl_gap_pct": -16.3,
+   "protected": true,
+   "entered_date": null
   },
   {
    "code": "ADI",
@@ -584,11 +632,11 @@
    ],
    "qty": 1,
    "avg_cost": 387.39,
-   "last_price": 393.55,
-   "unrealized_usd": 6.16,
-   "unrealized_pct": 1.59,
+   "last_price": 386.81,
+   "unrealized_usd": -0.58,
+   "unrealized_pct": -0.15,
    "sl": 328.18,
-   "sl_gap_pct": -16.61,
+   "sl_gap_pct": -15.16,
    "protected": true,
    "entered_date": "2026-11-18"
   },
@@ -600,45 +648,13 @@
    ],
    "qty": 7,
    "avg_cost": 81.23,
-   "last_price": 82.24,
-   "unrealized_usd": 7.04,
-   "unrealized_pct": 1.24,
+   "last_price": 81.09,
+   "unrealized_usd": -0.98,
+   "unrealized_pct": -0.17,
    "sl": 69.77,
-   "sl_gap_pct": -15.16,
+   "sl_gap_pct": -13.96,
    "protected": true,
    "entered_date": "2026-10-21"
-  },
-  {
-   "code": "MCD",
-   "name": "McDonald's",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 3,
-   "avg_cost": 268.44,
-   "last_price": 270.04,
-   "unrealized_usd": 4.8,
-   "unrealized_pct": 0.6,
-   "sl": 194.9,
-   "sl_gap_pct": -27.83,
-   "protected": true,
-   "entered_date": "2026-06-25"
-  },
-  {
-   "code": "AEP",
-   "name": "American Electric Power",
-   "modes": [
-    "MODE B"
-   ],
-   "qty": 3,
-   "avg_cost": 125.62,
-   "last_price": 125.46,
-   "unrealized_usd": -0.48,
-   "unrealized_pct": -0.13,
-   "sl": 111.14,
-   "sl_gap_pct": -11.41,
-   "protected": true,
-   "entered_date": "2026-06-01"
   },
   {
    "code": "LMT",
@@ -648,11 +664,11 @@
    ],
    "qty": 1,
    "avg_cost": 576.3,
-   "last_price": 575.52,
-   "unrealized_usd": -0.78,
-   "unrealized_pct": -0.14,
+   "last_price": 575.22,
+   "unrealized_usd": -1.08,
+   "unrealized_pct": -0.19,
    "sl": 459.9,
-   "sl_gap_pct": -20.09,
+   "sl_gap_pct": -20.05,
    "protected": true,
    "entered_date": "2026-11-18"
   },
@@ -664,29 +680,29 @@
    ],
    "qty": 10,
    "avg_cost": 84.92,
-   "last_price": 84.54,
-   "unrealized_usd": -3.75,
-   "unrealized_pct": -0.44,
+   "last_price": 84.3,
+   "unrealized_usd": -6.2,
+   "unrealized_pct": -0.73,
    "sl": 76.65,
-   "sl_gap_pct": -9.34,
+   "sl_gap_pct": -9.07,
    "protected": true,
    "entered_date": "2026-09-17"
   },
   {
-   "code": "GRMN",
-   "name": "Garmin",
+   "code": "AEP",
+   "name": "American Electric Power",
    "modes": [
-    "MODE A"
+    "MODE B"
    ],
-   "qty": 1,
-   "avg_cost": 281.18,
-   "last_price": 279.91,
-   "unrealized_usd": -1.27,
-   "unrealized_pct": -0.45,
-   "sl": 243.0,
-   "sl_gap_pct": -13.19,
+   "qty": 3,
+   "avg_cost": 125.62,
+   "last_price": 124.59,
+   "unrealized_usd": -3.09,
+   "unrealized_pct": -0.82,
+   "sl": 111.14,
+   "sl_gap_pct": -10.8,
    "protected": true,
-   "entered_date": "2026-09-01"
+   "entered_date": "2026-06-01"
   },
   {
    "code": "CMG",
@@ -696,13 +712,29 @@
    ],
    "qty": 22,
    "avg_cost": 36.75,
-   "last_price": 36.5,
-   "unrealized_usd": -5.5,
-   "unrealized_pct": -0.68,
+   "last_price": 36.33,
+   "unrealized_usd": -9.35,
+   "unrealized_pct": -1.16,
    "sl": 6.6,
-   "sl_gap_pct": -81.92,
+   "sl_gap_pct": -81.83,
    "protected": true,
    "entered_date": "2025-10-30"
+  },
+  {
+   "code": "GRMN",
+   "name": "Garmin",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 1,
+   "avg_cost": 281.18,
+   "last_price": 277.18,
+   "unrealized_usd": -4.0,
+   "unrealized_pct": -1.42,
+   "sl": 243.0,
+   "sl_gap_pct": -12.33,
+   "protected": true,
+   "entered_date": "2026-09-01"
   },
   {
    "code": "OKE",
@@ -713,11 +745,11 @@
    ],
    "qty": 6,
    "avg_cost": 88.11,
-   "last_price": 87.28,
-   "unrealized_usd": -4.98,
-   "unrealized_pct": -0.94,
+   "last_price": 86.63,
+   "unrealized_usd": -8.88,
+   "unrealized_pct": -1.68,
    "sl": 75.45,
-   "sl_gap_pct": -13.55,
+   "sl_gap_pct": -12.91,
    "protected": true,
    "entered_date": null
   },
@@ -729,11 +761,11 @@
    ],
    "qty": 2,
    "avg_cost": 110.35,
-   "last_price": 109.03,
-   "unrealized_usd": -2.65,
-   "unrealized_pct": -1.2,
+   "last_price": 107.86,
+   "unrealized_usd": -4.98,
+   "unrealized_pct": -2.26,
    "sl": 72.81,
-   "sl_gap_pct": -33.22,
+   "sl_gap_pct": -32.5,
    "protected": true,
    "entered_date": "2024-08-30"
   },
@@ -745,11 +777,11 @@
    ],
    "qty": 8,
    "avg_cost": 60.02,
-   "last_price": 58.55,
-   "unrealized_usd": -11.73,
-   "unrealized_pct": -2.44,
+   "last_price": 57.96,
+   "unrealized_usd": -16.52,
+   "unrealized_pct": -3.44,
    "sl": 53.08,
-   "sl_gap_pct": -9.35,
+   "sl_gap_pct": -8.41,
    "protected": true,
    "entered_date": "2026-09-16"
   },
@@ -761,29 +793,13 @@
    ],
    "qty": 1,
    "avg_cost": 340.71,
-   "last_price": 327.85,
-   "unrealized_usd": -12.86,
-   "unrealized_pct": -3.77,
+   "last_price": 323.3,
+   "unrealized_usd": -17.41,
+   "unrealized_pct": -5.11,
    "sl": 312.91,
-   "sl_gap_pct": -4.56,
+   "sl_gap_pct": -3.22,
    "protected": true,
    "entered_date": "2026-09-22"
-  },
-  {
-   "code": "STT",
-   "name": "State Street Corporation",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 2,
-   "avg_cost": 176.19,
-   "last_price": 167.38,
-   "unrealized_usd": -17.63,
-   "unrealized_pct": -5.0,
-   "sl": 155.46,
-   "sl_gap_pct": -7.12,
-   "protected": true,
-   "entered_date": "2026-09-30"
   },
   {
    "code": "BMY",
@@ -793,13 +809,29 @@
    ],
    "qty": 8,
    "avg_cost": 61.97,
-   "last_price": 58.67,
-   "unrealized_usd": -26.44,
-   "unrealized_pct": -5.33,
+   "last_price": 58.29,
+   "unrealized_usd": -29.44,
+   "unrealized_pct": -5.94,
    "sl": 55.04,
-   "sl_gap_pct": -6.18,
+   "sl_gap_pct": -5.58,
    "protected": true,
    "entered_date": "2026-09-23"
+  },
+  {
+   "code": "STT",
+   "name": "State Street Corporation",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 2,
+   "avg_cost": 176.19,
+   "last_price": 164.95,
+   "unrealized_usd": -22.49,
+   "unrealized_pct": -6.38,
+   "sl": 155.46,
+   "sl_gap_pct": -5.75,
+   "protected": true,
+   "entered_date": "2026-09-30"
   },
   {
    "code": "CSCO",
@@ -809,29 +841,13 @@
    ],
    "qty": 7,
    "avg_cost": 105.91,
-   "last_price": 98.47,
-   "unrealized_usd": -52.05,
-   "unrealized_pct": -7.02,
+   "last_price": 97.27,
+   "unrealized_usd": -60.48,
+   "unrealized_pct": -8.16,
    "sl": 81.17,
-   "sl_gap_pct": -17.57,
+   "sl_gap_pct": -16.55,
    "protected": true,
    "entered_date": "2026-09-22"
-  },
-  {
-   "code": "DVA",
-   "name": "DaVita",
-   "modes": [
-    "MODE B"
-   ],
-   "qty": 3,
-   "avg_cost": 171.78,
-   "last_price": 158.4,
-   "unrealized_usd": -40.14,
-   "unrealized_pct": -7.79,
-   "sl": 156.7,
-   "sl_gap_pct": -1.07,
-   "protected": true,
-   "entered_date": "2026-08-17"
   }
  ],
  "pending": [
@@ -842,28 +858,8 @@
    "qty": 16,
    "limit": 30.98,
    "sl": 27.15,
-   "last_price": 31.56,
-   "gap_pct": 1.87
-  },
-  {
-   "code": "ELV",
-   "name": "Elevance Health",
-   "mode": "MODE B",
-   "qty": 1,
-   "limit": 388.17,
-   "sl": 325.65,
-   "last_price": 396.51,
-   "gap_pct": 2.15
-  },
-  {
-   "code": "UNP",
-   "name": "Union Pacific Corporation",
-   "mode": "MODE B",
-   "qty": 1,
-   "limit": 286.04,
-   "sl": 256.09,
-   "last_price": 293.95,
-   "gap_pct": 2.76
+   "last_price": 31.39,
+   "gap_pct": 1.31
   },
   {
    "code": "PNW",
@@ -872,8 +868,18 @@
    "qty": 4,
    "limit": 100.61,
    "sl": 90.06,
-   "last_price": 103.58,
-   "gap_pct": 2.96
+   "last_price": 102.58,
+   "gap_pct": 1.96
+  },
+  {
+   "code": "UNP",
+   "name": "Union Pacific Corporation",
+   "mode": "MODE B",
+   "qty": 1,
+   "limit": 286.04,
+   "sl": 256.09,
+   "last_price": 293.33,
+   "gap_pct": 2.55
   },
   {
    "code": "WST",
@@ -882,28 +888,8 @@
    "qty": 1,
    "limit": 387.54,
    "sl": 336.82,
-   "last_price": 400.68,
-   "gap_pct": 3.39
-  },
-  {
-   "code": "LHX",
-   "name": "L3Harris",
-   "mode": "MODE B",
-   "qty": 3,
-   "limit": 245.73,
-   "sl": 112.23,
-   "last_price": 257.43,
-   "gap_pct": 4.76
-  },
-  {
-   "code": "LIN",
-   "name": "Linde plc",
-   "mode": "MODE B",
-   "qty": 1,
-   "limit": 485.79,
-   "sl": 423.38,
-   "last_price": 512.69,
-   "gap_pct": 5.54
+   "last_price": 401.76,
+   "gap_pct": 3.67
   },
   {
    "code": "AMZN",
@@ -912,8 +898,28 @@
    "qty": 1,
    "limit": 257.8,
    "sl": 228.4,
-   "last_price": 273.66,
-   "gap_pct": 6.15
+   "last_price": 268.71,
+   "gap_pct": 4.23
+  },
+  {
+   "code": "LHX",
+   "name": "L3Harris",
+   "mode": "MODE B",
+   "qty": 3,
+   "limit": 245.73,
+   "sl": 112.23,
+   "last_price": 257.51,
+   "gap_pct": 4.79
+  },
+  {
+   "code": "LIN",
+   "name": "Linde plc",
+   "mode": "MODE B",
+   "qty": 1,
+   "limit": 485.79,
+   "sl": 423.38,
+   "last_price": 515.46,
+   "gap_pct": 6.11
   },
   {
    "code": "TXN",
@@ -922,8 +928,8 @@
    "qty": 3,
    "limit": 267.73,
    "sl": 201.43,
-   "last_price": 300.08,
-   "gap_pct": 12.08
+   "last_price": 293.83,
+   "gap_pct": 9.75
   },
   {
    "code": "A",
@@ -932,11 +938,31 @@
    "qty": 3,
    "limit": 156.96,
    "sl": 131.0,
-   "last_price": 179.26,
-   "gap_pct": 14.21
+   "last_price": 178.93,
+   "gap_pct": 14.0
   }
  ],
  "fills": [
+  {
+   "date": "2026-11-19",
+   "code": "ELV",
+   "side": "BUY",
+   "qty": 1,
+   "price": 388.17,
+   "name": "Elevance Health"
+  },
+  {
+   "date": "2026-11-19",
+   "code": "DVA",
+   "side": "SELL",
+   "qty": 3,
+   "price": 156.52,
+   "avg_cost": 171.78,
+   "pnl_usd": -45.78,
+   "pnl_pct": -8.88,
+   "kind": "損切り",
+   "name": "DaVita"
+  },
   {
    "date": "2026-11-19",
    "code": "HSIC",
@@ -1142,11 +1168,12 @@
   "TROW(MODE B): expired なのに TROW のポジションが2株あります(矛盾状態)",
   "CMG(MODE A): 数量不一致のためexit注文を見送り — CMG: IBKRポジション=22株 / entered必要株数合計=49株 (MODE A=49株) / 既存SL=0株 / 不足=27株。複数モードのうち一部が決済済みの可能性があるが、IBKRのポジションからはどのモードか判別できない",
   "TROW(MODE A): 数量不一致のためexit注文を見送り — TROW: IBKRポジション=2株 / entered必要株数合計=14株 (MODE A=14株) / 既存SL=0株 / 不足=12株。複数モードのうち一部が決済済みの可能性があるが、IBKRのポジションからはどのモードか判別できない",
-  "ポジション不一致 OKE: 台帳enteredの株数合計=0 / IBKR保有=6",
+  "ポジション不一致 HSIC: 台帳enteredの株数合計=5 / IBKR保有=10",
   "ポジション不一致 MCD: 台帳enteredの株数合計=2 / IBKR保有=3",
-  "ポジション不一致 CMG: 台帳enteredの株数合計=49 / IBKR保有=22",
   "ポジション不一致 TROW: 台帳enteredの株数合計=14 / IBKR保有=2",
-  "ポジション不一致 HSIC: 台帳enteredの株数合計=5 / IBKR保有=10"
+  "ポジション不一致 CMG: 台帳enteredの株数合計=49 / IBKR保有=22",
+  "ポジション不一致 ELV: 台帳enteredの株数合計=0 / IBKR保有=1",
+  "ポジション不一致 OKE: 台帳enteredの株数合計=0 / IBKR保有=6"
  ],
  "unprotected": []
 }
