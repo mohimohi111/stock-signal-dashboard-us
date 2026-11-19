@@ -1,9 +1,9 @@
 {
- "updated_jst": "2026-11-20 06:50 JST",
- "updated_et": "2026-11-19 16:50 ET",
+ "updated_jst": "2026-11-20 07:50 JST",
+ "updated_et": "2026-11-19 17:50 ET",
  "connected": true,
  "account": {
-  "net_liq_jpy": 4710562,
+  "net_liq_jpy": 4711060,
   "cash_jpy": 2081826,
   "usdjpy": 159.946,
   "positions_cost_usd": 16129.46,
@@ -391,14 +391,14 @@
   },
   {
    "date": "2026-11-20",
-   "net_liq_jpy": 4710562,
+   "net_liq_jpy": 4711060,
    "cash_jpy": 2081826,
    "usdjpy": 159.946,
    "positions_cost_usd": 16129.46,
    "positions_value_usd": 16456.97,
    "unrealized_usd": 327.51,
    "flow_cum_jpy": 2472422,
-   "adj_net_liq_jpy": 2238140
+   "adj_net_liq_jpy": 2238638
   }
  ],
  "cash_flows": [
@@ -1180,13 +1180,13 @@
   }
  ],
  "alerts": [
-  "ポジション不一致 AMZN: 台帳enteredの株数合計=0 / IBKR保有=1",
-  "ポジション不一致 TROW: 台帳enteredの株数合計=0 / IBKR保有=2",
-  "ポジション不一致 MCD: 台帳enteredの株数合計=0 / IBKR保有=3",
+  "ポジション不一致 HSIC: 台帳enteredの株数合計=5 / IBKR保有=10",
   "ポジション不一致 CMG: 台帳enteredの株数合計=0 / IBKR保有=22",
   "ポジション不一致 ELV: 台帳enteredの株数合計=0 / IBKR保有=1",
+  "ポジション不一致 AMZN: 台帳enteredの株数合計=0 / IBKR保有=1",
+  "ポジション不一致 MCD: 台帳enteredの株数合計=0 / IBKR保有=3",
   "ポジション不一致 OKE: 台帳enteredの株数合計=0 / IBKR保有=6",
-  "ポジション不一致 HSIC: 台帳enteredの株数合計=5 / IBKR保有=10"
+  "ポジション不一致 TROW: 台帳enteredの株数合計=0 / IBKR保有=2"
  ],
  "unprotected": []
 }
