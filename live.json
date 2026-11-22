@@ -1,7 +1,7 @@
 {
  "updated_jst": "2026-11-21 09:50 JST",
  "updated_et": "2026-11-20 19:50 ET",
- "connected": true,
+ "connected": false,
  "account": {
   "net_liq_jpy": 4637729,
   "cash_jpy": 1800850,
@@ -1337,5 +1337,7 @@
   "ポジション不一致 CPRT: 台帳enteredの株数合計=45 / IBKR保有=23",
   "ポジション不一致 GRMN: 台帳enteredの株数合計=2 / IBKR保有=1"
  ],
- "unprotected": []
+ "unprotected": [],
+ "error": "本番口座に接続できませんでした(Gateway未ログインの可能性)",
+ "last_attempt_jst": "2026-11-22 16:50 JST"
 }
