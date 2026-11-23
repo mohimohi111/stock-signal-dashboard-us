@@ -1,16 +1,16 @@
 {
- "updated_jst": "2026-11-21 09:50 JST",
- "updated_et": "2026-11-20 19:50 ET",
- "connected": false,
+ "updated_jst": "2026-11-23 20:06 JST",
+ "updated_et": "2026-11-23 06:06 ET",
+ "connected": true,
  "account": {
-  "net_liq_jpy": 4637729,
-  "cash_jpy": 1800850,
-  "usdjpy": 158.841,
+  "net_liq_jpy": 4671057,
+  "cash_jpy": 1800983,
+  "usdjpy": 159.707,
   "positions_cost_usd": 17827.09,
   "positions_value_usd": 17788.89,
   "unrealized_usd": -38.2,
   "unrealized_pct": -0.21,
-  "pending_total_usd": 7725.69,
+  "pending_total_usd": 11024.64,
   "realized_usd": 32.4,
   "realized_count": 7
  },
@@ -410,6 +410,17 @@
    "unrealized_usd": -38.2,
    "flow_cum_jpy": 2472422,
    "adj_net_liq_jpy": 2165307
+  },
+  {
+   "date": "2026-11-23",
+   "net_liq_jpy": 4671057,
+   "cash_jpy": 1800983,
+   "usdjpy": 159.707,
+   "positions_cost_usd": 17827.09,
+   "positions_value_usd": 17788.89,
+   "unrealized_usd": -38.2,
+   "flow_cum_jpy": 2472422,
+   "adj_net_liq_jpy": 2198635
   }
  ],
  "cash_flows": [
@@ -591,7 +602,8 @@
    "code": "CPRT",
    "name": "Copart",
    "modes": [
-    "MODE A"
+    "MODE A",
+    "MODE B"
    ],
    "qty": 23,
    "avg_cost": 31.03,
@@ -649,7 +661,7 @@
    "sl": 201.43,
    "sl_gap_pct": -23.63,
    "protected": true,
-   "entered_date": null
+   "entered_date": "2026-11-20"
   },
   {
    "code": "HSIC",
@@ -698,7 +710,7 @@
    "sl": 27.15,
    "sl_gap_pct": -10.57,
    "protected": true,
-   "entered_date": null
+   "entered_date": "2026-11-20"
   },
   {
    "code": "DXCM",
@@ -730,7 +742,7 @@
    "sl": 166.48,
    "sl_gap_pct": -9.57,
    "protected": true,
-   "entered_date": null
+   "entered_date": "2026-11-20"
   },
   {
    "code": "CMG",
@@ -922,6 +934,16 @@
    "gap_pct": 0.44
   },
   {
+   "code": "CF",
+   "name": "CF Industries",
+   "mode": "MODE B",
+   "qty": 7,
+   "limit": 114.79,
+   "sl": 87.61,
+   "last_price": 115.53,
+   "gap_pct": 0.64
+  },
+  {
    "code": "PNW",
    "name": "Pinnacle West Capital",
    "mode": "MODE B",
@@ -940,6 +962,16 @@
    "sl": 336.82,
    "last_price": 390.3,
    "gap_pct": 0.71
+  },
+  {
+   "code": "ROST",
+   "name": "Ross Stores",
+   "mode": "MODE B",
+   "qty": 3,
+   "limit": 211.04,
+   "sl": 165.07,
+   "last_price": 213.46,
+   "gap_pct": 1.15
   },
   {
    "code": "LHX",
@@ -990,6 +1022,16 @@
    "sl": 115.9,
    "last_price": 159.99,
    "gap_pct": 5.12
+  },
+  {
+   "code": "DVA",
+   "name": "DaVita",
+   "mode": "MODE B",
+   "qty": 2,
+   "limit": 152.83,
+   "sl": 58.17,
+   "last_price": 161.03,
+   "gap_pct": 5.37
   },
   {
    "code": "DTE",
@@ -1060,6 +1102,46 @@
    "sl": 182.61,
    "last_price": 278.3,
    "gap_pct": 11.49
+  },
+  {
+   "code": "INCY",
+   "name": "Incyte",
+   "mode": "MODE B",
+   "qty": 2,
+   "limit": null,
+   "sl": 99.71,
+   "last_price": 114.63,
+   "gap_pct": null
+  },
+  {
+   "code": "MNST",
+   "name": "Monster Beverage",
+   "mode": "MODE B",
+   "qty": 13,
+   "limit": null,
+   "sl": 38.58,
+   "last_price": 43.69,
+   "gap_pct": null
+  },
+  {
+   "code": "NSC",
+   "name": "Norfolk Southern",
+   "mode": "MODE B",
+   "qty": 1,
+   "limit": null,
+   "sl": 289.67,
+   "last_price": 311.01,
+   "gap_pct": null
+  },
+  {
+   "code": "USB",
+   "name": "U.S. Bancorp",
+   "mode": "MODE B",
+   "qty": 8,
+   "limit": null,
+   "sl": 53.08,
+   "last_price": 56.05,
+   "gap_pct": null
   }
  ],
  "fills": [
@@ -1330,14 +1412,9 @@
  ],
  "alerts": [
   "GRMN(MODE A): 数量不一致のためexit注文を見送り — GRMN: IBKRポジション=1株 / entered必要株数合計=2株 (MODE B=1株, MODE A=1株) / 既存SL=1株 / 不足=1株。複数モードのうち一部が決済済みの可能性があるが、IBKRのポジションからはどのモードか判別できない",
-  "CPRT(MODE A): 数量不一致のためexit注文を見送り — CPRT: IBKRポジション=23株 / entered必要株数合計=45株 (MODE A=45株) / 既存SL=0株 / 不足=22株。複数モードのうち一部が決済済みの可能性があるが、IBKRのポジションからはどのモードか判別できない",
-  "ポジション不一致 PM: 台帳enteredの株数合計=0 / IBKR保有=2",
-  "ポジション不一致 TXN: 台帳enteredの株数合計=0 / IBKR保有=3",
-  "ポジション不一致 KMI: 台帳enteredの株数合計=0 / IBKR保有=16",
-  "ポジション不一致 CPRT: 台帳enteredの株数合計=45 / IBKR保有=23",
+  "CPRT(MODE A): 数量不一致のためexit注文を見送り — CPRT: IBKRポジション=23株 / entered必要株数合計=68株 (MODE B=23株, MODE A=45株) / 既存SL=23株 / 不足=45株。複数モードのうち一部が決済済みの可能性があるが、IBKRのポジションからはどのモードか判別できない",
+  "ポジション不一致 CPRT: 台帳enteredの株数合計=68 / IBKR保有=23",
   "ポジション不一致 GRMN: 台帳enteredの株数合計=2 / IBKR保有=1"
  ],
- "unprotected": [],
- "error": "本番口座に接続できませんでした(Gateway未ログインの可能性)",
- "last_attempt_jst": "2026-11-23 15:50 JST"
+ "unprotected": []
 }
