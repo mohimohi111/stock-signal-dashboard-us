@@ -1,10 +1,10 @@
 {
- "updated_jst": "2026-11-23 20:50 JST",
- "updated_et": "2026-11-23 06:50 ET",
+ "updated_jst": "2026-11-23 21:50 JST",
+ "updated_et": "2026-11-23 07:50 ET",
  "connected": true,
  "account": {
-  "net_liq_jpy": 4672635,
-  "cash_jpy": 1800984,
+  "net_liq_jpy": 4674869,
+  "cash_jpy": 1800956,
   "usdjpy": 159.707,
   "positions_cost_usd": 17827.09,
   "positions_value_usd": 17788.89,
@@ -413,14 +413,14 @@
   },
   {
    "date": "2026-11-23",
-   "net_liq_jpy": 4672635,
-   "cash_jpy": 1800984,
+   "net_liq_jpy": 4674869,
+   "cash_jpy": 1800956,
    "usdjpy": 159.707,
    "positions_cost_usd": 17827.09,
    "positions_value_usd": 17788.89,
    "unrealized_usd": -38.2,
    "flow_cum_jpy": 2472422,
-   "adj_net_liq_jpy": 2200213
+   "adj_net_liq_jpy": 2202447
   }
  ],
  "cash_flows": [
@@ -1413,8 +1413,8 @@
  "alerts": [
   "GRMN(MODE A): 数量不一致のためexit注文を見送り — GRMN: IBKRポジション=1株 / entered必要株数合計=2株 (MODE B=1株, MODE A=1株) / 既存SL=1株 / 不足=1株。複数モードのうち一部が決済済みの可能性があるが、IBKRのポジションからはどのモードか判別できない",
   "CPRT(MODE A): 数量不一致のためexit注文を見送り — CPRT: IBKRポジション=23株 / entered必要株数合計=68株 (MODE B=23株, MODE A=45株) / 既存SL=23株 / 不足=45株。複数モードのうち一部が決済済みの可能性があるが、IBKRのポジションからはどのモードか判別できない",
-  "ポジション不一致 CPRT: 台帳enteredの株数合計=68 / IBKR保有=23",
-  "ポジション不一致 GRMN: 台帳enteredの株数合計=2 / IBKR保有=1"
+  "ポジション不一致 GRMN: 台帳enteredの株数合計=2 / IBKR保有=1",
+  "ポジション不一致 CPRT: 台帳enteredの株数合計=68 / IBKR保有=23"
  ],
  "unprotected": []
 }
