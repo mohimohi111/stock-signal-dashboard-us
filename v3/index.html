@@ -598,7 +598,7 @@ function renderPositions(live) {
 // ---------- 指値 ----------
 function renderPending(live) {
   const os = (live.pending || []).slice().sort((a, b) => (a.gap_pct ?? 999) - (b.gap_pct ?? 999));
-  document.getElementById('pendN').textContent = os.length ? `${os.length}件 / ${usd(os.reduce((s, o) => s + o.limit * o.qty, 0))}` : '';
+  document.getElementById('pendN').textContent = os.length ? `${os.length}件 / ${usd(os.reduce((s, o) => s + (o.limit ?? o.last_price ?? 0) * o.qty, 0))}` : '';
   const el = document.getElementById('pending');
   if (!os.length) { el.innerHTML = '<div class="card empty">発注中の指値はありません。</div>'; return; }
   el.innerHTML = os.map((o, i) => {
@@ -607,9 +607,9 @@ function renderPending(live) {
     return `
     <div class="card ord" style="animation-delay:${0.1 + i * 0.03}s">
       <div><div class="sym" style="font-size:16px">${esc(o.code)}${modeChips([o.mode])}</div><div class="nm">${esc(o.name)}</div></div>
-      <div class="gap ${g != null && g <= 2 ? 'up' : ''}">${g != null ? pct1(g) : '—'}<small>指値まで</small></div>
+      <div class="gap ${g != null && g <= 2 ? 'up' : ''}">${g != null ? pct1(g) : (o.limit == null ? '寄付' : '—')}<small>${o.limit == null ? '次の寄付で約定' : '指値まで'}</small></div>
       <div class="bar"><i style="width:${prog}%"></i></div>
-      <div class="line"><span>指値 <b>${px(o.limit)}</b></span><span>現在 <b>${o.last_price != null ? px(o.last_price) : '—'}</b></span><span>SL <b>${o.sl != null ? px(o.sl) : '—'}</b></span><span>${o.qty}株 <b>${usd(o.limit * o.qty)}</b></span></div>
+      <div class="line"><span>指値 <b>${o.limit != null ? px(o.limit) : '寄付成行'}</b></span><span>現在 <b>${o.last_price != null ? px(o.last_price) : '—'}</b></span><span>SL <b>${o.sl != null ? px(o.sl) : '—'}</b></span><span>${o.qty}株 <b>${usd((o.limit ?? o.last_price ?? 0) * o.qty)}</b></span></div>
     </div>`;
   }).join('');
 }
