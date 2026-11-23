@@ -1,16 +1,16 @@
 {
- "updated_jst": "2026-11-23 22:50 JST",
- "updated_et": "2026-11-23 08:50 ET",
+ "updated_jst": "2026-11-23 23:02 JST",
+ "updated_et": "2026-11-23 09:02 ET",
  "connected": true,
  "account": {
-  "net_liq_jpy": 4675943,
-  "cash_jpy": 1800943,
+  "net_liq_jpy": 4705076,
+  "cash_jpy": 1801071,
   "usdjpy": 159.707,
   "positions_cost_usd": 17827.09,
   "positions_value_usd": 17788.89,
   "unrealized_usd": -38.2,
   "unrealized_pct": -0.21,
-  "pending_total_usd": 11024.64,
+  "pending_total_usd": 10193.63,
   "realized_usd": 32.4,
   "realized_count": 7
  },
@@ -413,14 +413,14 @@
   },
   {
    "date": "2026-11-23",
-   "net_liq_jpy": 4675943,
-   "cash_jpy": 1800943,
+   "net_liq_jpy": 4705076,
+   "cash_jpy": 1801071,
    "usdjpy": 159.707,
    "positions_cost_usd": 17827.09,
    "positions_value_usd": 17788.89,
    "unrealized_usd": -38.2,
    "flow_cum_jpy": 2472422,
-   "adj_net_liq_jpy": 2203521
+   "adj_net_liq_jpy": 2232654
   }
  ],
  "cash_flows": [
@@ -1084,26 +1084,6 @@
    "gap_pct": 8.55
   },
   {
-   "code": "COP",
-   "name": "ConocoPhillips",
-   "mode": "MODE B",
-   "qty": 5,
-   "limit": 123.06,
-   "sl": 91.84,
-   "last_price": 136.12,
-   "gap_pct": 10.61
-  },
-  {
-   "code": "TRGP",
-   "name": "Targa Resources",
-   "mode": "MODE B",
-   "qty": 3,
-   "limit": 249.61,
-   "sl": 182.61,
-   "last_price": 278.3,
-   "gap_pct": 11.49
-  },
-  {
    "code": "INCY",
    "name": "Incyte",
    "mode": "MODE B",
@@ -1131,6 +1111,16 @@
    "limit": null,
    "sl": 289.67,
    "last_price": 311.01,
+   "gap_pct": null
+  },
+  {
+   "code": "SRE",
+   "name": "Sempra",
+   "mode": "MODE B",
+   "qty": 7,
+   "limit": null,
+   "sl": 72.14,
+   "last_price": 76.16,
    "gap_pct": null
   },
   {
