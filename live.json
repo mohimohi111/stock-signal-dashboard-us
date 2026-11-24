@@ -1,15 +1,15 @@
 {
- "updated_jst": "2026-11-25 05:50 JST",
- "updated_et": "2026-11-24 15:50 ET",
+ "updated_jst": "2026-11-25 06:50 JST",
+ "updated_et": "2026-11-24 16:50 ET",
  "connected": true,
  "account": {
-  "net_liq_jpy": 4726399,
-  "cash_jpy": 1388807,
+  "net_liq_jpy": 4724478,
+  "cash_jpy": 1388806,
   "usdjpy": 159.14,
   "positions_cost_usd": 20353.47,
-  "positions_value_usd": 20948.04,
-  "unrealized_usd": 594.57,
-  "unrealized_pct": 2.92,
+  "positions_value_usd": 20929.42,
+  "unrealized_usd": 575.95,
+  "unrealized_pct": 2.83,
   "pending_total_usd": 7756.04,
   "realized_usd": -25.97,
   "realized_count": 8
@@ -435,14 +435,14 @@
   },
   {
    "date": "2026-11-25",
-   "net_liq_jpy": 4726399,
-   "cash_jpy": 1388807,
+   "net_liq_jpy": 4724478,
+   "cash_jpy": 1388806,
    "usdjpy": 159.14,
    "positions_cost_usd": 20353.47,
-   "positions_value_usd": 20948.04,
-   "unrealized_usd": 594.57,
+   "positions_value_usd": 20929.42,
+   "unrealized_usd": 575.95,
    "flow_cum_jpy": 2472422,
-   "adj_net_liq_jpy": 2253977
+   "adj_net_liq_jpy": 2252056
   }
  ],
  "cash_flows": [
@@ -467,11 +467,11 @@
    ],
    "qty": 11,
    "avg_cost": 92.33,
-   "last_price": 110.61,
-   "unrealized_usd": 201.08,
-   "unrealized_pct": 19.8,
+   "last_price": 110.83,
+   "unrealized_usd": 203.5,
+   "unrealized_pct": 20.04,
    "sl": 87.5,
-   "sl_gap_pct": -20.89,
+   "sl_gap_pct": -21.05,
    "protected": true,
    "entered_date": "2026-03-05"
   },
@@ -483,11 +483,11 @@
    ],
    "qty": 4,
    "avg_cost": 146.92,
-   "last_price": 175.48,
-   "unrealized_usd": 114.24,
-   "unrealized_pct": 19.44,
+   "last_price": 176.06,
+   "unrealized_usd": 116.56,
+   "unrealized_pct": 19.83,
    "sl": 122.91,
-   "sl_gap_pct": -29.96,
+   "sl_gap_pct": -30.19,
    "protected": true,
    "entered_date": "2026-10-28"
   },
@@ -499,11 +499,11 @@
    ],
    "qty": 10,
    "avg_cost": 57.51,
-   "last_price": 65.33,
-   "unrealized_usd": 78.2,
-   "unrealized_pct": 13.6,
+   "last_price": 65.29,
+   "unrealized_usd": 77.8,
+   "unrealized_pct": 13.53,
    "sl": 50.34,
-   "sl_gap_pct": -22.95,
+   "sl_gap_pct": -22.9,
    "protected": true,
    "entered_date": "2025-04-07"
   },
@@ -515,11 +515,11 @@
    ],
    "qty": 2,
    "avg_cost": 243.72,
-   "last_price": 270.88,
-   "unrealized_usd": 54.32,
-   "unrealized_pct": 11.14,
+   "last_price": 270.39,
+   "unrealized_usd": 53.34,
+   "unrealized_pct": 10.94,
    "sl": 209.23,
-   "sl_gap_pct": -22.76,
+   "sl_gap_pct": -22.62,
    "protected": true,
    "entered_date": "2026-09-22"
   },
@@ -531,13 +531,29 @@
    ],
    "qty": 21,
    "avg_cost": 30.59,
-   "last_price": 33.47,
-   "unrealized_usd": 60.58,
-   "unrealized_pct": 9.43,
+   "last_price": 33.39,
+   "unrealized_usd": 58.8,
+   "unrealized_pct": 9.15,
    "sl": 24.81,
-   "sl_gap_pct": -25.88,
+   "sl_gap_pct": -25.7,
    "protected": true,
    "entered_date": "2026-10-14"
+  },
+  {
+   "code": "FDX",
+   "name": "FedEx",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 2,
+   "avg_cost": 282.76,
+   "last_price": 308.29,
+   "unrealized_usd": 51.06,
+   "unrealized_pct": 9.03,
+   "sl": 219.15,
+   "sl_gap_pct": -28.91,
+   "protected": true,
+   "entered_date": "2026-09-24"
   },
   {
    "code": "DOV",
@@ -548,45 +564,13 @@
    ],
    "qty": 4,
    "avg_cost": 187.61,
-   "last_price": 204.65,
-   "unrealized_usd": 68.16,
-   "unrealized_pct": 9.08,
+   "last_price": 204.36,
+   "unrealized_usd": 67.0,
+   "unrealized_pct": 8.93,
    "sl": 172.26,
-   "sl_gap_pct": -15.83,
+   "sl_gap_pct": -15.71,
    "protected": true,
    "entered_date": "2026-03-09"
-  },
-  {
-   "code": "FDX",
-   "name": "FedEx",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 2,
-   "avg_cost": 282.76,
-   "last_price": 308.17,
-   "unrealized_usd": 50.82,
-   "unrealized_pct": 8.99,
-   "sl": 219.15,
-   "sl_gap_pct": -28.89,
-   "protected": true,
-   "entered_date": "2026-09-24"
-  },
-  {
-   "code": "SJM",
-   "name": "J.M. Smucker Company (The)",
-   "modes": [
-    "MODE A"
-   ],
-   "qty": 4,
-   "avg_cost": 122.99,
-   "last_price": 131.38,
-   "unrealized_usd": 33.56,
-   "unrealized_pct": 6.82,
-   "sl": 109.58,
-   "sl_gap_pct": -16.59,
-   "protected": true,
-   "entered_date": "2026-09-18"
   },
   {
    "code": "INCY",
@@ -597,13 +581,29 @@
    ],
    "qty": 2,
    "avg_cost": 115.38,
-   "last_price": 122.9,
-   "unrealized_usd": 15.05,
-   "unrealized_pct": 6.52,
+   "last_price": 123.61,
+   "unrealized_usd": 16.46,
+   "unrealized_pct": 7.13,
    "sl": 99.71,
-   "sl_gap_pct": -18.87,
+   "sl_gap_pct": -19.34,
    "protected": true,
    "entered_date": "2026-10-02"
+  },
+  {
+   "code": "SJM",
+   "name": "J.M. Smucker Company (The)",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 4,
+   "avg_cost": 122.99,
+   "last_price": 130.85,
+   "unrealized_usd": 31.44,
+   "unrealized_pct": 6.39,
+   "sl": 109.58,
+   "sl_gap_pct": -16.26,
+   "protected": true,
+   "entered_date": "2026-09-18"
   },
   {
    "code": "MCD",
@@ -613,11 +613,11 @@
    ],
    "qty": 3,
    "avg_cost": 268.44,
-   "last_price": 280.86,
-   "unrealized_usd": 37.26,
-   "unrealized_pct": 4.63,
+   "last_price": 280.7,
+   "unrealized_usd": 36.78,
+   "unrealized_pct": 4.57,
    "sl": 194.9,
-   "sl_gap_pct": -30.61,
+   "sl_gap_pct": -30.57,
    "protected": true,
    "entered_date": "2026-06-25"
   },
@@ -630,11 +630,11 @@
    ],
    "qty": 23,
    "avg_cost": 31.03,
-   "last_price": 32.45,
-   "unrealized_usd": 32.66,
-   "unrealized_pct": 4.58,
+   "last_price": 32.35,
+   "unrealized_usd": 30.36,
+   "unrealized_pct": 4.25,
    "sl": 7.92,
-   "sl_gap_pct": -75.59,
+   "sl_gap_pct": -75.52,
    "protected": true,
    "entered_date": "2026-02-20"
   },
@@ -646,11 +646,11 @@
    ],
    "qty": 7,
    "avg_cost": 81.23,
-   "last_price": 84.68,
-   "unrealized_usd": 24.15,
-   "unrealized_pct": 4.25,
+   "last_price": 84.64,
+   "unrealized_usd": 23.87,
+   "unrealized_pct": 4.2,
    "sl": 69.77,
-   "sl_gap_pct": -17.61,
+   "sl_gap_pct": -17.57,
    "protected": true,
    "entered_date": "2026-10-21"
   },
@@ -663,13 +663,29 @@
    ],
    "qty": 10,
    "avg_cost": 84.92,
-   "last_price": 87.49,
-   "unrealized_usd": 25.7,
-   "unrealized_pct": 3.03,
+   "last_price": 87.51,
+   "unrealized_usd": 25.9,
+   "unrealized_pct": 3.05,
    "sl": 76.65,
-   "sl_gap_pct": -12.39,
+   "sl_gap_pct": -12.41,
    "protected": true,
    "entered_date": "2026-09-17"
+  },
+  {
+   "code": "SRE",
+   "name": "Sempra",
+   "modes": [
+    "MODE B"
+   ],
+   "qty": 7,
+   "avg_cost": 76.83,
+   "last_price": 78.76,
+   "unrealized_usd": 13.51,
+   "unrealized_pct": 2.51,
+   "sl": 72.14,
+   "sl_gap_pct": -8.41,
+   "protected": true,
+   "entered_date": "2026-11-23"
   },
   {
    "code": "CF",
@@ -680,29 +696,13 @@
    ],
    "qty": 7,
    "avg_cost": 114.19,
-   "last_price": 117.51,
-   "unrealized_usd": 23.27,
-   "unrealized_pct": 2.91,
+   "last_price": 116.74,
+   "unrealized_usd": 17.85,
+   "unrealized_pct": 2.23,
    "sl": 87.61,
-   "sl_gap_pct": -25.45,
+   "sl_gap_pct": -24.95,
    "protected": true,
    "entered_date": "2026-04-20"
-  },
-  {
-   "code": "SRE",
-   "name": "Sempra",
-   "modes": [
-    "MODE B"
-   ],
-   "qty": 7,
-   "avg_cost": 76.83,
-   "last_price": 78.71,
-   "unrealized_usd": 13.19,
-   "unrealized_pct": 2.45,
-   "sl": 72.14,
-   "sl_gap_pct": -8.35,
-   "protected": true,
-   "entered_date": "2026-11-23"
   },
   {
    "code": "LMT",
@@ -712,11 +712,11 @@
    ],
    "qty": 1,
    "avg_cost": 576.3,
-   "last_price": 587.5,
-   "unrealized_usd": 11.2,
-   "unrealized_pct": 1.94,
+   "last_price": 586.63,
+   "unrealized_usd": 10.33,
+   "unrealized_pct": 1.79,
    "sl": 459.9,
-   "sl_gap_pct": -21.72,
+   "sl_gap_pct": -21.6,
    "protected": true,
    "entered_date": "2026-11-18"
   },
@@ -728,11 +728,11 @@
    ],
    "qty": 3,
    "avg_cost": 125.62,
-   "last_price": 127.48,
-   "unrealized_usd": 5.58,
-   "unrealized_pct": 1.48,
+   "last_price": 127.3,
+   "unrealized_usd": 5.04,
+   "unrealized_pct": 1.34,
    "sl": 111.14,
-   "sl_gap_pct": -12.82,
+   "sl_gap_pct": -12.69,
    "protected": true,
    "entered_date": "2026-06-01"
   },
@@ -745,11 +745,11 @@
    ],
    "qty": 1,
    "avg_cost": 314.75,
-   "last_price": 318.5,
-   "unrealized_usd": 3.75,
-   "unrealized_pct": 1.19,
+   "last_price": 318.24,
+   "unrealized_usd": 3.49,
+   "unrealized_pct": 1.11,
    "sl": 289.67,
-   "sl_gap_pct": -9.05,
+   "sl_gap_pct": -8.98,
    "protected": true,
    "entered_date": "2026-09-09"
   },
@@ -761,13 +761,29 @@
    ],
    "qty": 22,
    "avg_cost": 36.75,
-   "last_price": 37.17,
-   "unrealized_usd": 9.35,
-   "unrealized_pct": 1.16,
+   "last_price": 37.05,
+   "unrealized_usd": 6.6,
+   "unrealized_pct": 0.82,
    "sl": 6.6,
-   "sl_gap_pct": -82.25,
+   "sl_gap_pct": -82.19,
    "protected": true,
    "entered_date": "2025-10-30"
+  },
+  {
+   "code": "AME",
+   "name": "Ametek",
+   "modes": [
+    "MODE A"
+   ],
+   "qty": 2,
+   "avg_cost": 225.73,
+   "last_price": 227.48,
+   "unrealized_usd": 3.5,
+   "unrealized_pct": 0.78,
+   "sl": 189.95,
+   "sl_gap_pct": -16.5,
+   "protected": true,
+   "entered_date": "2026-11-05"
   },
   {
    "code": "ELV",
@@ -777,11 +793,11 @@
    ],
    "qty": 1,
    "avg_cost": 388.52,
-   "last_price": 392.71,
-   "unrealized_usd": 4.19,
-   "unrealized_pct": 1.08,
+   "last_price": 391.17,
+   "unrealized_usd": 2.65,
+   "unrealized_pct": 0.68,
    "sl": 325.65,
-   "sl_gap_pct": -17.08,
+   "sl_gap_pct": -16.75,
    "protected": true,
    "entered_date": "2026-11-19"
   },
@@ -793,29 +809,29 @@
    ],
    "qty": 4,
    "avg_cost": 136.38,
-   "last_price": 137.26,
-   "unrealized_usd": 3.54,
-   "unrealized_pct": 0.65,
+   "last_price": 137.04,
+   "unrealized_usd": 2.64,
+   "unrealized_pct": 0.48,
    "sl": 112.17,
-   "sl_gap_pct": -18.28,
+   "sl_gap_pct": -18.15,
    "protected": true,
    "entered_date": "2026-11-05"
   },
   {
-   "code": "AME",
-   "name": "Ametek",
+   "code": "KMI",
+   "name": "Kinder Morgan",
    "modes": [
-    "MODE A"
+    "MODE B"
    ],
-   "qty": 2,
-   "avg_cost": 225.73,
-   "last_price": 227.18,
-   "unrealized_usd": 2.9,
-   "unrealized_pct": 0.64,
-   "sl": 189.95,
-   "sl_gap_pct": -16.39,
+   "qty": 16,
+   "avg_cost": 30.97,
+   "last_price": 31.08,
+   "unrealized_usd": 1.76,
+   "unrealized_pct": 0.36,
+   "sl": 27.15,
+   "sl_gap_pct": -12.64,
    "protected": true,
-   "entered_date": "2026-11-05"
+   "entered_date": "2026-11-20"
   },
   {
    "code": "GRMN",
@@ -826,29 +842,13 @@
    ],
    "qty": 1,
    "avg_cost": 281.18,
-   "last_price": 282.23,
-   "unrealized_usd": 1.05,
-   "unrealized_pct": 0.37,
+   "last_price": 282.02,
+   "unrealized_usd": 0.84,
+   "unrealized_pct": 0.3,
    "sl": 243.0,
-   "sl_gap_pct": -13.9,
+   "sl_gap_pct": -13.84,
    "protected": true,
    "entered_date": "2026-09-01"
-  },
-  {
-   "code": "KMI",
-   "name": "Kinder Morgan",
-   "modes": [
-    "MODE B"
-   ],
-   "qty": 16,
-   "avg_cost": 30.97,
-   "last_price": 31.01,
-   "unrealized_usd": 0.64,
-   "unrealized_pct": 0.13,
-   "sl": 27.15,
-   "sl_gap_pct": -12.45,
-   "protected": true,
-   "entered_date": "2026-11-20"
   },
   {
    "code": "BMY",
@@ -858,11 +858,11 @@
    ],
    "qty": 8,
    "avg_cost": 61.97,
-   "last_price": 61.92,
-   "unrealized_usd": -0.4,
-   "unrealized_pct": -0.08,
+   "last_price": 62.02,
+   "unrealized_usd": 0.4,
+   "unrealized_pct": 0.08,
    "sl": 55.04,
-   "sl_gap_pct": -11.11,
+   "sl_gap_pct": -11.25,
    "protected": true,
    "entered_date": "2026-09-23"
   },
@@ -875,11 +875,11 @@
    ],
    "qty": 16,
    "avg_cost": 58.77,
-   "last_price": 58.03,
-   "unrealized_usd": -11.92,
-   "unrealized_pct": -1.27,
+   "last_price": 58.07,
+   "unrealized_usd": -11.2,
+   "unrealized_pct": -1.19,
    "sl": 53.08,
-   "sl_gap_pct": -8.52,
+   "sl_gap_pct": -8.59,
    "protected": true,
    "entered_date": "2026-09-16"
   },
@@ -891,11 +891,11 @@
    ],
    "qty": 1,
    "avg_cost": 258.15,
-   "last_price": 252.2,
-   "unrealized_usd": -5.95,
-   "unrealized_pct": -2.3,
+   "last_price": 252.29,
+   "unrealized_usd": -5.86,
+   "unrealized_pct": -2.27,
    "sl": 228.4,
-   "sl_gap_pct": -9.44,
+   "sl_gap_pct": -9.47,
    "protected": true,
    "entered_date": "2026-11-19"
   },
@@ -907,11 +907,11 @@
    ],
    "qty": 2,
    "avg_cost": 188.98,
-   "last_price": 184.23,
-   "unrealized_usd": -9.5,
-   "unrealized_pct": -2.51,
+   "last_price": 183.95,
+   "unrealized_usd": -10.06,
+   "unrealized_pct": -2.66,
    "sl": 166.48,
-   "sl_gap_pct": -9.63,
+   "sl_gap_pct": -9.5,
    "protected": true,
    "entered_date": "2026-11-20"
   },
@@ -923,11 +923,11 @@
    ],
    "qty": 3,
    "avg_cost": 267.85,
-   "last_price": 259.57,
-   "unrealized_usd": -24.85,
-   "unrealized_pct": -3.09,
+   "last_price": 258.44,
+   "unrealized_usd": -28.23,
+   "unrealized_pct": -3.51,
    "sl": 201.43,
-   "sl_gap_pct": -22.4,
+   "sl_gap_pct": -22.06,
    "protected": true,
    "entered_date": "2026-11-20"
   },
@@ -939,11 +939,11 @@
    ],
    "qty": 6,
    "avg_cost": 88.11,
-   "last_price": 84.74,
-   "unrealized_usd": -20.22,
-   "unrealized_pct": -3.82,
+   "last_price": 84.79,
+   "unrealized_usd": -19.92,
+   "unrealized_pct": -3.77,
    "sl": 75.45,
-   "sl_gap_pct": -10.96,
+   "sl_gap_pct": -11.02,
    "protected": true,
    "entered_date": "2026-11-19"
   },
@@ -956,11 +956,11 @@
    ],
    "qty": 13,
    "avg_cost": 43.92,
-   "last_price": 42.12,
-   "unrealized_usd": -23.34,
-   "unrealized_pct": -4.09,
+   "last_price": 42.17,
+   "unrealized_usd": -22.75,
+   "unrealized_pct": -3.98,
    "sl": 38.58,
-   "sl_gap_pct": -8.42,
+   "sl_gap_pct": -8.51,
    "protected": true,
    "entered_date": "2026-09-02"
   },
@@ -972,11 +972,11 @@
    ],
    "qty": 9,
    "avg_cost": 172.95,
-   "last_price": 163.15,
-   "unrealized_usd": -88.2,
-   "unrealized_pct": -5.67,
+   "last_price": 163.0,
+   "unrealized_usd": -89.55,
+   "unrealized_pct": -5.75,
    "sl": 104.96,
-   "sl_gap_pct": -35.67,
+   "sl_gap_pct": -35.61,
    "protected": true,
    "entered_date": "2026-11-05"
   },
@@ -988,11 +988,11 @@
    ],
    "qty": 2,
    "avg_cost": 110.35,
-   "last_price": 103.31,
-   "unrealized_usd": -14.09,
-   "unrealized_pct": -6.38,
+   "last_price": 103.09,
+   "unrealized_usd": -14.52,
+   "unrealized_pct": -6.58,
    "sl": 72.81,
-   "sl_gap_pct": -29.52,
+   "sl_gap_pct": -29.37,
    "protected": true,
    "entered_date": "2024-08-30"
   },
@@ -1004,11 +1004,11 @@
    ],
    "qty": 7,
    "avg_cost": 105.91,
-   "last_price": 94.28,
-   "unrealized_usd": -81.41,
-   "unrealized_pct": -10.98,
+   "last_price": 93.99,
+   "unrealized_usd": -83.44,
+   "unrealized_pct": -11.25,
    "sl": 81.17,
-   "sl_gap_pct": -13.91,
+   "sl_gap_pct": -13.64,
    "protected": true,
    "entered_date": "2026-09-22"
   }
@@ -1021,8 +1021,8 @@
    "qty": 1,
    "limit": 387.54,
    "sl": 336.82,
-   "last_price": 388.77,
-   "gap_pct": 0.32
+   "last_price": 388.75,
+   "gap_pct": 0.31
   },
   {
    "code": "UNP",
@@ -1031,8 +1031,8 @@
    "qty": 1,
    "limit": 286.04,
    "sl": 256.09,
-   "last_price": 291.21,
-   "gap_pct": 1.81
+   "last_price": 290.83,
+   "gap_pct": 1.67
   },
   {
    "code": "PYPL",
@@ -1041,8 +1041,8 @@
    "qty": 10,
    "limit": 54.85,
    "sl": 46.98,
-   "last_price": 56.12,
-   "gap_pct": 2.32
+   "last_price": 56.17,
+   "gap_pct": 2.41
   },
   {
    "code": "XOM",
@@ -1051,8 +1051,8 @@
    "qty": 4,
    "limit": 152.2,
    "sl": 115.9,
-   "last_price": 158.79,
-   "gap_pct": 4.33
+   "last_price": 158.23,
+   "gap_pct": 3.96
   },
   {
    "code": "LHX",
@@ -1061,18 +1061,8 @@
    "qty": 3,
    "limit": 245.73,
    "sl": 112.23,
-   "last_price": 258.77,
-   "gap_pct": 5.31
-  },
-  {
-   "code": "BR",
-   "name": "Broadridge Financial Solutions",
-   "mode": "MODE B",
-   "qty": 2,
-   "limit": 174.39,
-   "sl": 76.87,
-   "last_price": 184.84,
-   "gap_pct": 5.99
+   "last_price": 258.08,
+   "gap_pct": 5.03
   },
   {
    "code": "EOG",
@@ -1081,8 +1071,18 @@
    "qty": 4,
    "limit": 138.52,
    "sl": 111.12,
-   "last_price": 147.26,
-   "gap_pct": 6.31
+   "last_price": 146.59,
+   "gap_pct": 5.83
+  },
+  {
+   "code": "BR",
+   "name": "Broadridge Financial Solutions",
+   "mode": "MODE B",
+   "qty": 2,
+   "limit": 174.39,
+   "sl": 76.87,
+   "last_price": 184.74,
+   "gap_pct": 5.93
   },
   {
    "code": "LIN",
@@ -1091,8 +1091,8 @@
    "qty": 1,
    "limit": 485.79,
    "sl": 423.38,
-   "last_price": 517.78,
-   "gap_pct": 6.59
+   "last_price": 516.83,
+   "gap_pct": 6.39
   },
   {
    "code": "DTE",
@@ -1101,8 +1101,8 @@
    "qty": 2,
    "limit": 128.65,
    "sl": 101.56,
-   "last_price": 137.67,
-   "gap_pct": 7.01
+   "last_price": 137.7,
+   "gap_pct": 7.03
   },
   {
    "code": "ROST",
@@ -1111,18 +1111,8 @@
    "qty": 3,
    "limit": 211.04,
    "sl": 165.07,
-   "last_price": 226.1,
-   "gap_pct": 7.13
-  },
-  {
-   "code": "CNP",
-   "name": "CenterPoint Energy",
-   "mode": "MODE B",
-   "qty": 18,
-   "limit": 37.45,
-   "sl": 29.65,
-   "last_price": 40.22,
-   "gap_pct": 7.4
+   "last_price": 226.18,
+   "gap_pct": 7.17
   },
   {
    "code": "CVX",
@@ -1131,8 +1121,18 @@
    "qty": 3,
    "limit": 194.7,
    "sl": 152.94,
-   "last_price": 209.32,
-   "gap_pct": 7.51
+   "last_price": 208.73,
+   "gap_pct": 7.21
+  },
+  {
+   "code": "CNP",
+   "name": "CenterPoint Energy",
+   "mode": "MODE B",
+   "qty": 18,
+   "limit": 37.45,
+   "sl": 29.65,
+   "last_price": 40.26,
+   "gap_pct": 7.5
   },
   {
    "code": "FDX",
@@ -1141,8 +1141,8 @@
    "qty": 2,
    "limit": 282.26,
    "sl": 219.15,
-   "last_price": 308.17,
-   "gap_pct": 9.18
+   "last_price": 308.29,
+   "gap_pct": 9.22
   },
   {
    "code": "COP",
@@ -1151,8 +1151,8 @@
    "qty": 5,
    "limit": 123.06,
    "sl": 91.84,
-   "last_price": 135.12,
-   "gap_pct": 9.8
+   "last_price": 134.64,
+   "gap_pct": 9.41
   },
   {
    "code": "A",
@@ -1161,8 +1161,8 @@
    "qty": 3,
    "limit": 156.96,
    "sl": 131.0,
-   "last_price": 183.74,
-   "gap_pct": 17.06
+   "last_price": 183.52,
+   "gap_pct": 16.92
   }
  ],
  "fills": [
@@ -1443,13 +1443,13 @@
   "CF(MODE A): 数量不一致のためexit注文を見送り — CF: IBKRポジション=7株 / entered必要株数合計=13株 (MODE B=7株, MODE A=6株) / 既存SL=7株 / 不足=6株。複数モードのうち一部が決済済みの可能性があるが、IBKRのポジションからはどのモードか判別できない",
   "CPRT(MODE A): 数量不一致のためexit注文を見送り — CPRT: IBKRポジション=23株 / entered必要株数合計=68株 (MODE B=23株, MODE A=45株) / 既存SL=23株 / 不足=45株。複数モードのうち一部が決済済みの可能性があるが、IBKRのポジションからはどのモードか判別できない",
   "INCY(MODE A): 数量不一致のためexit注文を見送り — INCY: IBKRポジション=2株 / entered必要株数合計=6株 (MODE B=2株, MODE A=4株) / 既存SL=2株 / 不足=4株。複数モードのうち一部が決済済みの可能性があるが、IBKRのポジションからはどのモードか判別できない",
+  "ポジション不一致 NSC: 台帳enteredの株数合計=2 / IBKR保有=1",
   "ポジション不一致 SRE: 台帳enteredの株数合計=8 / IBKR保有=7",
   "ポジション不一致 CPRT: 台帳enteredの株数合計=68 / IBKR保有=23",
-  "ポジション不一致 GRMN: 台帳enteredの株数合計=2 / IBKR保有=1",
-  "ポジション不一致 INCY: 台帳enteredの株数合計=6 / IBKR保有=2",
-  "ポジション不一致 NSC: 台帳enteredの株数合計=2 / IBKR保有=1",
   "ポジション不一致 MNST: 台帳enteredの株数合計=26 / IBKR保有=13",
-  "ポジション不一致 CF: 台帳enteredの株数合計=13 / IBKR保有=7"
+  "ポジション不一致 GRMN: 台帳enteredの株数合計=2 / IBKR保有=1",
+  "ポジション不一致 CF: 台帳enteredの株数合計=13 / IBKR保有=7",
+  "ポジション不一致 INCY: 台帳enteredの株数合計=6 / IBKR保有=2"
  ],
  "unprotected": []
 }
