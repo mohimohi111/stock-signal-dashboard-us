@@ -1,10 +1,10 @@
 {
- "updated_jst": "2026-11-26 07:50 JST",
- "updated_et": "2026-11-25 17:50 ET",
+ "updated_jst": "2026-11-26 08:50 JST",
+ "updated_et": "2026-11-25 18:50 ET",
  "connected": true,
  "account": {
-  "net_liq_jpy": 4748407,
-  "cash_jpy": 1325423,
+  "net_liq_jpy": 4750253,
+  "cash_jpy": 1325460,
   "usdjpy": 159.276,
   "positions_cost_usd": 20850.87,
   "positions_value_usd": 21488.06,
@@ -446,14 +446,14 @@
   },
   {
    "date": "2026-11-26",
-   "net_liq_jpy": 4748407,
-   "cash_jpy": 1325423,
+   "net_liq_jpy": 4750253,
+   "cash_jpy": 1325460,
    "usdjpy": 159.276,
    "positions_cost_usd": 20850.87,
    "positions_value_usd": 21488.06,
    "unrealized_usd": 637.19,
    "flow_cum_jpy": 2400000,
-   "adj_net_liq_jpy": 2348407
+   "adj_net_liq_jpy": 2350253
   }
  ],
  "cash_flows": [
@@ -1489,10 +1489,10 @@
  ],
  "alerts": [
   "SRE(MODE B): expired なのに SRE のポジションが7株あります(矛盾状態)",
-  "ポジション不一致 SWK: 台帳enteredの株数合計=0 / IBKR保有=2",
-  "ポジション不一致 SRE: 台帳enteredの株数合計=8 / IBKR保有=7",
   "ポジション不一致 MSFT: 台帳enteredの株数合計=0 / IBKR保有=1",
-  "ポジション不一致 WST: 台帳enteredの株数合計=0 / IBKR保有=1"
+  "ポジション不一致 WST: 台帳enteredの株数合計=0 / IBKR保有=1",
+  "ポジション不一致 SWK: 台帳enteredの株数合計=0 / IBKR保有=2",
+  "ポジション不一致 SRE: 台帳enteredの株数合計=8 / IBKR保有=7"
  ],
  "unprotected": []
 }
