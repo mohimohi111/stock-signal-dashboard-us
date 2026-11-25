@@ -1,16 +1,16 @@
 {
- "updated_jst": "2026-11-25 21:50 JST",
- "updated_et": "2026-11-25 07:50 ET",
+ "updated_jst": "2026-11-25 22:50 JST",
+ "updated_et": "2026-11-25 08:50 ET",
  "connected": true,
  "account": {
-  "net_liq_jpy": 4708518,
-  "cash_jpy": 1388808,
+  "net_liq_jpy": 4707038,
+  "cash_jpy": 1388818,
   "usdjpy": 159.276,
   "positions_cost_usd": 20353.47,
   "positions_value_usd": 20929.42,
   "unrealized_usd": 575.95,
   "unrealized_pct": 2.83,
-  "pending_total_usd": 8672.87,
+  "pending_total_usd": 8561.96,
   "realized_usd": -25.97,
   "realized_count": 8
  },
@@ -435,14 +435,14 @@
   },
   {
    "date": "2026-11-25",
-   "net_liq_jpy": 4708518,
-   "cash_jpy": 1388808,
+   "net_liq_jpy": 4707038,
+   "cash_jpy": 1388818,
    "usdjpy": 159.276,
    "positions_cost_usd": 20353.47,
    "positions_value_usd": 20929.42,
    "unrealized_usd": 575.95,
    "flow_cum_jpy": 2472422,
-   "adj_net_liq_jpy": 2236096
+   "adj_net_liq_jpy": 2234616
   }
  ],
  "cash_flows": [
@@ -1185,14 +1185,14 @@
    "gap_pct": 9.41
   },
   {
-   "code": "MAS",
-   "name": "Masco",
+   "code": "MSFT",
+   "name": "Microsoft",
    "mode": "MODE B",
-   "qty": 8,
-   "limit": 75.88,
-   "sl": 63.89,
-   "last_price": 85.1,
-   "gap_pct": 12.15
+   "qty": 1,
+   "limit": null,
+   "sl": 432.7,
+   "last_price": 496.13,
+   "gap_pct": null
   }
  ],
  "fills": [
@@ -1462,24 +1462,8 @@
   }
  ],
  "alerts": [
-  "INCY(MODE B): expired なのに INCY のポジションが2株あります(矛盾状態)",
-  "NSC(MODE A): 数量不一致のためexit注文を見送り — NSC: IBKRポジション=1株 / entered必要株数合計=2株 (MODE B=1株, MODE A=1株) / 既存SL=1株 / 不足=1株。複数モードのうち一部が決済済みの可能性があるが、IBKRのポジションからはどのモードか判別できない",
   "SRE(MODE B): expired なのに SRE のポジションが7株あります(矛盾状態)",
-  "MNST(MODE A): expired なのに MNST のポジションが13株あります(矛盾状態)",
-  "MNST(MODE B): expired なのに MNST のポジションが13株あります(矛盾状態)",
-  "MNST(MODE C): expired なのに MNST のポジションが13株あります(矛盾状態)",
-  "GRMN(MODE A): 数量不一致のためexit注文を見送り — GRMN: IBKRポジション=1株 / entered必要株数合計=2株 (MODE B=1株, MODE A=1株) / 既存SL=1株 / 不足=1株。複数モードのうち一部が決済済みの可能性があるが、IBKRのポジションからはどのモードか判別できない",
-  "MNST(MODE A): 数量不一致のためexit注文を見送り — MNST: IBKRポジション=13株 / entered必要株数合計=26株 (MODE B=13株, MODE A=13株) / 既存SL=13株 / 不足=13株。複数モードのうち一部が決済済みの可能性があるが、IBKRのポジションからはどのモードか判別できない",
-  "CF(MODE A): 数量不一致のためexit注文を見送り — CF: IBKRポジション=7株 / entered必要株数合計=13株 (MODE B=7株, MODE A=6株) / 既存SL=7株 / 不足=6株。複数モードのうち一部が決済済みの可能性があるが、IBKRのポジションからはどのモードか判別できない",
-  "CPRT(MODE A): 数量不一致のためexit注文を見送り — CPRT: IBKRポジション=23株 / entered必要株数合計=68株 (MODE B=23株, MODE A=45株) / 既存SL=23株 / 不足=45株。複数モードのうち一部が決済済みの可能性があるが、IBKRのポジションからはどのモードか判別できない",
-  "INCY(MODE A): 数量不一致のためexit注文を見送り — INCY: IBKRポジション=2株 / entered必要株数合計=6株 (MODE B=2株, MODE A=4株) / 既存SL=2株 / 不足=4株。複数モードのうち一部が決済済みの可能性があるが、IBKRのポジションからはどのモードか判別できない",
-  "ポジション不一致 CF: 台帳enteredの株数合計=13 / IBKR保有=7",
-  "ポジション不一致 SRE: 台帳enteredの株数合計=8 / IBKR保有=7",
-  "ポジション不一致 GRMN: 台帳enteredの株数合計=2 / IBKR保有=1",
-  "ポジション不一致 CPRT: 台帳enteredの株数合計=68 / IBKR保有=23",
-  "ポジション不一致 MNST: 台帳enteredの株数合計=26 / IBKR保有=13",
-  "ポジション不一致 NSC: 台帳enteredの株数合計=2 / IBKR保有=1",
-  "ポジション不一致 INCY: 台帳enteredの株数合計=6 / IBKR保有=2"
+  "ポジション不一致 SRE: 台帳enteredの株数合計=8 / IBKR保有=7"
  ],
  "unprotected": []
 }
