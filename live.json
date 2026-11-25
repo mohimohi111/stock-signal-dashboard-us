@@ -1,11 +1,11 @@
 {
- "updated_jst": "2026-11-25 11:50 JST",
- "updated_et": "2026-11-24 21:50 ET",
+ "updated_jst": "2026-11-25 12:50 JST",
+ "updated_et": "2026-11-24 22:50 ET",
  "connected": true,
  "account": {
-  "net_liq_jpy": 4721978,
-  "cash_jpy": 1388793,
-  "usdjpy": 159.22,
+  "net_liq_jpy": 4723359,
+  "cash_jpy": 1388814,
+  "usdjpy": 159.262,
   "positions_cost_usd": 20353.47,
   "positions_value_usd": 20929.42,
   "unrealized_usd": 575.95,
@@ -435,14 +435,14 @@
   },
   {
    "date": "2026-11-25",
-   "net_liq_jpy": 4721978,
-   "cash_jpy": 1388793,
-   "usdjpy": 159.22,
+   "net_liq_jpy": 4723359,
+   "cash_jpy": 1388814,
+   "usdjpy": 159.262,
    "positions_cost_usd": 20353.47,
    "positions_value_usd": 20929.42,
    "unrealized_usd": 575.95,
    "flow_cum_jpy": 2472422,
-   "adj_net_liq_jpy": 2249556
+   "adj_net_liq_jpy": 2250937
   }
  ],
  "cash_flows": [
@@ -1473,13 +1473,13 @@
   "CF(MODE A): 数量不一致のためexit注文を見送り — CF: IBKRポジション=7株 / entered必要株数合計=13株 (MODE B=7株, MODE A=6株) / 既存SL=7株 / 不足=6株。複数モードのうち一部が決済済みの可能性があるが、IBKRのポジションからはどのモードか判別できない",
   "CPRT(MODE A): 数量不一致のためexit注文を見送り — CPRT: IBKRポジション=23株 / entered必要株数合計=68株 (MODE B=23株, MODE A=45株) / 既存SL=23株 / 不足=45株。複数モードのうち一部が決済済みの可能性があるが、IBKRのポジションからはどのモードか判別できない",
   "INCY(MODE A): 数量不一致のためexit注文を見送り — INCY: IBKRポジション=2株 / entered必要株数合計=6株 (MODE B=2株, MODE A=4株) / 既存SL=2株 / 不足=4株。複数モードのうち一部が決済済みの可能性があるが、IBKRのポジションからはどのモードか判別できない",
-  "ポジション不一致 INCY: 台帳enteredの株数合計=6 / IBKR保有=2",
-  "ポジション不一致 NSC: 台帳enteredの株数合計=2 / IBKR保有=1",
-  "ポジション不一致 SRE: 台帳enteredの株数合計=8 / IBKR保有=7",
-  "ポジション不一致 CPRT: 台帳enteredの株数合計=68 / IBKR保有=23",
-  "ポジション不一致 GRMN: 台帳enteredの株数合計=2 / IBKR保有=1",
   "ポジション不一致 MNST: 台帳enteredの株数合計=26 / IBKR保有=13",
-  "ポジション不一致 CF: 台帳enteredの株数合計=13 / IBKR保有=7"
+  "ポジション不一致 SRE: 台帳enteredの株数合計=8 / IBKR保有=7",
+  "ポジション不一致 NSC: 台帳enteredの株数合計=2 / IBKR保有=1",
+  "ポジション不一致 CPRT: 台帳enteredの株数合計=68 / IBKR保有=23",
+  "ポジション不一致 INCY: 台帳enteredの株数合計=6 / IBKR保有=2",
+  "ポジション不一致 CF: 台帳enteredの株数合計=13 / IBKR保有=7",
+  "ポジション不一致 GRMN: 台帳enteredの株数合計=2 / IBKR保有=1"
  ],
  "unprotected": []
 }
