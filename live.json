@@ -1,15 +1,15 @@
 {
- "updated_jst": "2026-11-27 13:50 JST",
- "updated_et": "2026-11-26 23:50 ET",
+ "updated_jst": "2026-11-27 14:50 JST",
+ "updated_et": "2026-11-27 00:50 ET",
  "connected": true,
  "account": {
-  "net_liq_jpy": 4754444,
-  "cash_jpy": 1325477,
-  "usdjpy": 159.233,
+  "net_liq_jpy": 4755740,
+  "cash_jpy": 1325517,
+  "usdjpy": 159.281,
   "positions_cost_usd": 20850.87,
-  "positions_value_usd": 21488.17,
-  "unrealized_usd": 637.3,
-  "unrealized_pct": 3.06,
+  "positions_value_usd": 21277.63,
+  "unrealized_usd": 426.76,
+  "unrealized_pct": 2.05,
   "pending_total_usd": 8229.3,
   "realized_usd": 74.95,
   "realized_count": 9
@@ -457,14 +457,14 @@
   },
   {
    "date": "2026-11-27",
-   "net_liq_jpy": 4754444,
-   "cash_jpy": 1325477,
-   "usdjpy": 159.233,
+   "net_liq_jpy": 4755740,
+   "cash_jpy": 1325517,
+   "usdjpy": 159.281,
    "positions_cost_usd": 20850.87,
-   "positions_value_usd": 21488.17,
-   "unrealized_usd": 637.3,
+   "positions_value_usd": 21277.63,
+   "unrealized_usd": 426.76,
    "flow_cum_jpy": 2400000,
-   "adj_net_liq_jpy": 2354444
+   "adj_net_liq_jpy": 2355740
   }
  ],
  "cash_flows": [
@@ -490,23 +490,6 @@
   }
  ],
  "positions": [
-  {
-   "code": "UPS",
-   "name": "United Parcel Service",
-   "modes": [
-    "MODE A",
-    "MODE B"
-   ],
-   "qty": 11,
-   "avg_cost": 92.33,
-   "last_price": 111.47,
-   "unrealized_usd": 210.54,
-   "unrealized_pct": 20.73,
-   "sl": 87.5,
-   "sl_gap_pct": -21.5,
-   "protected": true,
-   "entered_date": "2026-03-05"
-  },
   {
    "code": "BALL",
    "name": "Ball Corporation",
@@ -896,6 +879,23 @@
    "sl_gap_pct": -17.82,
    "protected": true,
    "entered_date": "2026-11-05"
+  },
+  {
+   "code": "UPS",
+   "name": "United Parcel Service",
+   "modes": [
+    "MODE A",
+    "MODE B"
+   ],
+   "qty": 11,
+   "avg_cost": 92.33,
+   "last_price": null,
+   "unrealized_usd": 0.0,
+   "unrealized_pct": null,
+   "sl": 87.5,
+   "sl_gap_pct": null,
+   "protected": true,
+   "entered_date": "2026-03-05"
   },
   {
    "code": "USB",
